@@ -1,8 +1,8 @@
 # Setup
-title: Not Pure Poole
-description: A simple, beautiful, and powerful Jekyll theme for blogs
-url: https://vszhub.github.io
-avatar: /avatar.jpeg
+title: ScotScottMcA
+description: Just a blog on things I find interesting.
+url: https://scotscottmca.com
+avatar: /me_1.png
 paginate: 5
 permalink: pretty
 cover_image: /bg.jpeg
@@ -29,14 +29,14 @@ exclude:
 
 # Optimize Jekyl SEO Tag
 twitter:
-  username: vszhub
+  username: scotscottmca
   card: summary
 logo: logo.png
 social:
-  name: Songzi Vong
+  name: Scott McAllister
   links:
-    - https://twitter.com/vszhub
-    - https://github.com/vszhub
+    - https://twitter.com/scotscottmca
+    - https://github.com/smcallister594
 google_site_verification: xxxxx
 lang: en
 
@@ -54,6 +54,6 @@ sass:
 
 # Specify the author for blog posts
 author:
-  name: Songzi Vong
-  url: https://github.com/vszhub/
-  email: vszhub@gmail.com
+  name: Scott McAllister
+  url: https://github.com/smcallister594
+#  email: vszhub@gmail.com
