@@ -2,10 +2,10 @@
 title: ScotScottMcA
 description: Just a blog on things I find interesting.
 url: https://scotscottmca.com
-avatar: /me_1.png
+avatar: /assets/img/me_1.png
 paginate: 5
 permalink: pretty
-cover_image: /bg.jpeg
+cover_image: /assets/img/Scot_Flag.png
 
 # Gems
 plugins:
