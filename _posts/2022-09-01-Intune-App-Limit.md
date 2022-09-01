@@ -107,7 +107,7 @@ Again curious if that was just Win32 apps, I attempted to manually create anothe
 
 I received an update from @IntuneSuppTeam on this 
 
-![image](https://github.com/smcallister594/scotscottmca/blob/main/assets/img/2022-09-01/Twitter_Response_2.png?raw=true){: .align-center}
+![image](https://github.com/smcallister594/scotscottmca/blob/main/assets/img/2022-09-01/Twitter_response_2.png?raw=true){: .align-center}
 
 However as previously mentioned, at the 10k app limit I am unable to publish any more applications regardless of the type!
 
