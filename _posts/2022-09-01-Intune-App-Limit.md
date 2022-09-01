@@ -39,7 +39,7 @@ $mobileAppsResults = Invoke-RestMethod -uri "https://graph.microsoft.com/beta/de
 This returned a total of 500 applications which seemed like a very low number, so I wondered if it affected all application types or if it was just a Win32 app limit I had reached. To test this, I tried to manually create some different app types manually in the Endpoint UI. 
 
 I received the same error when trying to create an MSfB app and an iOS Store app
-![image](https://github.com/smcallister594/scotscottmca/blob/main/assets/img/2022-09-01/Twitter_Response.png?raw=true){: .align-center}
+![image](https://github.com/smcallister594/scotscottmca/blob/main/assets/img/2022-09-01/MSfB_iOS.jpg?raw=true){: .align-center}
 
 So I asked around some others and @IntuneSuppTeamt on Twitter and received this response
 
@@ -103,11 +103,11 @@ Checking what limit I had hit this time, I reran the previous query to get a cou
 
 Again curious if that was just Win32 apps, I attempted to manually create another MSfB and iOS app but was met with the same error in the UI
 
-![images](https://github.com/smcallister594/scotscottmca/blob/main/assets/img/2022-09-01/MSfB_iOS.jpg?raw=true){: .align-center}
+![image](https://github.com/smcallister594/scotscottmca/blob/main/assets/img/2022-09-01/MSfB_iOS.jpg?raw=true){: .align-center}
 
 I received an update from @IntuneSuppTeam on this 
 
-![images](https://github.com/smcallister594/scotscottmca/blob/main/assets/img/2022-09-01/Twitter_Response_2.png?raw=true){: .align-center}
+![image](https://github.com/smcallister594/scotscottmca/blob/main/assets/img/2022-09-01/Twitter_Response_2.png?raw=true){: .align-center}
 
 However as previously mentioned, at the 10k app limit I am unable to publish any more applications regardless of the type!
 
