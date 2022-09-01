@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Welcome to Not Pure Poole
-date: 2020-09-29 23:18 +0800
-last_modified_at: 2020-10-01 01:08:25 +0800
-tags: [jekyll theme, jekyll, tutorial]
-toc:  true
+title: Hitting the max application limit in Intune
+date: 2022-09-01 14:00 +0100
+last_modified_at: 2022-09-01 18:00 +0100
+tags: [Intune, 3rd Party Apps]
+toc:  false
 ---
 Hey! This is my first ever blog post, so bear with me!
 
