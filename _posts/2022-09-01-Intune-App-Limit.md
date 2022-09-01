@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Hitting the max application limit in Intune
-date: 2022-09-01 18:00
+date: 2022-09-01 14:00
 last_modified_at: 2022-09-01 18:00
 tags: [Intune, 3rd Party Apps]
 toc:  false
