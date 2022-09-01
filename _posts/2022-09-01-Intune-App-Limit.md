@@ -10,7 +10,7 @@ Hey! This is my first ever blog post, so bear with me!
 
 Earlier this week I was trying to reproduce an issue in my lab and encountered something I'd never seen before in the IntuneManagementExtension.log
 
-When publishing Win32 apps to Intune, I was preseneted with this error message
+When publishing Win32 apps to Intune, I was presented with this error message
 
 {% highlight powershell %}
 Invoke-RestMethod: {"error":{"code":"BadRequest","message":"{\r\n  \"_version\": 3,\r\n  \"Message\": \"New apps may not be created at this time. - Operation ID (for customer support): 00000000-0000-0000-0000-000000000000 - Activity ID: ca6749a9-93ac-454a-a970-5c8a90978635 - Url: https://fef.msub06.manage.microsoft.com/AppLifecycle_2208/StatelessAppMetadataFEService/deviceAppManagement/mobileApps?api-version=5022-07-06\",\r\n  \"CustomApiErrorPhrase\": \"\",\r\n  \"RetryAfter\": null,\r\n  \"ErrorSourceService\": \"\",\r\n  \"HttpHeaders\": \"{}\"\r\n}","innerError":{"date":"2022-08-30T17:17:03","request-id":"ca6749a9-93ac-454a-a970-5c8a90978635","client-request-id":"ca6749a9-93ac-454a-a970-5c8a90978635"}}}
@@ -91,7 +91,7 @@ foreach ($Xy in $Job_Xy) {
 }
 {% endhighlight %}
 
-This script, coupled with a JSON containing the app information, let me quickly publish as many apps as Graph would let me before being rate limited
+This script, coupled with a [JSON file](https://github.com/smcallister594/scotscottmca/blob/main/assets/files/DummyApps.json) containing the app information, let me quickly publish as many apps as Graph would let me before being rate limited
 
 Over the course of that afternoon I let this script run it's course until I hit the same error message again, 
 
