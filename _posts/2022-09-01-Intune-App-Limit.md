@@ -4,7 +4,7 @@ title: Hitting the max application limit in Intune
 date: 2022-09-01 18:00
 last_modified_at: 2022-09-01 18:00
 tags: [Intune, 3rd Party Apps]
-toc:  true
+toc:  false
 ---
 Hey! This is my first ever blog post, so bear with me!
 
@@ -32,7 +32,7 @@ I had figured that I had just hit a maximum app limit and almost just left it al
 {% highlight powershell %}
 $mobileAppsResults = Invoke-RestMethod -uri "https://graph.microsoft.com/beta/deviceAppManagement/mobileApps" -Method Get -Headers $Headers
 
-$mobileAppsResults.count
+($mobileAppsResults).count
 500
 {% endhighlight %}
 
