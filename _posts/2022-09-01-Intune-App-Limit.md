@@ -39,7 +39,7 @@ $mobileAppsResults = Invoke-RestMethod -uri "https://graph.microsoft.com/beta/de
 This returned a total of 500 applications which seemed like a very low number, so I wondered if it affected all application types or if it was just a Win32 app limit I had reached. To test this, I tried to manually create some different app types manually in the Endpoint UI. 
 
 I received the same error when trying to create an MSfB app and an iOS Store app
-![placeholder](.\assets\img\2202-09-01\MSfB_iOS.jpg?raw=true){: .align-center}
+![placeholder](https://github.com/smcallister594/scotscottmca/blob/main/assets/img/2022-09-01/MSfB_iOS.jpg){: .align-center}
 
 So I asked around some others and @IntuneSuppTeamt on Twitter and received this response
 
