@@ -31,7 +31,7 @@ exclude:
 twitter:
   username: scotscottmca
   card: summary
-logo: logo.png
+logo: /assets/img/me_1.png
 social:
   name: Scott McAllister
   links:
