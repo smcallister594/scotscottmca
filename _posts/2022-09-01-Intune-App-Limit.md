@@ -71,7 +71,7 @@ foreach ($Xy in $Job_Xy) {
         
             $Method = "POST"
             $URI = "https://graph.microsoft.com/beta/deviceAppManagement/mobileApps/"
-            $test = Get-Content -Raw -Path ".\jsonnmaybe.json" | convertfrom-Json
+            $test = Get-Content -Raw -Path ".\DummyApps.json" | convertfrom-Json
             $DisplayName = "FakeApp#"
             $NewName = $DisplayName + $increment_job
             $test.displayName = $NewName

@@ -1,0 +1,64 @@
+{
+  "@odata.type": "#microsoft.graph.win32LobApp",
+  "applicableArchitectures": "x86",
+  "allowAvailableUninstall": false,
+  "categories": [],
+  "description": "Fake.exe",
+  "developer": "",
+  "displayName": "Fake.exe",
+  "displayVersion": "",
+  "fileName": "Fake.intunewin",
+  "installCommandLine": "/install",
+  "installExperience": {
+    "deviceRestartBehavior": "basedOnReturnCode",
+    "runAsAccount": "system"
+  },
+  "informationUrl": "",
+  "isFeatured": false,
+  "roleScopeTagIds": [],
+  "notes": "",
+  "minimumSupportedWindowsRelease": "1607",
+  "msiInformation": null,
+  "owner": "",
+  "privacyInformationUrl": "",
+  "publisher": "PMPC",
+  "returnCodes": [
+    {
+      "returnCode": 0,
+      "type": "success"
+    },
+    {
+      "returnCode": 1707,
+      "type": "success"
+    },
+    {
+      "returnCode": 3010,
+      "type": "softReboot"
+    },
+    {
+      "returnCode": 1641,
+      "type": "hardReboot"
+    },
+    {
+      "returnCode": 1618,
+      "type": "retry"
+    }
+  ],
+  "rules": [
+    {
+      "@odata.type": "#microsoft.graph.win32LobAppPowerShellScriptRule",
+      "ruleType": "detection",
+      "operator": "notConfigured",
+      "displayName": null,
+      "enforceSignatureCheck": false,
+      "runAs32Bit": false,
+      "runAsAccount": null,
+      "scriptContent": "c2Fyc2RhZmRhcw==",
+      "operationType": "notConfigured",
+      "comparisonValue": null
+    }
+  ],
+  "runAs32Bit": false,
+  "setupFilePath": "Fake.exe",
+  "uninstallCommandLine": "/uninstall"
+}
