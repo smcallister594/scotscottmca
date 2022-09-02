@@ -47,7 +47,7 @@ So I asked around some others and @IntuneSuppTeamt on Twitter and received this 
 
 Intrigued further, I purchased an F1 licence and assigned it to my demo tenant and that 500 app limit was lifted immediately. 
 
-Curious what that upper limit was, a collegue threw together a quick script to mass publish empty applications to Intune
+Curious what that upper limit was, [Jake Shack](https://twitter.com/shackelfjaco) threw together a quick script to mass publish empty applications to Intune
 
 {% highlight powershell %}
 $Version = 1
