@@ -41,7 +41,7 @@ This returned a total of 500 applications which seemed like a very low number, s
 I received the same error when trying to create an MSfB app and an iOS Store app
 ![image](https://github.com/smcallister594/scotscottmca/blob/main/assets/img/2022-09-01/MSfB_iOS.jpg?raw=true){: .align-center}
 
-So I asked around some others and @IntuneSuppTeamt on Twitter and received this response
+So I asked around some others and @IntuneSuppTeam on Twitter and received this response
 
 ![image](https://github.com/smcallister594/scotscottmca/blob/main/assets/img/2022-09-01/Twitter_Response.png?raw=true){: .align-center}
 
