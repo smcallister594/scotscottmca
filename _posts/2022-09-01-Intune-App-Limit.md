@@ -56,11 +56,11 @@ $Job_Xy = 1..10
 
 foreach ($Xy in $Job_Xy) {
     #code that creates apps
-    Foreach ($nb in $Job_Nb) {
+    Foreach ($Nb in $Job_Nb) {
         
 
-        Start-Job -Name $nb -ScriptBlock {
-            $increment_job = $args[0]
+        Start-Job -Name $Nb -ScriptBlock {
+            $Increment_job = $args[0]
             $MSToken = Get-MsalToken -ClientId "xxxxxx" -ClientSecret (ConvertTo-SecureString "xxxxxx" -AsPlainText -Force) -TenantId "xxxxxx.onmicrosoft.com"
             $AuthToken = $MSToken.AccessToken
             $Headers = @{
@@ -71,15 +71,15 @@ foreach ($Xy in $Job_Xy) {
         
             $Method = "POST"
             $URI = "https://graph.microsoft.com/beta/deviceAppManagement/mobileApps/"
-            $test = Get-Content -Raw -Path ".\DummyApps.json" | convertfrom-Json
+            $Test = Get-Content -Raw -Path ".\DummyApps.json" | convertfrom-Json
             $DisplayName = "FakeApp#"
-            $NewName = $DisplayName + $increment_job
-            $test.displayName = $NewName
-            $test = $test | Convertto-json
+            $NewName = $DisplayName + $Increment_job
+            $Test.displayName = $NewName
+            $Test = $Test | Convertto-json
         
         
         
-            Invoke-RestMethod -uri $Uri -Method $Method -body $test -Headers $Headers
+            Invoke-RestMethod -uri $Uri -Method $Method -body $Test -Headers $Headers
       
         } -ArgumentList $Version
 
