@@ -18,7 +18,10 @@ All this led me to sink numerous hours into various different rabbit holes and h
 
 The very first working itteration of the tool was far from pretty, just a simple winform with a pile of code behind it, but it worked and it was a start. 
 
+**v0.1**
 ![image](https://github.com/smcallister594/scotscottmca/blob/main/assets/img/project-clippy/v1-3.png?raw=true){: .align-center}
+
+**v0.? (I can't remember where this was)**
 ![image](https://github.com/smcallister594/scotscottmca/blob/main/assets/img/project-clippy/v1-2.png?raw=true){: .align-center}
 
 Then I was introduced to MVVM and WPF by [Cody Mathis](https://twitter.com/CodyMathis123) and [Ben Reader](https://twitter.com/powers_hell), and I can safely say I hate and love them both equally for it. 
