@@ -82,6 +82,8 @@ v1.1.0.0 which was released on 3rd Jan 2023 had some nice new featuers in it!
 ### **Staying up to date**
 MEMPO has a built in updater to help keep it up to date! Any time you click "About", MEMPO will reach out to GitHub to check if there is a newer production release available, and if there is it will give you the option to download and install, as well as link you out to the release notes!
 
+In the next release, the updater will poll each time MEMPO starts and notify you of new releases as well, but ensuring the updater was at least there was required for v1.0
+
 ## **The future**
 I have a list of maybe 20-30 additional tests to add to MEMPO, which will include some pre-flight checks specific to the Patch My PC Publisher. Some of those new tests include
 
