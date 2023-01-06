@@ -12,11 +12,11 @@ To keep things simple, I'll refer to MEM Patching Optimizer as MEMPO.
 
 I've always had an interest in writing code, automation and writing my own apps but I never really had the drive or motiviation to do it until I started working at Patch My PC. 
 
-After expressing an Interest in it To [DJam](https://twitter.com/djammmer) he came up with the idea of a tool that takes the most common issues we see in customer environments and writing a tool that finds those issues, reports on them and eventually offers remediation, Kind of like a "clippy" for WSUS (hence the name, Project Clippy). 2 other Patch My PC Engineers, [Priscilla](https://twitter.com/LearnLeon) and [Spencer](https://twitter.com/OGTekie), had expressed interest in development as well so we got together every week, planned things out, talked about ideas and made a tonne of notes on how we would do what we wanted to do. 
+After expressing an interest in it To [David James](https://twitter.com/djammmer) he came up with the idea of a tool that takes the most common issues we see in customer environments and writing a tool that finds those issues, reports on them and eventually offers remediation, Kind of like a "clippy" for WSUS (hence the name, Project Clippy). 2 other Patch My PC Engineers, [Priscilla](https://twitter.com/LearnLeon) and [Spencer](https://twitter.com/OGTekie), had expressed interest in development as well so we got together every week, planned things out, talked about ideas and made a tonne of notes on how we would do what we wanted to do. 
 
-All this led me to sink numerous hours into various different rabbit holes and had me waking up at 3am with a Eurika! moment more times than I care to admit and I sort of ran away with this project and its been a bit of a rollercoaster for me but I feel I've learned quite a lot over the last 4-5 months about coding and WSUS!
+All this led me to sink numerous hours into various different rabbit holes and had me waking up at 3am with a eureka! moment more times than I care to admit and I sort of ran away with this project and its been a bit of a rollercoaster for me but I feel I've learned quite a lot over the last 4-5 months about coding and WSUS!
 
-The very first working itteration of the tool was far from pretty, just a simple winform with a pile of code behind it, but it worked and it was a start. 
+The very first working iteration of the tool was far from pretty, just a simple winform with a pile of code behind it, but it worked and it was a start. 
 
 **v0.1**
 ![image](https://github.com/smcallister594/scotscottmca/blob/main/assets/img/project-clippy/v1-3.png?raw=true){: .align-center}
@@ -28,7 +28,7 @@ Then I was introduced to MVVM and WPF by [Cody Mathis](https://twitter.com/CodyM
 
 ![image](https://github.com/smcallister594/scotscottmca/blob/main/assets/img/project-clippy/breath.gif?raw=true){: .align-center}
 
-I tried to dive head first into MVVM and WPF by migrating what I had done already in winforms and after about a week of firefighting I deleted all the code I'd written and start from scratch and here we are, MEMPO is now v1.1.0.0 and looks a dam sight better than its first itteration
+I tried to dive head first into MVVM and WPF by migrating what I had done already in winforms and after about a week of firefighting I deleted all the code I'd written and start from scratch and here we are, MEMPO is now v1.1.0.0 and looks a dam sight better than its first iteration
 
 ![image](https://github.com/smcallister594/scotscottmca/blob/main/assets/img/project-clippy/clippy.gif?raw=true){: .align-center}
 
