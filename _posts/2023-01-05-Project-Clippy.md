@@ -17,20 +17,24 @@ After expressing an Interest in it To [DJam](https://twitter.com/djammmer) he ca
 All this led me to sink numerous hours into various different rabbit holes and had me waking up at 3am with a Eurika! moment more times than I care to admit and I sort of ran away with this project and its been a bit of a rollercoaster for me but I feel I've learned quite a lot over the last 4-5 months about coding and WSUS!
 
 The very first working itteration of the tool was far from pretty, just a simple winform with a pile of code behind it, but it worked and it was a start. 
-![image](https://github.com/smcallister594/scotscottmca/blob/main/assets/img/project-clippy/v1-1.png?raw=true){: .align-center}
-![image](https://github.com/smcallister594/scotscottmca/blob/main/assets/img/project-clippy/v1-2.png?raw=true){: .align-center}
+
 ![image](https://github.com/smcallister594/scotscottmca/blob/main/assets/img/project-clippy/v1-3.png?raw=true){: .align-center}
+![image](https://github.com/smcallister594/scotscottmca/blob/main/assets/img/project-clippy/v1-2.png?raw=true){: .align-center}
 
 Then I was introduced to MVVM and WPF by [Cody Mathis](https://twitter.com/CodyMathis123) and [Ben Reader](https://twitter.com/powers_hell), and I can safely say I hate and love them both equally for it. 
+
+![image](https://github.com/smcallister594/scotscottmca/blob/main/assets/img/project-clippy/breath.gif?raw=true){: .align-center}
 
 I tried to dive head first into MVVM and WPF by migrating what I had done already in winforms and after about a week of firefighting I deleted all the code I'd written and start from scratch and here we are, MEMPO is now v1.1.0.0 and looks a dam sight better than its first itteration
 
 ![image](https://github.com/smcallister594/scotscottmca/blob/main/assets/img/project-clippy/clippy.gif?raw=true){: .align-center}
 
-## What does it do
+## **What does it do**
 A whole load of things, Run it and see! :)
 
-### Tests
+![image](https://github.com/smcallister594/scotscottmca/blob/main/assets/img/project-clippy/doit.gif?raw=true){: .align-center}
+
+### **Tests**
 Starting off by taking the most common things we saw wrong in enviornments, they were turned them into tests
 
 At the time of writing this, the test list is as follows
@@ -51,7 +55,7 @@ All these tests have predefined, expected results, based on Microsofts best prac
 
 Some of these tests may not be applicable to your environment but they have been generalised as much as possible as every environment is different and all those differences can't really be accoutned for. 
 
-### Logging
+### **Logging**
 Initally I had everything writing out to the UI, that included test results and full error traces. The error traces quickly became annoying and provided no real value within the UI so to tidy that up I added a log writer and threw all those error traces, test results and everything the tool does into a neat little log file!
 
 ![image](https://github.com/smcallister594/scotscottmca/blob/main/assets/img/project-clippy/logfile.png?raw=true){: .align-center}
@@ -59,7 +63,7 @@ Initally I had everything writing out to the UI, that included test results and 
 As you can see in the above screenshot, log lines have their severity tagged (Informational, Warning & Error) so that CMTrace highlights them accordingly. 
 
 
-### Continuous development
+### **Continuous development**
 Adding more features, tests and bug fixes has been an ongoing task in my spare time, and I don't have an plans to slow down on this tool either!
 
 v1.1.0.0 which was released on 3rd Jan 2023 had some nice new featuers in it! 
@@ -72,10 +76,10 @@ v1.1.0.0 which was released on 3rd Jan 2023 had some nice new featuers in it!
 - Added logging, Log now writes out to install directory
     - As mentioned previously, everything was just written out to the UI, it was messy and difficult to read at times. MEMPO now writes out to a log file which shows all the error messages, test names, test results and all other relevant things
 
-### Staying up to date
+### **Staying up to date**
 MEMPO has a built in updater to help keep it up to date! Any time you click "About", MEMPO will reach out to GitHub to check if there is a newer production release available, and if there is it will give you the option to download and install, as well as link you out to the release notes!
 
-## The future
+## **The future**
 I have a list of maybe 20-30 additional tests to add to MEMPO, which will include some pre-flight checks specific to the Patch My PC Publisher. Some of those new tests include
 
 - Support for environments running multiple WSUS servers
@@ -90,9 +94,11 @@ I have a list of maybe 20-30 additional tests to add to MEMPO, which will includ
 This is just a few of the ones I have noted down, and the full list isn't definitive so if you have any ideas or feedback just reach out to me :)
 
 
-## The End
+## **The End**
 That's pretty much it! If you want to know more, hit me up on [Twitter](https://twitter.com/ScotScottMcA)
 
 Just want to add an extra thank you to Ben and Cody for answering my "5 minute questions" that turned into multiple hour long conversations, telling me I'm a sausage when I was over-complicating something and just generally helping me along in this rollercoaster of a ride. 
 
 And thanks to everyone else at Patch My PC for their input, support and interest in seeing MEMPO become a thing! It's definitely helped keep me motivated in working on this!
+
+![image](https://github.com/smcallister594/scotscottmca/blob/main/assets/img/project-clippy/salute.gif?raw=true){: .align-center}
