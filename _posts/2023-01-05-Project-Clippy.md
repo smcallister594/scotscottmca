@@ -93,6 +93,14 @@ I have a list of maybe 20-30 additional tests to add to MEMPO, which will includ
 
 This is just a few of the ones I have noted down, and the full list isn't definitive so if you have any ideas or feedback just reach out to me :)
 
+## **Logging an issue**
+You can log issues with the MEM Patching Optimizer through its [GitHub page](https://github.com/PatchMyPCTeam/MEM-Patching-Optimizer/issues)
+
+## **Documentation**
+All documentation around installation and usage can be found on the [Patch My PC Docs page](https://docs.patchmypc.com/get-help/mem-patching-optimizer/)
+
+## **Download**
+You can get the latest release of the MEM Patching Optimizer [here](https://github.com/PatchMyPCTeam/MEM-Patching-Optimizer/releases/latest)
 
 ## **The End**
 That's pretty much it! If you want to know more, hit me up on [Twitter](https://twitter.com/ScotScottMcA)
