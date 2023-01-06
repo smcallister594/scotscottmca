@@ -1,8 +1,8 @@
 ---
 layout: post
 title: MEM Patching Optimizer (Project Clippy)
-date: 2023-01-10 14:00 +0100
-last_modified_at: 2023-01-10 14:00 +0100
+date: 2023-01-05 14:00 +0100
+last_modified_at: 2023-01-06 00:30 +0100
 tags: [WSUS, ConfigMgr, Patch My PC, 3rd Party Apps]
 toc:  false
 ---
