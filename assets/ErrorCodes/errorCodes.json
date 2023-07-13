@@ -1,0 +1,3584 @@
+[
+  {
+    "SignedIntCode": 0,
+    "UnsignedIntCode": 0,
+    "HexCode": "0x00000000",
+    "Description": "Success"
+  },
+  {
+    "SignedIntCode": -1,
+    "UnsignedIntCode": 4294967295,
+    "HexCode": "0xFFFFFFFF",
+    "Description": "Script execution failed with error code -1"
+  },
+  {
+    "SignedIntCode": 10,
+    "UnsignedIntCode": 10,
+    "HexCode": "0x0000000A",
+    "Description": "The unit test error string"
+  },
+  {
+    "SignedIntCode": 131072512,
+    "UnsignedIntCode": 131072512,
+    "HexCode": "0x07D00200",
+    "Description": "The client is successfully assigned with Group Policy Site Assignment"
+  },
+  {
+    "SignedIntCode": 131073314,
+    "UnsignedIntCode": 131073314,
+    "HexCode": "0x07D00522",
+    "Description": "No more data"
+  },
+  {
+    "SignedIntCode": 131073589,
+    "UnsignedIntCode": 131073589,
+    "HexCode": "0x07D00635",
+    "Description": "The scan was skipped because history was valid"
+  },
+  {
+    "SignedIntCode": -2016278002,
+    "UnsignedIntCode": 2278689294,
+    "HexCode": "0x87D20A0E",
+    "Description": "Shutdown received while compressing"
+  },
+  {
+    "SignedIntCode": -2016278003,
+    "UnsignedIntCode": 2278689293,
+    "HexCode": "0x87D20A0D",
+    "Description": "Unexpected error while compressing"
+  },
+  {
+    "SignedIntCode": -2016278004,
+    "UnsignedIntCode": 2278689292,
+    "HexCode": "0x87D20A0C",
+    "Description": "Already compressed"
+  },
+  {
+    "SignedIntCode": -2016278005,
+    "UnsignedIntCode": 2278689291,
+    "HexCode": "0x87D20A0B",
+    "Description": "Failed to create file header while compressing"
+  },
+  {
+    "SignedIntCode": -2016278006,
+    "UnsignedIntCode": 2278689290,
+    "HexCode": "0x87D20A0A",
+    "Description": "Failed to create file while compressing"
+  },
+  {
+    "SignedIntCode": -2016278007,
+    "UnsignedIntCode": 2278689289,
+    "HexCode": "0x87D20A09",
+    "Description": "Failed to create folder while compressing"
+  },
+  {
+    "SignedIntCode": -2016278008,
+    "UnsignedIntCode": 2278689288,
+    "HexCode": "0x87D20A08",
+    "Description": "Invalid compressed header in the file"
+  },
+  {
+    "SignedIntCode": -2016278009,
+    "UnsignedIntCode": 2278689287,
+    "HexCode": "0x87D20A07",
+    "Description": "Invalid compressed file"
+  },
+  {
+    "SignedIntCode": -2016278010,
+    "UnsignedIntCode": 2278689286,
+    "HexCode": "0x87D20A06",
+    "Description": "Failed to compress header"
+  },
+  {
+    "SignedIntCode": -2016278011,
+    "UnsignedIntCode": 2278689285,
+    "HexCode": "0x87D20A05",
+    "Description": "The file is no more there to compress"
+  },
+  {
+    "SignedIntCode": -2016278012,
+    "UnsignedIntCode": 2278689284,
+    "HexCode": "0x87D20A04",
+    "Description": "Invalid destination for compression"
+  },
+  {
+    "SignedIntCode": -2016278013,
+    "UnsignedIntCode": 2278689283,
+    "HexCode": "0x87D20A03",
+    "Description": "Invalid source for compression"
+  },
+  {
+    "SignedIntCode": -2016278014,
+    "UnsignedIntCode": 2278689282,
+    "HexCode": "0x87D20A02",
+    "Description": "Compression destination not found"
+  },
+  {
+    "SignedIntCode": -2016278015,
+    "UnsignedIntCode": 2278689281,
+    "HexCode": "0x87D20A01",
+    "Description": "Compression source not found"
+  },
+  {
+    "SignedIntCode": -2016278267,
+    "UnsignedIntCode": 2278689029,
+    "HexCode": "0x87D20905",
+    "Description": "SEDO lock request timed out"
+  },
+  {
+    "SignedIntCode": -2016278268,
+    "UnsignedIntCode": 2278689028,
+    "HexCode": "0x87D20904",
+    "Description": "SEDO lock not found"
+  },
+  {
+    "SignedIntCode": -2016278269,
+    "UnsignedIntCode": 2278689027,
+    "HexCode": "0x87D20903",
+    "Description": "Invalid object path for SEDO"
+  },
+  {
+    "SignedIntCode": -2016278270,
+    "UnsignedIntCode": 2278689026,
+    "HexCode": "0x87D20902",
+    "Description": "SEDO request ID not found"
+  },
+  {
+    "SignedIntCode": -2016278271,
+    "UnsignedIntCode": 2278689025,
+    "HexCode": "0x87D20901",
+    "Description": "SEDO needs lock ID or Rel path"
+  },
+  {
+    "SignedIntCode": -2016278518,
+    "UnsignedIntCode": 2278688778,
+    "HexCode": "0x87D2080A",
+    "Description": "Certificate not found"
+  },
+  {
+    "SignedIntCode": -2016278519,
+    "UnsignedIntCode": 2278688777,
+    "HexCode": "0x87D20809",
+    "Description": "Invalid data in the certificate"
+  },
+  {
+    "SignedIntCode": -2016278520,
+    "UnsignedIntCode": 2278688776,
+    "HexCode": "0x87D20808",
+    "Description": "Failed to find certificate"
+  },
+  {
+    "SignedIntCode": -2016278521,
+    "UnsignedIntCode": 2278688775,
+    "HexCode": "0x87D20807",
+    "Description": "Failed to decrypt the certificate"
+  },
+  {
+    "SignedIntCode": -2016278522,
+    "UnsignedIntCode": 2278688774,
+    "HexCode": "0x87D20806",
+    "Description": "Failed to delete certificate store"
+  },
+  {
+    "SignedIntCode": -2016278523,
+    "UnsignedIntCode": 2278688773,
+    "HexCode": "0x87D20805",
+    "Description": "Failed to write in the certificate store"
+  },
+  {
+    "SignedIntCode": -2016278524,
+    "UnsignedIntCode": 2278688772,
+    "HexCode": "0x87D20804",
+    "Description": "Failed to open the certificate store"
+  },
+  {
+    "SignedIntCode": -2016278525,
+    "UnsignedIntCode": 2278688771,
+    "HexCode": "0x87D20803",
+    "Description": "Error reading peer�s encoded certificate"
+  },
+  {
+    "SignedIntCode": -2016278526,
+    "UnsignedIntCode": 2278688770,
+    "HexCode": "0x87D20802",
+    "Description": "Error reading certificate"
+  },
+  {
+    "SignedIntCode": -2016278527,
+    "UnsignedIntCode": 2278688769,
+    "HexCode": "0x87D20801",
+    "Description": "Service Host Name property is either missing or invalid"
+  },
+  {
+    "SignedIntCode": -2016278776,
+    "UnsignedIntCode": 2278688520,
+    "HexCode": "0x87D20708",
+    "Description": "The specified item to update is not found in Site Control File"
+  },
+  {
+    "SignedIntCode": -2016278777,
+    "UnsignedIntCode": 2278688519,
+    "HexCode": "0x87D20707",
+    "Description": "Invalid FQDN found in Site Control File"
+  },
+  {
+    "SignedIntCode": -2016278778,
+    "UnsignedIntCode": 2278688518,
+    "HexCode": "0x87D20706",
+    "Description": "Legacy type item in Site Control File"
+  },
+  {
+    "SignedIntCode": -2016278779,
+    "UnsignedIntCode": 2278688517,
+    "HexCode": "0x87D20705",
+    "Description": "Site not found in Site Control File"
+  },
+  {
+    "SignedIntCode": -2016278780,
+    "UnsignedIntCode": 2278688516,
+    "HexCode": "0x87D20704",
+    "Description": "Bad data in Site Control File"
+  },
+  {
+    "SignedIntCode": -2016278781,
+    "UnsignedIntCode": 2278688515,
+    "HexCode": "0x87D20703",
+    "Description": "Item type not known in Site Control File"
+  },
+  {
+    "SignedIntCode": -2016278782,
+    "UnsignedIntCode": 2278688514,
+    "HexCode": "0x87D20702",
+    "Description": "Item not found in Site Control File"
+  },
+  {
+    "SignedIntCode": -2016278783,
+    "UnsignedIntCode": 2278688513,
+    "HexCode": "0x87D20701",
+    "Description": "Unknown property in Site Control File"
+  },
+  {
+    "SignedIntCode": -2016279006,
+    "UnsignedIntCode": 2278688290,
+    "HexCode": "0x87D20622",
+    "Description": "SRS data source has been modified or deleted"
+  },
+  {
+    "SignedIntCode": -2016279007,
+    "UnsignedIntCode": 2278688289,
+    "HexCode": "0x87D20621",
+    "Description": "SRS root folder is not present"
+  },
+  {
+    "SignedIntCode": -2016279008,
+    "UnsignedIntCode": 2278688288,
+    "HexCode": "0x87D20620",
+    "Description": "SRS is not installed or not properly configured"
+  },
+  {
+    "SignedIntCode": -2016279019,
+    "UnsignedIntCode": 2278688277,
+    "HexCode": "0x87D20615",
+    "Description": "SRS web service is not running"
+  },
+  {
+    "SignedIntCode": -2016279278,
+    "UnsignedIntCode": 2278688018,
+    "HexCode": "0x87D20512",
+    "Description": "The machine is not assigned to this site"
+  },
+  {
+    "SignedIntCode": -2016279279,
+    "UnsignedIntCode": 2278688017,
+    "HexCode": "0x87D20511",
+    "Description": "The machine is not an SMS client"
+  },
+  {
+    "SignedIntCode": -2016279280,
+    "UnsignedIntCode": 2278688016,
+    "HexCode": "0x87D20510",
+    "Description": "Machine not found foreign key constraint"
+  },
+  {
+    "SignedIntCode": -2016279529,
+    "UnsignedIntCode": 2278687767,
+    "HexCode": "0x87D20417",
+    "Description": "Auto Deployment Rule download failed"
+  },
+  {
+    "SignedIntCode": -2016279530,
+    "UnsignedIntCode": 2278687766,
+    "HexCode": "0x87D20416",
+    "Description": "No rule filters specified for the Auto Deployment Rule"
+  },
+  {
+    "SignedIntCode": -2016279531,
+    "UnsignedIntCode": 2278687765,
+    "HexCode": "0x87D20415",
+    "Description": "Auto Deployment Rule results exceeded the maximum number of updates"
+  },
+  {
+    "SignedIntCode": -2016279532,
+    "UnsignedIntCode": 2278687764,
+    "HexCode": "0x87D20414",
+    "Description": "Cannot Configure WU/MU as an upstream server on Peer Primary"
+  },
+  {
+    "SignedIntCode": -2016279533,
+    "UnsignedIntCode": 2278687763,
+    "HexCode": "0x87D20413",
+    "Description": "Active SUP not selected"
+  },
+  {
+    "SignedIntCode": -2016279537,
+    "UnsignedIntCode": 2278687759,
+    "HexCode": "0x87D2040F",
+    "Description": "WSUS Server component failure"
+  },
+  {
+    "SignedIntCode": -2016279538,
+    "UnsignedIntCode": 2278687758,
+    "HexCode": "0x87D2040E",
+    "Description": "WSUS Server Database connection failure"
+  },
+  {
+    "SignedIntCode": -2016279539,
+    "UnsignedIntCode": 2278687757,
+    "HexCode": "0x87D2040D",
+    "Description": "Failed to set Parent WSUS Configuration on the child sites"
+  },
+  {
+    "SignedIntCode": -2016279540,
+    "UnsignedIntCode": 2278687756,
+    "HexCode": "0x87D2040C",
+    "Description": "WSUS server not ready"
+  },
+  {
+    "SignedIntCode": -2016279797,
+    "UnsignedIntCode": 2278687499,
+    "HexCode": "0x87D2030B",
+    "Description": "Device Setting Item not found Foreign Key Constraint"
+  },
+  {
+    "SignedIntCode": -2016280054,
+    "UnsignedIntCode": 2278687242,
+    "HexCode": "0x87D2020A",
+    "Description": "SDM Type not found Foreign Key Constraint"
+  },
+  {
+    "SignedIntCode": -2016280055,
+    "UnsignedIntCode": 2278687241,
+    "HexCode": "0x87D20209",
+    "Description": "Related SDM Package not found Foreign Key Constraint"
+  },
+  {
+    "SignedIntCode": -2016280056,
+    "UnsignedIntCode": 2278687240,
+    "HexCode": "0x87D20208",
+    "Description": "SDM Package was not found Foreign Key Constraint"
+  },
+  {
+    "SignedIntCode": -2016280057,
+    "UnsignedIntCode": 2278687239,
+    "HexCode": "0x87D20207",
+    "Description": "SDM Type not found Foreign Key Constraint"
+  },
+  {
+    "SignedIntCode": -2016280058,
+    "UnsignedIntCode": 2278687238,
+    "HexCode": "0x87D20206",
+    "Description": "EULA is not found Foreign Key Constraint"
+  },
+  {
+    "SignedIntCode": -2016280059,
+    "UnsignedIntCode": 2278687237,
+    "HexCode": "0x87D20205",
+    "Description": "Update Source was not found Foreign Key Constraint"
+  },
+  {
+    "SignedIntCode": -2016280060,
+    "UnsignedIntCode": 2278687236,
+    "HexCode": "0x87D20204",
+    "Description": "CI Type not found Foreign Key Constraint"
+  },
+  {
+    "SignedIntCode": -2016280061,
+    "UnsignedIntCode": 2278687235,
+    "HexCode": "0x87D20203",
+    "Description": "The category was not found Foreign Key Constraint"
+  },
+  {
+    "SignedIntCode": -2016280062,
+    "UnsignedIntCode": 2278687234,
+    "HexCode": "0x87D20202",
+    "Description": "Configuration Item not found Foreign Key Constraint"
+  },
+  {
+    "SignedIntCode": -2016280063,
+    "UnsignedIntCode": 2278687233,
+    "HexCode": "0x87D20201",
+    "Description": "Operation on Old Configuration Item when a newer instance exits in the Database"
+  },
+  {
+    "SignedIntCode": -2016280319,
+    "UnsignedIntCode": 2278686977,
+    "HexCode": "0x87D20101",
+    "Description": "Collection not found foreign key constraint"
+  },
+  {
+    "SignedIntCode": -2016280528,
+    "UnsignedIntCode": 2278686768,
+    "HexCode": "0x87D20030",
+    "Description": "Error while creating inbox"
+  },
+  {
+    "SignedIntCode": -2016280544,
+    "UnsignedIntCode": 2278686752,
+    "HexCode": "0x87D20020",
+    "Description": "Thread is signaled to be stopped"
+  },
+  {
+    "SignedIntCode": -2016280557,
+    "UnsignedIntCode": 2278686739,
+    "HexCode": "0x87D20013",
+    "Description": "Registry write error"
+  },
+  {
+    "SignedIntCode": -2016280558,
+    "UnsignedIntCode": 2278686738,
+    "HexCode": "0x87D20012",
+    "Description": "Registry read error"
+  },
+  {
+    "SignedIntCode": -2016280559,
+    "UnsignedIntCode": 2278686737,
+    "HexCode": "0x87D20011",
+    "Description": "Registry connection error"
+  },
+  {
+    "SignedIntCode": -2016280568,
+    "UnsignedIntCode": 2278686728,
+    "HexCode": "0x87D20008",
+    "Description": "SQL send batch error"
+  },
+  {
+    "SignedIntCode": -2016280569,
+    "UnsignedIntCode": 2278686727,
+    "HexCode": "0x87D20007",
+    "Description": "SQL queue row error"
+  },
+  {
+    "SignedIntCode": -2016280570,
+    "UnsignedIntCode": 2278686726,
+    "HexCode": "0x87D20006",
+    "Description": "SQL table binding error"
+  },
+  {
+    "SignedIntCode": -2016280571,
+    "UnsignedIntCode": 2278686725,
+    "HexCode": "0x87D20005",
+    "Description": "SQL deadlock error"
+  },
+  {
+    "SignedIntCode": -2016280572,
+    "UnsignedIntCode": 2278686724,
+    "HexCode": "0x87D20004",
+    "Description": "SQL error while registering type"
+  },
+  {
+    "SignedIntCode": -2016280573,
+    "UnsignedIntCode": 2278686723,
+    "HexCode": "0x87D20003",
+    "Description": "SQL Error"
+  },
+  {
+    "SignedIntCode": -2016280574,
+    "UnsignedIntCode": 2278686722,
+    "HexCode": "0x87D20002",
+    "Description": "SQL connection error"
+  },
+  {
+    "SignedIntCode": -2016280575,
+    "UnsignedIntCode": 2278686721,
+    "HexCode": "0x87D20001",
+    "Description": "Invalid data"
+  },
+  {
+    "SignedIntCode": -2016281107,
+    "UnsignedIntCode": 2278686189,
+    "HexCode": "0x87D1FDED",
+    "Description": "Unsupported setting discovery source"
+  },
+  {
+    "SignedIntCode": -2016281108,
+    "UnsignedIntCode": 2278686188,
+    "HexCode": "0x87D1FDEC",
+    "Description": "Referenced setting not found in CI"
+  },
+  {
+    "SignedIntCode": -2016281109,
+    "UnsignedIntCode": 2278686187,
+    "HexCode": "0x87D1FDEB",
+    "Description": "Data type conversion failed"
+  },
+  {
+    "SignedIntCode": -2016281110,
+    "UnsignedIntCode": 2278686186,
+    "HexCode": "0x87D1FDEA",
+    "Description": "Invalid parameter to CIM setting"
+  },
+  {
+    "SignedIntCode": -2016281111,
+    "UnsignedIntCode": 2278686185,
+    "HexCode": "0x87D1FDE9",
+    "Description": "Not applicable for this device"
+  },
+  {
+    "SignedIntCode": -2016281112,
+    "UnsignedIntCode": 2278686184,
+    "HexCode": "0x87D1FDE8",
+    "Description": "Remediation failed"
+  },
+  {
+    "SignedIntCode": -2016341109,
+    "UnsignedIntCode": 2278626187,
+    "HexCode": "0x87D1138B",
+    "Description": "iOS device has returned an error"
+  },
+  {
+    "SignedIntCode": -2016341110,
+    "UnsignedIntCode": 2278626186,
+    "HexCode": "0x87D1138A",
+    "Description": "iOS device has rejected the command due to incorrect format"
+  },
+  {
+    "SignedIntCode": -2016341111,
+    "UnsignedIntCode": 2278626185,
+    "HexCode": "0x87D11389",
+    "Description": "iOS device has returned an unexpected Idle status"
+  },
+  {
+    "SignedIntCode": -2016341112,
+    "UnsignedIntCode": 2278626184,
+    "HexCode": "0x87D11388",
+    "Description": "iOS device is currently busy"
+  },
+  {
+    "SignedIntCode": -2016344008,
+    "UnsignedIntCode": 2278623288,
+    "HexCode": "0x87D10838",
+    "Description": "(1404): Certificate access denied"
+  },
+  {
+    "SignedIntCode": -2016344009,
+    "UnsignedIntCode": 2278623287,
+    "HexCode": "0x87D10837",
+    "Description": "(1403): Certificate not found"
+  },
+  {
+    "SignedIntCode": -2016344010,
+    "UnsignedIntCode": 2278623286,
+    "HexCode": "0x87D10836",
+    "Description": "DCMO(1402): The Operation failed"
+  },
+  {
+    "SignedIntCode": -2016344011,
+    "UnsignedIntCode": 2278623285,
+    "HexCode": "0x87D10835",
+    "Description": "DCMO(1401): User chose not to accept the operation when prompted"
+  },
+  {
+    "SignedIntCode": -2016344012,
+    "UnsignedIntCode": 2278623284,
+    "HexCode": "0x87D10834",
+    "Description": "DCMO(1400): Client error"
+  },
+  {
+    "SignedIntCode": -2016344108,
+    "UnsignedIntCode": 2278623188,
+    "HexCode": "0x87D107D4",
+    "Description": "DCMO(1204): Device Capability is disabled, and the User is allowed to re-enable it"
+  },
+  {
+    "SignedIntCode": -2016344109,
+    "UnsignedIntCode": 2278623187,
+    "HexCode": "0x87D107D3",
+    "Description": "DCMO(1203): Device Capability is disabled, and the User is not allowed to re-enable it"
+  },
+  {
+    "SignedIntCode": -2016344110,
+    "UnsignedIntCode": 2278623186,
+    "HexCode": "0x87D107D2",
+    "Description": "DCMO(1202): Enable operation is performed successfully, but the Device Capability is currently detached"
+  },
+  {
+    "SignedIntCode": -2016344111,
+    "UnsignedIntCode": 2278623185,
+    "HexCode": "0x87D107D1",
+    "Description": "DCMO(1201): Enable operation is performed successfully, and the Device Capability is currently attached"
+  },
+  {
+    "SignedIntCode": -2016344112,
+    "UnsignedIntCode": 2278623184,
+    "HexCode": "0x87D107D0",
+    "Description": "DCMO(1200): Operation is performed successfully"
+  },
+  {
+    "SignedIntCode": -2016344197,
+    "UnsignedIntCode": 2278623099,
+    "HexCode": "0x87D1077B",
+    "Description": "Operation not implemented on the client"
+  },
+  {
+    "SignedIntCode": -2016344198,
+    "UnsignedIntCode": 2278623098,
+    "HexCode": "0x87D1077A",
+    "Description": "The package is an invalid upgrade"
+  },
+  {
+    "SignedIntCode": -2016344199,
+    "UnsignedIntCode": 2278623097,
+    "HexCode": "0x87D10779",
+    "Description": "The target location of the package is not accessible"
+  },
+  {
+    "SignedIntCode": -2016344200,
+    "UnsignedIntCode": 2278623096,
+    "HexCode": "0x87D10778",
+    "Description": "The installer is busy doing some other operation"
+  },
+  {
+    "SignedIntCode": -2016344201,
+    "UnsignedIntCode": 2278623095,
+    "HexCode": "0x87D10777",
+    "Description": "This indicates that network failure aborted the operation"
+  },
+  {
+    "SignedIntCode": -2016344202,
+    "UnsignedIntCode": 2278623094,
+    "HexCode": "0x87D10776",
+    "Description": "The package has no right to perform the operation"
+  },
+  {
+    "SignedIntCode": -2016344203,
+    "UnsignedIntCode": 2278623093,
+    "HexCode": "0x87D10775",
+    "Description": "Install/Uninstall Unknown error"
+  },
+  {
+    "SignedIntCode": -2016344204,
+    "UnsignedIntCode": 2278623092,
+    "HexCode": "0x87D10774",
+    "Description": "The mandatory file is in use and prevents the operation"
+  },
+  {
+    "SignedIntCode": -2016344205,
+    "UnsignedIntCode": 2278623091,
+    "HexCode": "0x87D10773",
+    "Description": "The package cannot be installed due to missing dependency"
+  },
+  {
+    "SignedIntCode": -2016344206,
+    "UnsignedIntCode": 2278623090,
+    "HexCode": "0x87D10772",
+    "Description": "The package cannot be installed due to a security error"
+  },
+  {
+    "SignedIntCode": -2016344207,
+    "UnsignedIntCode": 2278623089,
+    "HexCode": "0x87D10771",
+    "Description": "Package validation failed."
+  },
+  {
+    "SignedIntCode": -2016344208,
+    "UnsignedIntCode": 2278623088,
+    "HexCode": "0x87D10770",
+    "Description": "Installation of the package is not supported"
+  },
+  {
+    "SignedIntCode": -2016344209,
+    "UnsignedIntCode": 2278623087,
+    "HexCode": "0x87D1076F",
+    "Description": "Insufficient free memory in the drive to perform the operation"
+  },
+  {
+    "SignedIntCode": -2016344210,
+    "UnsignedIntCode": 2278623086,
+    "HexCode": "0x87D1076E",
+    "Description": "File is corrupted"
+  },
+  {
+    "SignedIntCode": -2016344211,
+    "UnsignedIntCode": 2278623085,
+    "HexCode": "0x87D1076D",
+    "Description": "User canceled the operation"
+  },
+  {
+    "SignedIntCode": -2016344212,
+    "UnsignedIntCode": 2278623084,
+    "HexCode": "0x87D1076C",
+    "Description": "The application was successfully installed"
+  },
+  {
+    "SignedIntCode": -2016344512,
+    "UnsignedIntCode": 2278622784,
+    "HexCode": "0x87D10640",
+    "Description": "An invalid OMA download descriptor received"
+  },
+  {
+    "SignedIntCode": -2016344593,
+    "UnsignedIntCode": 2278622703,
+    "HexCode": "0x87D105EF",
+    "Description": "A maximum number of HTTP redirections has been reached."
+  },
+  {
+    "SignedIntCode": -2016344594,
+    "UnsignedIntCode": 2278622702,
+    "HexCode": "0x87D105EE",
+    "Description": "Non-download specific error"
+  },
+  {
+    "SignedIntCode": -2016344595,
+    "UnsignedIntCode": 2278622701,
+    "HexCode": "0x87D105ED",
+    "Description": "Internal error occurred. Most probably a programming error."
+  },
+  {
+    "SignedIntCode": -2016344596,
+    "UnsignedIntCode": 2278622700,
+    "HexCode": "0x87D105EC",
+    "Description": "An error occurred in the transaction"
+  },
+  {
+    "SignedIntCode": -2016344597,
+    "UnsignedIntCode": 2278622699,
+    "HexCode": "0x87D105EB",
+    "Description": "General storage error"
+  },
+  {
+    "SignedIntCode": -2016344598,
+    "UnsignedIntCode": 2278622698,
+    "HexCode": "0x87D105EA",
+    "Description": "Not enough disk space for the content"
+  },
+  {
+    "SignedIntCode": -2016344599,
+    "UnsignedIntCode": 2278622697,
+    "HexCode": "0x87D105E9",
+    "Description": "Moving content file failed"
+  },
+  {
+    "SignedIntCode": -2016344600,
+    "UnsignedIntCode": 2278622696,
+    "HexCode": "0x87D105E8",
+    "Description": "Invalid download drive"
+  },
+  {
+    "SignedIntCode": -2016344601,
+    "UnsignedIntCode": 2278622695,
+    "HexCode": "0x87D105E7",
+    "Description": "File not found an error"
+  },
+  {
+    "SignedIntCode": -2016344602,
+    "UnsignedIntCode": 2278622694,
+    "HexCode": "0x87D105E6",
+    "Description": "File write failed"
+  },
+  {
+    "SignedIntCode": -2016344603,
+    "UnsignedIntCode": 2278622693,
+    "HexCode": "0x87D105E5",
+    "Description": "Media where the download is being persisted removed"
+  },
+  {
+    "SignedIntCode": -2016344604,
+    "UnsignedIntCode": 2278622692,
+    "HexCode": "0x87D105E4",
+    "Description": "Download Manager cannot handle this URL"
+  },
+  {
+    "SignedIntCode": -2016344605,
+    "UnsignedIntCode": 2278622691,
+    "HexCode": "0x87D105E3",
+    "Description": "Error in the destination filename"
+  },
+  {
+    "SignedIntCode": -2016344606,
+    "UnsignedIntCode": 2278622690,
+    "HexCode": "0x87D105E2",
+    "Description": "Destination file cannot be opened/created"
+  },
+  {
+    "SignedIntCode": -2016344607,
+    "UnsignedIntCode": 2278622689,
+    "HexCode": "0x87D105E1",
+    "Description": "Unhandled HTTP error code"
+  },
+  {
+    "SignedIntCode": -2016344608,
+    "UnsignedIntCode": 2278622688,
+    "HexCode": "0x87D105E0",
+    "Description": "404: object not found"
+  },
+  {
+    "SignedIntCode": -2016344609,
+    "UnsignedIntCode": 2278622687,
+    "HexCode": "0x87D105DF",
+    "Description": "412: partial content cannot be downloaded"
+  },
+  {
+    "SignedIntCode": -2016344610,
+    "UnsignedIntCode": 2278622686,
+    "HexCode": "0x87D105DE",
+    "Description": "Paused content is expired"
+  },
+  {
+    "SignedIntCode": -2016344611,
+    "UnsignedIntCode": 2278622685,
+    "HexCode": "0x87D105DD",
+    "Description": "Resuming progressive download failed"
+  },
+  {
+    "SignedIntCode": -2016344711,
+    "UnsignedIntCode": 2278622585,
+    "HexCode": "0x87D10579",
+    "Description": "Connection failed. No network coverage"
+  },
+  {
+    "SignedIntCode": -2016344713,
+    "UnsignedIntCode": 2278622583,
+    "HexCode": "0x87D10577",
+    "Description": "Unknown error related to protocol"
+  },
+  {
+    "SignedIntCode": -2016344810,
+    "UnsignedIntCode": 2278622486,
+    "HexCode": "0x87D10516",
+    "Description": "The requested operation is invalid for this protocol"
+  },
+  {
+    "SignedIntCode": -2016344811,
+    "UnsignedIntCode": 2278622485,
+    "HexCode": "0x87D10515",
+    "Description": "The requested protocol is not known"
+  },
+  {
+    "SignedIntCode": -2016344813,
+    "UnsignedIntCode": 2278622483,
+    "HexCode": "0x87D10513",
+    "Description": "Unknown error related to remote content"
+  },
+  {
+    "SignedIntCode": -2016344907,
+    "UnsignedIntCode": 2278622389,
+    "HexCode": "0x87D104B5",
+    "Description": "Content needed to resent, but this failed"
+  },
+  {
+    "SignedIntCode": -2016344908,
+    "UnsignedIntCode": 2278622388,
+    "HexCode": "0x87D104B4",
+    "Description": "Remote server required authentication but credentials supplied if any were not accepted"
+  },
+  {
+    "SignedIntCode": -2016344909,
+    "UnsignedIntCode": 2278622387,
+    "HexCode": "0x87D104B3",
+    "Description": "Remote content was not found at the server"
+  },
+  {
+    "SignedIntCode": -2016344910,
+    "UnsignedIntCode": 2278622386,
+    "HexCode": "0x87D104B2",
+    "Description": "The operation requested on remote content is not permitted"
+  },
+  {
+    "SignedIntCode": -2016344911,
+    "UnsignedIntCode": 2278622385,
+    "HexCode": "0x87D104B1",
+    "Description": "Access to remote content denied"
+  },
+  {
+    "SignedIntCode": -2016344913,
+    "UnsignedIntCode": 2278622383,
+    "HexCode": "0x87D104AF",
+    "Description": "Unknown proxy related error"
+  },
+  {
+    "SignedIntCode": -2016345007,
+    "UnsignedIntCode": 2278622289,
+    "HexCode": "0x87D10451",
+    "Description": "Proxy authentication required or proxy refused the supplied credentials if any"
+  },
+  {
+    "SignedIntCode": -2016345008,
+    "UnsignedIntCode": 2278622288,
+    "HexCode": "0x87D10450",
+    "Description": "Connection to the proxy timed out"
+  },
+  {
+    "SignedIntCode": -2016345009,
+    "UnsignedIntCode": 2278622287,
+    "HexCode": "0x87D1044F",
+    "Description": "Invalid proxy hostname"
+  },
+  {
+    "SignedIntCode": -2016345010,
+    "UnsignedIntCode": 2278622286,
+    "HexCode": "0x87D1044E",
+    "Description": "The proxy server closed the connection prematurely"
+  },
+  {
+    "SignedIntCode": -2016345011,
+    "UnsignedIntCode": 2278622285,
+    "HexCode": "0x87D1044D",
+    "Description": "Connection to the proxy server was refused"
+  },
+  {
+    "SignedIntCode": -2016345061,
+    "UnsignedIntCode": 2278622235,
+    "HexCode": "0x87D1041B",
+    "Description": "Detection rules not present"
+  },
+  {
+    "SignedIntCode": -2016345063,
+    "UnsignedIntCode": 2278622233,
+    "HexCode": "0x87D10419",
+    "Description": "Unknown network error"
+  },
+  {
+    "SignedIntCode": -2016345103,
+    "UnsignedIntCode": 2278622193,
+    "HexCode": "0x87D103F1",
+    "Description": "Remote server unavailable"
+  },
+  {
+    "SignedIntCode": -2016345104,
+    "UnsignedIntCode": 2278622192,
+    "HexCode": "0x87D103F0",
+    "Description": "Network authentication failed"
+  },
+  {
+    "SignedIntCode": -2016345105,
+    "UnsignedIntCode": 2278622191,
+    "HexCode": "0x87D103EF",
+    "Description": "Temporary network failure"
+  },
+  {
+    "SignedIntCode": -2016345106,
+    "UnsignedIntCode": 2278622190,
+    "HexCode": "0x87D103EE",
+    "Description": "The encrypted channel could not be established"
+  },
+  {
+    "SignedIntCode": -2016345107,
+    "UnsignedIntCode": 2278622189,
+    "HexCode": "0x87D103ED",
+    "Description": "The operation was canceled before it was finished"
+  },
+  {
+    "SignedIntCode": -2016345108,
+    "UnsignedIntCode": 2278622188,
+    "HexCode": "0x87D103EC",
+    "Description": "Connection to the remote server timed out"
+  },
+  {
+    "SignedIntCode": -2016345109,
+    "UnsignedIntCode": 2278622187,
+    "HexCode": "0x87D103EB",
+    "Description": "Invalid hostname"
+  },
+  {
+    "SignedIntCode": -2016345110,
+    "UnsignedIntCode": 2278622186,
+    "HexCode": "0x87D103EA",
+    "Description": "The remote server closed the connection prematurely"
+  },
+  {
+    "SignedIntCode": -2016345111,
+    "UnsignedIntCode": 2278622185,
+    "HexCode": "0x87D103E9",
+    "Description": "The remote server refused the connection"
+  },
+  {
+    "SignedIntCode": -2016345112,
+    "UnsignedIntCode": 2278622184,
+    "HexCode": "0x87D103E8",
+    "Description": "Error Unknown"
+  },
+  {
+    "SignedIntCode": -2016345595,
+    "UnsignedIntCode": 2278621701,
+    "HexCode": "0x87D10205",
+    "Description": "SyncML: The response to an atomic command was too large to fit in a single message."
+  },
+  {
+    "SignedIntCode": -2016345596,
+    "UnsignedIntCode": 2278621700,
+    "HexCode": "0x87D10204",
+    "Description": "SyncML: Command was inside Atomic element, and Atomic failed. This command was not rolled back successfully."
+  },
+  {
+    "SignedIntCode": -2016345598,
+    "UnsignedIntCode": 2278621698,
+    "HexCode": "0x87D10202",
+    "Description": "SyncML: The SyncML command was not completed successfully since the operation was already canceled before processing the command."
+  },
+  {
+    "SignedIntCode": -2016345599,
+    "UnsignedIntCode": 2278621697,
+    "HexCode": "0x87D10201",
+    "Description": "SyncML: The recipient does not support or refuses to support the specified version of the SyncML Synchronization Protocol used in the request SyncML Message."
+  },
+  {
+    "SignedIntCode": -2016345600,
+    "UnsignedIntCode": 2278621696,
+    "HexCode": "0x87D10200",
+    "Description": "SyncML: An application error occurred during the synchronization session."
+  },
+  {
+    "SignedIntCode": -2016345601,
+    "UnsignedIntCode": 2278621695,
+    "HexCode": "0x87D101FF",
+    "Description": "SyncML: A severe error occurred in the server while processing the request."
+  },
+  {
+    "SignedIntCode": -2016345602,
+    "UnsignedIntCode": 2278621694,
+    "HexCode": "0x87D101FE",
+    "Description": "SyncML: An error occurred while processing the request. The error is related to a failure in the recipient data store."
+  },
+  {
+    "SignedIntCode": -2016345603,
+    "UnsignedIntCode": 2278621693,
+    "HexCode": "0x87D101FD",
+    "Description": "SyncML: Reserved for future use."
+  },
+  {
+    "SignedIntCode": -2016345604,
+    "UnsignedIntCode": 2278621692,
+    "HexCode": "0x87D101FC",
+    "Description": "SyncML: An error that necessitates a refresh of the current synchronization state of the client with the server."
+  },
+  {
+    "SignedIntCode": -2016345605,
+    "UnsignedIntCode": 2278621691,
+    "HexCode": "0x87D101FB",
+    "Description": "SyncML: The error caused all SyncML commands within an Atomic element type to fail."
+  },
+  {
+    "SignedIntCode": -2016345606,
+    "UnsignedIntCode": 2278621690,
+    "HexCode": "0x87D101FA",
+    "Description": "SyncML: An application error occurred while processing the request."
+  },
+  {
+    "SignedIntCode": -2016345607,
+    "UnsignedIntCode": 2278621689,
+    "HexCode": "0x87D101F9",
+    "Description": "SyncML: The recipient does not support or refuses to support the specified version of SyncML DTD used in the request SyncML Message."
+  },
+  {
+    "SignedIntCode": -2016345608,
+    "UnsignedIntCode": 2278621688,
+    "HexCode": "0x87D101F8",
+    "Description": "SyncML: The recipient, while acting as a gateway or proxy, did not receive a timely response from the upstream recipient specified by the URI (e.g., HTTP FTP LDAP) or some other auxiliary recipient (e.g., DNS) it needed to access in attempting to complete the request."
+  },
+  {
+    "SignedIntCode": -2016345609,
+    "UnsignedIntCode": 2278621687,
+    "HexCode": "0x87D101F7",
+    "Description": "SyncML: The recipient is currently unable to handle the request due to a temporary overloading or maintenance."
+  },
+  {
+    "SignedIntCode": -2016345610,
+    "UnsignedIntCode": 2278621686,
+    "HexCode": "0x87D101F6",
+    "Description": "SyncML: The recipient, while acting as a gateway or proxy, received an invalid response from the upstream recipient it accessed to fulfill the request."
+  },
+  {
+    "SignedIntCode": -2016345611,
+    "UnsignedIntCode": 2278621685,
+    "HexCode": "0x87D101F5",
+    "Description": "SyncML: The recipient does not support the command required to fulfill the request."
+  },
+  {
+    "SignedIntCode": -2016345612,
+    "UnsignedIntCode": 2278621684,
+    "HexCode": "0x87D101F4",
+    "Description": "SyncML: The recipient encountered an unexpected condition that prevented it from fulfilling the request"
+  },
+  {
+    "SignedIntCode": -2016345684,
+    "UnsignedIntCode": 2278621612,
+    "HexCode": "0x87D101AC",
+    "Description": "SyncML: Move failed"
+  },
+  {
+    "SignedIntCode": -2016345685,
+    "UnsignedIntCode": 2278621611,
+    "HexCode": "0x87D101AB",
+    "Description": "SyncML: Parent cannot be deleted since it contains children."
+  },
+  {
+    "SignedIntCode": -2016345686,
+    "UnsignedIntCode": 2278621610,
+    "HexCode": "0x87D101AA",
+    "Description": "SyncML: Partial item not accepted."
+  },
+  {
+    "SignedIntCode": -2016345687,
+    "UnsignedIntCode": 2278621609,
+    "HexCode": "0x87D101A9",
+    "Description": "SyncML: The requested command failed because the sender does not have adequate access control permissions (ACL) on the recipient."
+  },
+  {
+    "SignedIntCode": -2016345688,
+    "UnsignedIntCode": 2278621608,
+    "HexCode": "0x87D101A8",
+    "Description": "SyncML: The chunked object was received, but the size of the received object did not match the size declared within the first chunk."
+  },
+  {
+    "SignedIntCode": -2016345689,
+    "UnsignedIntCode": 2278621607,
+    "HexCode": "0x87D101A7",
+    "Description": "SyncML: The requested command failed because the �Soft Deleted� item was previously �Hard Deleted� on the server."
+  },
+  {
+    "SignedIntCode": -2016345690,
+    "UnsignedIntCode": 2278621606,
+    "HexCode": "0x87D101A6",
+    "Description": "SyncML: The requested command failed on the server because the CGI scripting in the LocURI was incorrectly formed."
+  },
+  {
+    "SignedIntCode": -2016345691,
+    "UnsignedIntCode": 2278621605,
+    "HexCode": "0x87D101A5",
+    "Description": "SyncML: The requested command failed on the server because the specified search grammar was not known."
+  },
+  {
+    "SignedIntCode": -2016345692,
+    "UnsignedIntCode": 2278621604,
+    "HexCode": "0x87D101A4",
+    "Description": "SyncML: The recipient has no more storage space for the remaining synchronization data."
+  },
+  {
+    "SignedIntCode": -2016345693,
+    "UnsignedIntCode": 2278621603,
+    "HexCode": "0x87D101A3",
+    "Description": "SyncML: The client request created a conflict which was resolved by the server command winning."
+  },
+  {
+    "SignedIntCode": -2016345694,
+    "UnsignedIntCode": 2278621602,
+    "HexCode": "0x87D101A2",
+    "Description": "SyncML: The requested Put or Add command failed because the target already exists."
+  },
+  {
+    "SignedIntCode": -2016345695,
+    "UnsignedIntCode": 2278621601,
+    "HexCode": "0x87D101A1",
+    "Description": "SyncML: The request failed at this time, and the originator should retry the request later."
+  },
+  {
+    "SignedIntCode": -2016345696,
+    "UnsignedIntCode": 2278621600,
+    "HexCode": "0x87D101A0",
+    "Description": "SyncML: The request failed because the specified byte size in the request was too big."
+  },
+  {
+    "SignedIntCode": -2016345697,
+    "UnsignedIntCode": 2278621599,
+    "HexCode": "0x87D1019F",
+    "Description": "SyncML: Unsupported media type or format."
+  },
+  {
+    "SignedIntCode": -2016345698,
+    "UnsignedIntCode": 2278621598,
+    "HexCode": "0x87D1019E",
+    "Description": "SyncML: The requested command failed because the target URI is too long for what the recipient is able or willing to process."
+  },
+  {
+    "SignedIntCode": -2016345699,
+    "UnsignedIntCode": 2278621597,
+    "HexCode": "0x87D1019D",
+    "Description": "SyncML: The recipient refuses to perform the requested command because the requested item is larger than the recipient is able or willing to process."
+  },
+  {
+    "SignedIntCode": -2016345700,
+    "UnsignedIntCode": 2278621596,
+    "HexCode": "0x87D1019C",
+    "Description": "SyncML: The requested command failed on the recipient because it was incomplete or incorrectly formed."
+  },
+  {
+    "SignedIntCode": -2016345701,
+    "UnsignedIntCode": 2278621595,
+    "HexCode": "0x87D1019B",
+    "Description": "SyncML: The requested command must be accompanied by byte size or length information in the Meta element type."
+  },
+  {
+    "SignedIntCode": -2016345702,
+    "UnsignedIntCode": 2278621594,
+    "HexCode": "0x87D1019A",
+    "Description": "SyncML: The requested target is no longer on the recipient, and no forwarding URI is known."
+  },
+  {
+    "SignedIntCode": -2016345703,
+    "UnsignedIntCode": 2278621593,
+    "HexCode": "0x87D10199",
+    "Description": "SyncML: The requested failed because of an update conflict between the client and server versions of the data."
+  },
+  {
+    "SignedIntCode": -2016345704,
+    "UnsignedIntCode": 2278621592,
+    "HexCode": "0x87D10198",
+    "Description": "SyncML: An expected message was not received within the required period of time."
+  },
+  {
+    "SignedIntCode": -2016345705,
+    "UnsignedIntCode": 2278621591,
+    "HexCode": "0x87D10197",
+    "Description": "SyncML: The requested command failed because the originator must provide proper authentication."
+  },
+  {
+    "SignedIntCode": -2016345706,
+    "UnsignedIntCode": 2278621590,
+    "HexCode": "0x87D10196",
+    "Description": "SyncML: The requested command failed because an optional feature in the request was not supported."
+  },
+  {
+    "SignedIntCode": -2016345707,
+    "UnsignedIntCode": 2278621589,
+    "HexCode": "0x87D10195",
+    "Description": "SyncML: The requested command is not allowed on the target."
+  },
+  {
+    "SignedIntCode": -2016345708,
+    "UnsignedIntCode": 2278621588,
+    "HexCode": "0x87D10194",
+    "Description": "SyncML: The requested target was not found."
+  },
+  {
+    "SignedIntCode": -2016345709,
+    "UnsignedIntCode": 2278621587,
+    "HexCode": "0x87D10193",
+    "Description": "SyncML: The requested command failed, but the recipient understood the requested command."
+  },
+  {
+    "SignedIntCode": -2016345710,
+    "UnsignedIntCode": 2278621586,
+    "HexCode": "0x87D10192",
+    "Description": "SyncML: The requested command failed because proper payment is needed."
+  },
+  {
+    "SignedIntCode": -2016345711,
+    "UnsignedIntCode": 2278621585,
+    "HexCode": "0x87D10191",
+    "Description": "SyncML: The requested command failed because the requestor must provide proper authentication."
+  },
+  {
+    "SignedIntCode": -2016345712,
+    "UnsignedIntCode": 2278621584,
+    "HexCode": "0x87D10190",
+    "Description": "SyncML: The requested command could not be performed because of malformed syntax in the command."
+  },
+  {
+    "SignedIntCode": -2016345807,
+    "UnsignedIntCode": 2278621489,
+    "HexCode": "0x87D10131",
+    "Description": "SyncML: The requested target must be accessed through the specified proxy URI."
+  },
+  {
+    "SignedIntCode": -2016345808,
+    "UnsignedIntCode": 2278621488,
+    "HexCode": "0x87D10130",
+    "Description": "SyncML: The requested SyncML command was not executed on the target."
+  },
+  {
+    "SignedIntCode": -2016345809,
+    "UnsignedIntCode": 2278621487,
+    "HexCode": "0x87D1012F",
+    "Description": "SyncML: The requested target can be found at another URI."
+  },
+  {
+    "SignedIntCode": -2016345810,
+    "UnsignedIntCode": 2278621486,
+    "HexCode": "0x87D1012E",
+    "Description": "SyncML: The requested target has temporarily moved to a different URI."
+  },
+  {
+    "SignedIntCode": -2016345811,
+    "UnsignedIntCode": 2278621485,
+    "HexCode": "0x87D1012D",
+    "Description": "SyncML: The requested target has a new URI."
+  },
+  {
+    "SignedIntCode": -2016345812,
+    "UnsignedIntCode": 2278621484,
+    "HexCode": "0x87D1012C",
+    "Description": "SyncML: The requested target is one of several multiple alternatives requested target."
+  },
+  {
+    "SignedIntCode": -2016346011,
+    "UnsignedIntCode": 2278621285,
+    "HexCode": "0x87D10065",
+    "Description": "SyncML: The specified SyncML command is being carried out but has not yet been completed."
+  },
+  {
+    "SignedIntCode": -2016403452,
+    "UnsignedIntCode": 2278563844,
+    "HexCode": "0x87D02004",
+    "Description": "The software distribution policy was not found."
+  },
+  {
+    "SignedIntCode": -2016403454,
+    "UnsignedIntCode": 2278563842,
+    "HexCode": "0x87D02002",
+    "Description": "The software distribution policy for this program was not found."
+  },
+  {
+    "SignedIntCode": -2016406894,
+    "UnsignedIntCode": 2278560402,
+    "HexCode": "0x87D01292",
+    "Description": "The virtual application is in use"
+  },
+  {
+    "SignedIntCode": -2016406895,
+    "UnsignedIntCode": 2278560401,
+    "HexCode": "0x87D01291",
+    "Description": "The virtual environment is not applicable"
+  },
+  {
+    "SignedIntCode": -2016406896,
+    "UnsignedIntCode": 2278560400,
+    "HexCode": "0x87D01290",
+    "Description": "An error occurred when querying the App-V WMI provider"
+  },
+  {
+    "SignedIntCode": -2016406897,
+    "UnsignedIntCode": 2278560399,
+    "HexCode": "0x87D0128F",
+    "Description": "The App-V time command returned failure"
+  },
+  {
+    "SignedIntCode": -2016406898,
+    "UnsignedIntCode": 2278560398,
+    "HexCode": "0x87D0128E",
+    "Description": "I could not uninstall the App-V deployment type because of conflict. The published components in this DT are still published by other DTs. This DT will always be detected as long as other DTs are still installed."
+  },
+  {
+    "SignedIntCode": -2016406900,
+    "UnsignedIntCode": 2278560396,
+    "HexCode": "0x87D0128C",
+    "Description": "I could not find a streaming distribution point for the App-V package"
+  },
+  {
+    "SignedIntCode": -2016406901,
+    "UnsignedIntCode": 2278560395,
+    "HexCode": "0x87D0128B",
+    "Description": "The App-V application is not installed"
+  },
+  {
+    "SignedIntCode": -2016406902,
+    "UnsignedIntCode": 2278560394,
+    "HexCode": "0x87D0128A",
+    "Description": "The App-V client has reported a launch error"
+  },
+  {
+    "SignedIntCode": -2016406906,
+    "UnsignedIntCode": 2278560390,
+    "HexCode": "0x87D01286",
+    "Description": "The App-V package has already installed a higher version by another deployment type, so we cannot install a lower version of the package"
+  },
+  {
+    "SignedIntCode": -2016406907,
+    "UnsignedIntCode": 2278560389,
+    "HexCode": "0x87D01285",
+    "Description": "A dependent App-V package is not installed"
+  },
+  {
+    "SignedIntCode": -2016406911,
+    "UnsignedIntCode": 2278560385,
+    "HexCode": "0x87D01281",
+    "Description": "A supported App-V client is not installed"
+  },
+  {
+    "SignedIntCode": -2016406912,
+    "UnsignedIntCode": 2278560384,
+    "HexCode": "0x87D01280",
+    "Description": "The virtual application is currently in use"
+  },
+  {
+    "SignedIntCode": -2016406959,
+    "UnsignedIntCode": 2278560337,
+    "HexCode": "0x87D01251",
+    "Description": "The application deployment type handler could not be initialized. The deployment type might not be supported on this system."
+  },
+  {
+    "SignedIntCode": -2016406960,
+    "UnsignedIntCode": 2278560336,
+    "HexCode": "0x87D01250",
+    "Description": "The computer restart cannot be initiated because a software installation job is in progress."
+  },
+  {
+    "SignedIntCode": -2016407024,
+    "UnsignedIntCode": 2278560272,
+    "HexCode": "0x87D01210",
+    "Description": "Failed to get content locations."
+  },
+  {
+    "SignedIntCode": -2016407036,
+    "UnsignedIntCode": 2278560260,
+    "HexCode": "0x87D01204",
+    "Description": "No distribution points were found for the requested content."
+  },
+  {
+    "SignedIntCode": -2016407037,
+    "UnsignedIntCode": 2278560259,
+    "HexCode": "0x87D01203",
+    "Description": "The client cache is currently in use by a running program or by a download in progress."
+  },
+  {
+    "SignedIntCode": -2016407038,
+    "UnsignedIntCode": 2278560258,
+    "HexCode": "0x87D01202",
+    "Description": "The content download cannot be performed because the total size of the client cache is smaller than the size of the requested content."
+  },
+  {
+    "SignedIntCode": -2016407039,
+    "UnsignedIntCode": 2278560257,
+    "HexCode": "0x87D01201",
+    "Description": "The content download cannot be performed because there is not enough available space in the cache or the disk is full."
+  },
+  {
+    "SignedIntCode": -2016407040,
+    "UnsignedIntCode": 2278560256,
+    "HexCode": "0x87D01200",
+    "Description": "No content request was found with the given handle."
+  },
+  {
+    "SignedIntCode": -2016407286,
+    "UnsignedIntCode": 2278560010,
+    "HexCode": "0x87D0110A",
+    "Description": "A fatal error occurred while preparing to execute the program, for example, when creating the program execution environment making a network connection impersonating the user determining the file association information or when attempting to launch the program. This program execution will not be retried."
+  },
+  {
+    "SignedIntCode": -2016407287,
+    "UnsignedIntCode": 2278560009,
+    "HexCode": "0x87D01109",
+    "Description": "Failed to verify that the given file is a valid installation package."
+  },
+  {
+    "SignedIntCode": -2016407288,
+    "UnsignedIntCode": 2278560008,
+    "HexCode": "0x87D01108",
+    "Description": "Failed to access all the provided program locations. This program will not retry."
+  },
+  {
+    "SignedIntCode": -2016407289,
+    "UnsignedIntCode": 2278560007,
+    "HexCode": "0x87D01107",
+    "Description": "Failed to access all the provided program locations. This program may retry if the maximum retry count has not been reached."
+  },
+  {
+    "SignedIntCode": -2016407290,
+    "UnsignedIntCode": 2278560006,
+    "HexCode": "0x87D01106",
+    "Description": "Failed to verify the executable file is valid or to construct the associated command line."
+  },
+  {
+    "SignedIntCode": -2016407291,
+    "UnsignedIntCode": 2278560005,
+    "HexCode": "0x87D01105",
+    "Description": "An error was encountered while getting the process information for the launched program, and the program execution will not be monitored."
+  },
+  {
+    "SignedIntCode": -2016407292,
+    "UnsignedIntCode": 2278560004,
+    "HexCode": "0x87D01104",
+    "Description": "The command line for this program is invalid."
+  },
+  {
+    "SignedIntCode": -2016407293,
+    "UnsignedIntCode": 2278560003,
+    "HexCode": "0x87D01103",
+    "Description": "A nonfatal error occurred while preparing to execute the program, for example, when creating the program execution environment making a network connection impersonating the user determining the file association information or when attempting to launch the program. This program execution will be retried if the retry count has not been exceeded."
+  },
+  {
+    "SignedIntCode": -2016407294,
+    "UnsignedIntCode": 2278560002,
+    "HexCode": "0x87D01102",
+    "Description": "An error occurred while creating the execution context."
+  },
+  {
+    "SignedIntCode": -2016407295,
+    "UnsignedIntCode": 2278560001,
+    "HexCode": "0x87D01101",
+    "Description": "A fatal error has been encountered while attempting to run the program. The program execution will not be retried."
+  },
+  {
+    "SignedIntCode": -2016407296,
+    "UnsignedIntCode": 2278560000,
+    "HexCode": "0x87D01100",
+    "Description": "A non-fatal error has been encountered while attempting to run the program. The program execution will be retried if the retry count has not been exceeded."
+  },
+  {
+    "SignedIntCode": -2016407528,
+    "UnsignedIntCode": 2278559768,
+    "HexCode": "0x87D01018",
+    "Description": "The program cannot run at this time because the client is on the internet."
+  },
+  {
+    "SignedIntCode": -2016407529,
+    "UnsignedIntCode": 2278559767,
+    "HexCode": "0x87D01017",
+    "Description": "The content hash string or hash version is empty or incorrect in the software distribution policy, or the hash verification failed."
+  },
+  {
+    "SignedIntCode": -2016407531,
+    "UnsignedIntCode": 2278559765,
+    "HexCode": "0x87D01015",
+    "Description": "Failed to notify the caller that software distribution is paused because the paused state or paused cookie does not match."
+  },
+  {
+    "SignedIntCode": -2016407532,
+    "UnsignedIntCode": 2278559764,
+    "HexCode": "0x87D01014",
+    "Description": "The program cannot run because it is targeted to a user that requires user input or is set to run in the user context."
+  },
+  {
+    "SignedIntCode": -2016407533,
+    "UnsignedIntCode": 2278559763,
+    "HexCode": "0x87D01013",
+    "Description": "This program cannot run because it depends on another program that has not run successfully before."
+  },
+  {
+    "SignedIntCode": -2016407534,
+    "UnsignedIntCode": 2278559762,
+    "HexCode": "0x87D01012",
+    "Description": "There is no program currently running."
+  },
+  {
+    "SignedIntCode": -2016407535,
+    "UnsignedIntCode": 2278559761,
+    "HexCode": "0x87D01011",
+    "Description": "The execution request was not found."
+  },
+  {
+    "SignedIntCode": -2016407536,
+    "UnsignedIntCode": 2278559760,
+    "HexCode": "0x87D01010",
+    "Description": "A system restart is in progress, or there is a pending execution for this program that requires a computer restart."
+  },
+  {
+    "SignedIntCode": -2016407543,
+    "UnsignedIntCode": 2278559753,
+    "HexCode": "0x87D01009",
+    "Description": "Failed to get data from WMI."
+  },
+  {
+    "SignedIntCode": -2016407544,
+    "UnsignedIntCode": 2278559752,
+    "HexCode": "0x87D01008",
+    "Description": "Failed to indicate the client cache is currently in use."
+  },
+  {
+    "SignedIntCode": -2016407546,
+    "UnsignedIntCode": 2278559750,
+    "HexCode": "0x87D01006",
+    "Description": "The requested program is not currently pending."
+  },
+  {
+    "SignedIntCode": -2016407547,
+    "UnsignedIntCode": 2278559749,
+    "HexCode": "0x87D01005",
+    "Description": "The policy for this program does not exist or is invalid."
+  },
+  {
+    "SignedIntCode": -2016407548,
+    "UnsignedIntCode": 2278559748,
+    "HexCode": "0x87D01004",
+    "Description": "The program is disabled."
+  },
+  {
+    "SignedIntCode": -2016407550,
+    "UnsignedIntCode": 2278559746,
+    "HexCode": "0x87D01002",
+    "Description": "Another execution for this program is already pending."
+  },
+  {
+    "SignedIntCode": -2016407551,
+    "UnsignedIntCode": 2278559745,
+    "HexCode": "0x87D01001",
+    "Description": "Another software execution is in progress, or a restart is pending."
+  },
+  {
+    "SignedIntCode": -2016409588,
+    "UnsignedIntCode": 2278557708,
+    "HexCode": "0x87D0080C",
+    "Description": "No WDS session is available."
+  },
+  {
+    "SignedIntCode": -2016409589,
+    "UnsignedIntCode": 2278557707,
+    "HexCode": "0x87D0080B",
+    "Description": "MCS Encountered WDS error."
+  },
+  {
+    "SignedIntCode": -2016409590,
+    "UnsignedIntCode": 2278557706,
+    "HexCode": "0x87D0080A",
+    "Description": "Invalid MCS configuration."
+  },
+  {
+    "SignedIntCode": -2016409591,
+    "UnsignedIntCode": 2278557705,
+    "HexCode": "0x87D00809",
+    "Description": "The package is not multicast enabled."
+  },
+  {
+    "SignedIntCode": -2016409592,
+    "UnsignedIntCode": 2278557704,
+    "HexCode": "0x87D00808",
+    "Description": "The package is not multicast shared."
+  },
+  {
+    "SignedIntCode": -2016409593,
+    "UnsignedIntCode": 2278557703,
+    "HexCode": "0x87D00807",
+    "Description": "The invalid path is specified for Package."
+  },
+  {
+    "SignedIntCode": -2016409594,
+    "UnsignedIntCode": 2278557702,
+    "HexCode": "0x87D00806",
+    "Description": "MCS Server is Busy with many clients."
+  },
+  {
+    "SignedIntCode": -2016409595,
+    "UnsignedIntCode": 2278557701,
+    "HexCode": "0x87D00805",
+    "Description": "MCS Encryption is empty"
+  },
+  {
+    "SignedIntCode": -2016409596,
+    "UnsignedIntCode": 2278557700,
+    "HexCode": "0x87D00804",
+    "Description": "Error performing MCS health check"
+  },
+  {
+    "SignedIntCode": -2016409597,
+    "UnsignedIntCode": 2278557699,
+    "HexCode": "0x87D00803",
+    "Description": "Error opening MCS session"
+  },
+  {
+    "SignedIntCode": -2016409598,
+    "UnsignedIntCode": 2278557698,
+    "HexCode": "0x87D00802",
+    "Description": "MCS protocol version mismatch"
+  },
+  {
+    "SignedIntCode": -2016409599,
+    "UnsignedIntCode": 2278557697,
+    "HexCode": "0x87D00801",
+    "Description": "General MCS Failure"
+  },
+  {
+    "SignedIntCode": -2016409600,
+    "UnsignedIntCode": 2278557696,
+    "HexCode": "0x87D00800",
+    "Description": "The content transfer manager job is in an unexpected state"
+  },
+  {
+    "SignedIntCode": -2016409835,
+    "UnsignedIntCode": 2278557461,
+    "HexCode": "0x87D00715",
+    "Description": "No updates specified in the requested job"
+  },
+  {
+    "SignedIntCode": -2016409836,
+    "UnsignedIntCode": 2278557460,
+    "HexCode": "0x87D00714",
+    "Description": "User-based install not allowed as system restart is pending"
+  },
+  {
+    "SignedIntCode": -2016409837,
+    "UnsignedIntCode": 2278557459,
+    "HexCode": "0x87D00713",
+    "Description": "Software updates detection results have not been received yet"
+  },
+  {
+    "SignedIntCode": -2016409838,
+    "UnsignedIntCode": 2278557458,
+    "HexCode": "0x87D00712",
+    "Description": "A system restart is required to complete the installation"
+  },
+  {
+    "SignedIntCode": -2016409839,
+    "UnsignedIntCode": 2278557457,
+    "HexCode": "0x87D00711",
+    "Description": "Software updates deployment not active yet, i.e., start time is in future"
+  },
+  {
+    "SignedIntCode": -2016409840,
+    "UnsignedIntCode": 2278557456,
+    "HexCode": "0x87D00710",
+    "Description": "Failed to compare process creation time"
+  },
+  {
+    "SignedIntCode": -2016409841,
+    "UnsignedIntCode": 2278557455,
+    "HexCode": "0x87D0070F",
+    "Description": "Invalid updates installer path"
+  },
+  {
+    "SignedIntCode": -2016409842,
+    "UnsignedIntCode": 2278557454,
+    "HexCode": "0x87D0070E",
+    "Description": "The empty command line specified"
+  },
+  {
+    "SignedIntCode": -2016409843,
+    "UnsignedIntCode": 2278557453,
+    "HexCode": "0x87D0070D",
+    "Description": "The software update failed when attempted"
+  },
+  {
+    "SignedIntCode": -2016409844,
+    "UnsignedIntCode": 2278557452,
+    "HexCode": "0x87D0070C",
+    "Description": "Software update execution timeout"
+  },
+  {
+    "SignedIntCode": -2016409845,
+    "UnsignedIntCode": 2278557451,
+    "HexCode": "0x87D0070B",
+    "Description": "Failed to create a process"
+  },
+  {
+    "SignedIntCode": -2016409846,
+    "UnsignedIntCode": 2278557450,
+    "HexCode": "0x87D0070A",
+    "Description": "Invalid command line"
+  },
+  {
+    "SignedIntCode": -2016409847,
+    "UnsignedIntCode": 2278557449,
+    "HexCode": "0x87D00709",
+    "Description": "Failed to resume the monitoring of the process"
+  },
+  {
+    "SignedIntCode": -2016409848,
+    "UnsignedIntCode": 2278557448,
+    "HexCode": "0x87D00708",
+    "Description": "Software Updates Install not required"
+  },
+  {
+    "SignedIntCode": -2016409849,
+    "UnsignedIntCode": 2278557447,
+    "HexCode": "0x87D00707",
+    "Description": "Job Id mismatch"
+  },
+  {
+    "SignedIntCode": -2016409850,
+    "UnsignedIntCode": 2278557446,
+    "HexCode": "0x87D00706",
+    "Description": "No active job exists"
+  },
+  {
+    "SignedIntCode": -2016409851,
+    "UnsignedIntCode": 2278557445,
+    "HexCode": "0x87D00705",
+    "Description": "Pause state required"
+  },
+  {
+    "SignedIntCode": -2016409852,
+    "UnsignedIntCode": 2278557444,
+    "HexCode": "0x87D00704",
+    "Description": "A hard reboot is pending"
+  },
+  {
+    "SignedIntCode": -2016409853,
+    "UnsignedIntCode": 2278557443,
+    "HexCode": "0x87D00703",
+    "Description": "Another software updates install job is in progress. Only one job is allowed at a time."
+  },
+  {
+    "SignedIntCode": -2016409854,
+    "UnsignedIntCode": 2278557442,
+    "HexCode": "0x87D00702",
+    "Description": "Assignment policy not found"
+  },
+  {
+    "SignedIntCode": -2016409855,
+    "UnsignedIntCode": 2278557441,
+    "HexCode": "0x87D00701",
+    "Description": "Software updates download not allowed at this time"
+  },
+  {
+    "SignedIntCode": -2016409856,
+    "UnsignedIntCode": 2278557440,
+    "HexCode": "0x87D00700",
+    "Description": "Software updates installation not allowed at this time"
+  },
+  {
+    "SignedIntCode": -2016409959,
+    "UnsignedIntCode": 2278557337,
+    "HexCode": "0x87D00699",
+    "Description": "The scan is already in progress"
+  },
+  {
+    "SignedIntCode": -2016409960,
+    "UnsignedIntCode": 2278557336,
+    "HexCode": "0x87D00698",
+    "Description": "Software update being attempted is not actionable"
+  },
+  {
+    "SignedIntCode": -2016409961,
+    "UnsignedIntCode": 2278557335,
+    "HexCode": "0x87D00697",
+    "Description": "The software update is already installed but just requires a reboot to complete the installation"
+  },
+  {
+    "SignedIntCode": -2016409962,
+    "UnsignedIntCode": 2278557334,
+    "HexCode": "0x87D00696",
+    "Description": "The software update is already installed"
+  },
+  {
+    "SignedIntCode": -2016409963,
+    "UnsignedIntCode": 2278557333,
+    "HexCode": "0x87D00695",
+    "Description": "Incomplete scan results"
+  },
+  {
+    "SignedIntCode": -2016409964,
+    "UnsignedIntCode": 2278557332,
+    "HexCode": "0x87D00694",
+    "Description": "WSUS source already exists"
+  },
+  {
+    "SignedIntCode": -2016409965,
+    "UnsignedIntCode": 2278557331,
+    "HexCode": "0x87D00693",
+    "Description": "Windows Updates Agent version too low"
+  },
+  {
+    "SignedIntCode": -2016409966,
+    "UnsignedIntCode": 2278557330,
+    "HexCode": "0x87D00692",
+    "Description": "Group policy conflict"
+  },
+  {
+    "SignedIntCode": -2016409967,
+    "UnsignedIntCode": 2278557329,
+    "HexCode": "0x87D00691",
+    "Description": "Software update source not found"
+  },
+  {
+    "SignedIntCode": -2016409968,
+    "UnsignedIntCode": 2278557328,
+    "HexCode": "0x87D00690",
+    "Description": "The software update is not applicable"
+  },
+  {
+    "SignedIntCode": -2016409999,
+    "UnsignedIntCode": 2278557297,
+    "HexCode": "0x87D00671",
+    "Description": "Waiting for a third-party orchestration engine to initiate the installation"
+  },
+  {
+    "SignedIntCode": -2016410006,
+    "UnsignedIntCode": 2278557290,
+    "HexCode": "0x87D0066A",
+    "Description": "None of the child software updates of a bundle are applicable"
+  },
+  {
+    "SignedIntCode": -2016410007,
+    "UnsignedIntCode": 2278557289,
+    "HexCode": "0x87D00669",
+    "Description": "Not able to get software updates content locations at this time"
+  },
+  {
+    "SignedIntCode": -2016410008,
+    "UnsignedIntCode": 2278557288,
+    "HexCode": "0x87D00668",
+    "Description": "Software update still detected as actionable after apply"
+  },
+  {
+    "SignedIntCode": -2016410009,
+    "UnsignedIntCode": 2278557287,
+    "HexCode": "0x87D00667",
+    "Description": "No current or future service window exists to install software updates"
+  },
+  {
+    "SignedIntCode": -2016410010,
+    "UnsignedIntCode": 2278557286,
+    "HexCode": "0x87D00666",
+    "Description": "Software updates cannot be installed outside the service window"
+  },
+  {
+    "SignedIntCode": -2016410011,
+    "UnsignedIntCode": 2278557285,
+    "HexCode": "0x87D00665",
+    "Description": "No updates to process in the job"
+  },
+  {
+    "SignedIntCode": -2016410012,
+    "UnsignedIntCode": 2278557284,
+    "HexCode": "0x87D00664",
+    "Description": "Updates handler job was canceled"
+  },
+  {
+    "SignedIntCode": -2016410013,
+    "UnsignedIntCode": 2278557283,
+    "HexCode": "0x87D00663",
+    "Description": "Failed to report installation status of software updates"
+  },
+  {
+    "SignedIntCode": -2016410014,
+    "UnsignedIntCode": 2278557282,
+    "HexCode": "0x87D00662",
+    "Description": "Failed to trigger the installation of software updates"
+  },
+  {
+    "SignedIntCode": -2016410015,
+    "UnsignedIntCode": 2278557281,
+    "HexCode": "0x87D00661",
+    "Description": "Error while detecting updates status after installation success"
+  },
+  {
+    "SignedIntCode": -2016410016,
+    "UnsignedIntCode": 2278557280,
+    "HexCode": "0x87D00660",
+    "Description": "Unable to monitor a software update�s execution"
+  },
+  {
+    "SignedIntCode": -2016410023,
+    "UnsignedIntCode": 2278557273,
+    "HexCode": "0x87D00659",
+    "Description": "An error occurred reading policy for software update"
+  },
+  {
+    "SignedIntCode": -2016410024,
+    "UnsignedIntCode": 2278557272,
+    "HexCode": "0x87D00658",
+    "Description": "Software updates processing was canceled"
+  },
+  {
+    "SignedIntCode": -2016410025,
+    "UnsignedIntCode": 2278557271,
+    "HexCode": "0x87D00657",
+    "Description": "Error while detecting software updates status after scan success"
+  },
+  {
+    "SignedIntCode": -2016410026,
+    "UnsignedIntCode": 2278557270,
+    "HexCode": "0x87D00656",
+    "Description": "Updates handler was unable to continue due to some generic internal error"
+  },
+  {
+    "SignedIntCode": -2016410027,
+    "UnsignedIntCode": 2278557269,
+    "HexCode": "0x87D00655",
+    "Description": "Failed to install one or more software updates"
+  },
+  {
+    "SignedIntCode": -2016410028,
+    "UnsignedIntCode": 2278557268,
+    "HexCode": "0x87D00654",
+    "Description": "Software update install failure occurred"
+  },
+  {
+    "SignedIntCode": -2016410029,
+    "UnsignedIntCode": 2278557267,
+    "HexCode": "0x87D00653",
+    "Description": "Software update download failure occurred"
+  },
+  {
+    "SignedIntCode": -2016410030,
+    "UnsignedIntCode": 2278557266,
+    "HexCode": "0x87D00652",
+    "Description": "Software update policy was not found"
+  },
+  {
+    "SignedIntCode": -2016410031,
+    "UnsignedIntCode": 2278557265,
+    "HexCode": "0x87D00651",
+    "Description": "Post-install scan failed"
+  },
+  {
+    "SignedIntCode": -2016410032,
+    "UnsignedIntCode": 2278557264,
+    "HexCode": "0x87D00650",
+    "Description": "Pre-install scan failed"
+  },
+  {
+    "SignedIntCode": -2016410060,
+    "UnsignedIntCode": 2278557236,
+    "HexCode": "0x87D00634",
+    "Description": "Legacy scanner not supported"
+  },
+  {
+    "SignedIntCode": -2016410061,
+    "UnsignedIntCode": 2278557235,
+    "HexCode": "0x87D00633",
+    "Description": "The offline scan is pending"
+  },
+  {
+    "SignedIntCode": -2016410062,
+    "UnsignedIntCode": 2278557234,
+    "HexCode": "0x87D00632",
+    "Description": "The online scan is pending"
+  },
+  {
+    "SignedIntCode": -2016410063,
+    "UnsignedIntCode": 2278557233,
+    "HexCode": "0x87D00631",
+    "Description": "Scan retry is pending"
+  },
+  {
+    "SignedIntCode": -2016410064,
+    "UnsignedIntCode": 2278557232,
+    "HexCode": "0x87D00630",
+    "Description": "Maximum retries exhausted"
+  },
+  {
+    "SignedIntCode": -2016410071,
+    "UnsignedIntCode": 2278557225,
+    "HexCode": "0x87D00629",
+    "Description": "Rescan of the updates is pending"
+  },
+  {
+    "SignedIntCode": -2016410072,
+    "UnsignedIntCode": 2278557224,
+    "HexCode": "0x87D00628",
+    "Description": "Invalid content location"
+  },
+  {
+    "SignedIntCode": -2016410073,
+    "UnsignedIntCode": 2278557223,
+    "HexCode": "0x87D00627",
+    "Description": "Process instance not found"
+  },
+  {
+    "SignedIntCode": -2016410074,
+    "UnsignedIntCode": 2278557222,
+    "HexCode": "0x87D00626",
+    "Description": "Invalid process instance information"
+  },
+  {
+    "SignedIntCode": -2016410104,
+    "UnsignedIntCode": 2278557192,
+    "HexCode": "0x87D00608",
+    "Description": "Invalid instance type"
+  },
+  {
+    "SignedIntCode": -2016410105,
+    "UnsignedIntCode": 2278557191,
+    "HexCode": "0x87D00607",
+    "Description": "Content not found"
+  },
+  {
+    "SignedIntCode": -2016410106,
+    "UnsignedIntCode": 2278557190,
+    "HexCode": "0x87D00606",
+    "Description": "Offline scan tool history not found"
+  },
+  {
+    "SignedIntCode": -2016410107,
+    "UnsignedIntCode": 2278557189,
+    "HexCode": "0x87D00605",
+    "Description": "The scan tool has been removed"
+  },
+  {
+    "SignedIntCode": -2016410108,
+    "UnsignedIntCode": 2278557188,
+    "HexCode": "0x87D00604",
+    "Description": "The ScanTool not found in the job queue"
+  },
+  {
+    "SignedIntCode": -2016410109,
+    "UnsignedIntCode": 2278557187,
+    "HexCode": "0x87D00603",
+    "Description": "The ScanTool Policy has been removed, so cannot complete scan operation"
+  },
+  {
+    "SignedIntCode": -2016410110,
+    "UnsignedIntCode": 2278557186,
+    "HexCode": "0x87D00602",
+    "Description": "Content location request timeout occurred"
+  },
+  {
+    "SignedIntCode": -2016410111,
+    "UnsignedIntCode": 2278557185,
+    "HexCode": "0x87D00601",
+    "Description": "Scanning for updates timed out"
+  },
+  {
+    "SignedIntCode": -2016410112,
+    "UnsignedIntCode": 2278557184,
+    "HexCode": "0x87D00600",
+    "Description": "Scan Tool Policy not found"
+  },
+  {
+    "SignedIntCode": -2016410558,
+    "UnsignedIntCode": 2278556738,
+    "HexCode": "0x87D00442",
+    "Description": "An enforcement action (install/uninstall) was attempted for a simulated deployment."
+  },
+  {
+    "SignedIntCode": -2016410559,
+    "UnsignedIntCode": 2278556737,
+    "HexCode": "0x87D00441",
+    "Description": "The deployment metadata is not available on the client."
+  },
+  {
+    "SignedIntCode": -2016410560,
+    "UnsignedIntCode": 2278556736,
+    "HexCode": "0x87D00440",
+    "Description": "Expected policy documents are incomplete or missing."
+  },
+  {
+    "SignedIntCode": -2016410592,
+    "UnsignedIntCode": 2278556704,
+    "HexCode": "0x87D00420",
+    "Description": "The detection rules refer to an unsupported WMI namespace."
+  },
+  {
+    "SignedIntCode": -2016410621,
+    "UnsignedIntCode": 2278556675,
+    "HexCode": "0x87D00403",
+    "Description": "The detection rules contain an unsupported datatype."
+  },
+  {
+    "SignedIntCode": -2016410622,
+    "UnsignedIntCode": 2278556674,
+    "HexCode": "0x87D00402",
+    "Description": "The detection rules contain an invalid operator."
+  },
+  {
+    "SignedIntCode": -2016410623,
+    "UnsignedIntCode": 2278556673,
+    "HexCode": "0x87D00401",
+    "Description": "An incorrect XML expression was found when evaluating the detection rules."
+  },
+  {
+    "SignedIntCode": -2016410624,
+    "UnsignedIntCode": 2278556672,
+    "HexCode": "0x87D00400",
+    "Description": "An unexpected error occurred when evaluating the detection rules."
+  },
+  {
+    "SignedIntCode": -2016410832,
+    "UnsignedIntCode": 2278556464,
+    "HexCode": "0x87D00330",
+    "Description": "This application deployment type does not support being enforced with a required deployment"
+  },
+  {
+    "SignedIntCode": -2016410838,
+    "UnsignedIntCode": 2278556458,
+    "HexCode": "0x87D0032A",
+    "Description": "The uninstall command line is invalid"
+  },
+  {
+    "SignedIntCode": -2016410839,
+    "UnsignedIntCode": 2278556457,
+    "HexCode": "0x87D00329",
+    "Description": "Application requirement evaluation or detection failed"
+  },
+  {
+    "SignedIntCode": -2016410840,
+    "UnsignedIntCode": 2278556456,
+    "HexCode": "0x87D00328",
+    "Description": "Configuration item digest not found"
+  },
+  {
+    "SignedIntCode": -2016410841,
+    "UnsignedIntCode": 2278556455,
+    "HexCode": "0x87D00327",
+    "Description": "The script is not signed"
+  },
+  {
+    "SignedIntCode": -2016410842,
+    "UnsignedIntCode": 2278556454,
+    "HexCode": "0x87D00326",
+    "Description": "The application deployment metadata was not found in WMI"
+  },
+  {
+    "SignedIntCode": -2016410843,
+    "UnsignedIntCode": 2278556453,
+    "HexCode": "0x87D00325",
+    "Description": "The application was still detected after uninstalling was completed."
+  },
+  {
+    "SignedIntCode": -2016410844,
+    "UnsignedIntCode": 2278556452,
+    "HexCode": "0x87D00324",
+    "Description": "The application was not detected after the installation was completed."
+  },
+  {
+    "SignedIntCode": -2016410845,
+    "UnsignedIntCode": 2278556451,
+    "HexCode": "0x87D00323",
+    "Description": "No user is logged on."
+  },
+  {
+    "SignedIntCode": -2016410846,
+    "UnsignedIntCode": 2278556450,
+    "HexCode": "0x87D00322",
+    "Description": "Rule conflict."
+  },
+  {
+    "SignedIntCode": -2016410847,
+    "UnsignedIntCode": 2278556449,
+    "HexCode": "0x87D00321",
+    "Description": "The script execution has timed out."
+  },
+  {
+    "SignedIntCode": -2016410848,
+    "UnsignedIntCode": 2278556448,
+    "HexCode": "0x87D00320",
+    "Description": "The script host has not been installed yet."
+  },
+  {
+    "SignedIntCode": -2016410849,
+    "UnsignedIntCode": 2278556447,
+    "HexCode": "0x87D0031F",
+    "Description": "Script for discovery returned invalid data."
+  },
+  {
+    "SignedIntCode": -2016410850,
+    "UnsignedIntCode": 2278556446,
+    "HexCode": "0x87D0031E",
+    "Description": "Unsupported configuration. The application is configured to Install for User but has been targeted to a mechanical device instead of the user."
+  },
+  {
+    "SignedIntCode": -2016410851,
+    "UnsignedIntCode": 2278556445,
+    "HexCode": "0x87D0031D",
+    "Description": "Unsupported configuration. The application is targeted to a user but is configured to install when no user is logged in."
+  },
+  {
+    "SignedIntCode": -2016410858,
+    "UnsignedIntCode": 2278556438,
+    "HexCode": "0x87D00316",
+    "Description": "CI Agent job was canceled."
+  },
+  {
+    "SignedIntCode": -2016410859,
+    "UnsignedIntCode": 2278556437,
+    "HexCode": "0x87D00315",
+    "Description": "The CI version info data is not available."
+  },
+  {
+    "SignedIntCode": -2016410860,
+    "UnsignedIntCode": 2278556436,
+    "HexCode": "0x87D00314",
+    "Description": "CI Version Info timed out."
+  },
+  {
+    "SignedIntCode": -2016410983,
+    "UnsignedIntCode": 2278556313,
+    "HexCode": "0x87D00299",
+    "Description": "The client does not recognize this type of signature"
+  },
+  {
+    "SignedIntCode": -2016410984,
+    "UnsignedIntCode": 2278556312,
+    "HexCode": "0x87D00298",
+    "Description": "The client�s database record could not be validated"
+  },
+  {
+    "SignedIntCode": -2016410985,
+    "UnsignedIntCode": 2278556311,
+    "HexCode": "0x87D00297",
+    "Description": "Invalid key"
+  },
+  {
+    "SignedIntCode": -2016410986,
+    "UnsignedIntCode": 2278556310,
+    "HexCode": "0x87D00296",
+    "Description": "The client failed to process one or more CI documents"
+  },
+  {
+    "SignedIntCode": -2016410987,
+    "UnsignedIntCode": 2278556309,
+    "HexCode": "0x87D00295",
+    "Description": "Registration certificate is either missing or invalid"
+  },
+  {
+    "SignedIntCode": -2016410988,
+    "UnsignedIntCode": 2278556308,
+    "HexCode": "0x87D00294",
+    "Description": "Unable to verify Policy"
+  },
+  {
+    "SignedIntCode": -2016410989,
+    "UnsignedIntCode": 2278556307,
+    "HexCode": "0x87D00293",
+    "Description": "Client unable to Refresh Site server signing certificate"
+  },
+  {
+    "SignedIntCode": -2016410990,
+    "UnsignedIntCode": 2278556306,
+    "HexCode": "0x87D00292",
+    "Description": "Client unable to compute message signature for InBand Auth"
+  },
+  {
+    "SignedIntCode": -2016410991,
+    "UnsignedIntCode": 2278556305,
+    "HexCode": "0x87D00291",
+    "Description": "No task sequence policies assigned"
+  },
+  {
+    "SignedIntCode": -2016410992,
+    "UnsignedIntCode": 2278556304,
+    "HexCode": "0x87D00290",
+    "Description": "The job contains no items"
+  },
+  {
+    "SignedIntCode": -2016410999,
+    "UnsignedIntCode": 2278556297,
+    "HexCode": "0x87D00289",
+    "Description": "Failed to decompress CI documents"
+  },
+  {
+    "SignedIntCode": -2016411000,
+    "UnsignedIntCode": 2278556296,
+    "HexCode": "0x87D00288",
+    "Description": "Failed to decompress configuration item"
+  },
+  {
+    "SignedIntCode": -2016411001,
+    "UnsignedIntCode": 2278556295,
+    "HexCode": "0x87D00287",
+    "Description": "The signing certificate is missing"
+  },
+  {
+    "SignedIntCode": -2016411002,
+    "UnsignedIntCode": 2278556294,
+    "HexCode": "0x87D00286",
+    "Description": "Invalid SMS authority"
+  },
+  {
+    "SignedIntCode": -2016411003,
+    "UnsignedIntCode": 2278556293,
+    "HexCode": "0x87D00285",
+    "Description": "Search criteria verb is either missing or invalid"
+  },
+  {
+    "SignedIntCode": -2016411004,
+    "UnsignedIntCode": 2278556292,
+    "HexCode": "0x87D00284",
+    "Description": "Missing subject name"
+  },
+  {
+    "SignedIntCode": -2016411005,
+    "UnsignedIntCode": 2278556291,
+    "HexCode": "0x87D00283",
+    "Description": "Missing private key"
+  },
+  {
+    "SignedIntCode": -2016411006,
+    "UnsignedIntCode": 2278556290,
+    "HexCode": "0x87D00282",
+    "Description": "More than one certificate was found, but �select first cert� was not set"
+  },
+  {
+    "SignedIntCode": -2016411007,
+    "UnsignedIntCode": 2278556289,
+    "HexCode": "0x87D00281",
+    "Description": "No certificate matching criteria specified"
+  },
+  {
+    "SignedIntCode": -2016411008,
+    "UnsignedIntCode": 2278556288,
+    "HexCode": "0x87D00280",
+    "Description": "Empty certificate store"
+  },
+  {
+    "SignedIntCode": -2016411009,
+    "UnsignedIntCode": 2278556287,
+    "HexCode": "0x87D0027F",
+    "Description": "SHA could not bind as NAP Agent might not be running"
+  },
+  {
+    "SignedIntCode": -2016411010,
+    "UnsignedIntCode": 2278556286,
+    "HexCode": "0x87D0027E",
+    "Description": "Bad HTTP status code"
+  },
+  {
+    "SignedIntCode": -2016411011,
+    "UnsignedIntCode": 2278556285,
+    "HexCode": "0x87D0027D",
+    "Description": "CI documents download failed due to hash mismatch"
+  },
+  {
+    "SignedIntCode": -2016411012,
+    "UnsignedIntCode": 2278556284,
+    "HexCode": "0x87D0027C",
+    "Description": "CI documents download timed out"
+  },
+  {
+    "SignedIntCode": -2016411013,
+    "UnsignedIntCode": 2278556283,
+    "HexCode": "0x87D0027B",
+    "Description": "General CI documents download failure"
+  },
+  {
+    "SignedIntCode": -2016411014,
+    "UnsignedIntCode": 2278556282,
+    "HexCode": "0x87D0027A",
+    "Description": "Configuration item download failed due to hash mismatch"
+  },
+  {
+    "SignedIntCode": -2016411015,
+    "UnsignedIntCode": 2278556281,
+    "HexCode": "0x87D00279",
+    "Description": "Configuration item download timed out"
+  },
+  {
+    "SignedIntCode": -2016411016,
+    "UnsignedIntCode": 2278556280,
+    "HexCode": "0x87D00278",
+    "Description": "General configuration item download failure"
+  },
+  {
+    "SignedIntCode": -2016411017,
+    "UnsignedIntCode": 2278556279,
+    "HexCode": "0x87D00277",
+    "Description": "Insufficient resources to complete the operation"
+  },
+  {
+    "SignedIntCode": -2016411018,
+    "UnsignedIntCode": 2278556278,
+    "HexCode": "0x87D00276",
+    "Description": "A system restart is required"
+  },
+  {
+    "SignedIntCode": -2016411019,
+    "UnsignedIntCode": 2278556277,
+    "HexCode": "0x87D00275",
+    "Description": "Failed to acquire the lock"
+  },
+  {
+    "SignedIntCode": -2016411020,
+    "UnsignedIntCode": 2278556276,
+    "HexCode": "0x87D00274",
+    "Description": "No callback completion interface specified"
+  },
+  {
+    "SignedIntCode": -2016411021,
+    "UnsignedIntCode": 2278556275,
+    "HexCode": "0x87D00273",
+    "Description": "The component has already been requested to pause"
+  },
+  {
+    "SignedIntCode": -2016411022,
+    "UnsignedIntCode": 2278556274,
+    "HexCode": "0x87D00272",
+    "Description": "Component is disabled"
+  },
+  {
+    "SignedIntCode": -2016411023,
+    "UnsignedIntCode": 2278556273,
+    "HexCode": "0x87D00271",
+    "Description": "Component is paused"
+  },
+  {
+    "SignedIntCode": -2016411024,
+    "UnsignedIntCode": 2278556272,
+    "HexCode": "0x87D00270",
+    "Description": "The component is not paused"
+  },
+  {
+    "SignedIntCode": -2016411025,
+    "UnsignedIntCode": 2278556271,
+    "HexCode": "0x87D0026F",
+    "Description": "Pause cookie did not match"
+  },
+  {
+    "SignedIntCode": -2016411026,
+    "UnsignedIntCode": 2278556270,
+    "HexCode": "0x87D0026E",
+    "Description": "Pause duration too big"
+  },
+  {
+    "SignedIntCode": -2016411027,
+    "UnsignedIntCode": 2278556269,
+    "HexCode": "0x87D0026D",
+    "Description": "Pause duration too small"
+  },
+  {
+    "SignedIntCode": -2016411028,
+    "UnsignedIntCode": 2278556268,
+    "HexCode": "0x87D0026C",
+    "Description": "Status not found"
+  },
+  {
+    "SignedIntCode": -2016411029,
+    "UnsignedIntCode": 2278556267,
+    "HexCode": "0x87D0026B",
+    "Description": "Agent type not found"
+  },
+  {
+    "SignedIntCode": -2016411030,
+    "UnsignedIntCode": 2278556266,
+    "HexCode": "0x87D0026A",
+    "Description": "Key type not found"
+  },
+  {
+    "SignedIntCode": -2016411031,
+    "UnsignedIntCode": 2278556265,
+    "HexCode": "0x87D00269",
+    "Description": "Required management point not found"
+  },
+  {
+    "SignedIntCode": -2016411032,
+    "UnsignedIntCode": 2278556264,
+    "HexCode": "0x87D00268",
+    "Description": "Compilation failed"
+  },
+  {
+    "SignedIntCode": -2016411033,
+    "UnsignedIntCode": 2278556263,
+    "HexCode": "0x87D00267",
+    "Description": "Download failed"
+  },
+  {
+    "SignedIntCode": -2016411034,
+    "UnsignedIntCode": 2278556262,
+    "HexCode": "0x87D00266",
+    "Description": "Inconsistent data"
+  },
+  {
+    "SignedIntCode": -2016411035,
+    "UnsignedIntCode": 2278556261,
+    "HexCode": "0x87D00265",
+    "Description": "Invalid store state"
+  },
+  {
+    "SignedIntCode": -2016411036,
+    "UnsignedIntCode": 2278556260,
+    "HexCode": "0x87D00264",
+    "Description": "Invalid operation"
+  },
+  {
+    "SignedIntCode": -2016411037,
+    "UnsignedIntCode": 2278556259,
+    "HexCode": "0x87D00263",
+    "Description": "Invalid message received from DTS"
+  },
+  {
+    "SignedIntCode": -2016411038,
+    "UnsignedIntCode": 2278556258,
+    "HexCode": "0x87D00262",
+    "Description": "The type of DTS message received is unknown"
+  },
+  {
+    "SignedIntCode": -2016411039,
+    "UnsignedIntCode": 2278556257,
+    "HexCode": "0x87D00261",
+    "Description": "Failed to persist configuration item definition"
+  },
+  {
+    "SignedIntCode": -2016411040,
+    "UnsignedIntCode": 2278556256,
+    "HexCode": "0x87D00260",
+    "Description": "Job state is not valid for the action being requested"
+  },
+  {
+    "SignedIntCode": -2016411041,
+    "UnsignedIntCode": 2278556255,
+    "HexCode": "0x87D0025F",
+    "Description": "Client disconnected"
+  },
+  {
+    "SignedIntCode": -2016411042,
+    "UnsignedIntCode": 2278556254,
+    "HexCode": "0x87D0025E",
+    "Description": "Encountered a message which was not sufficiently trusted to forward to an endpoint for processing"
+  },
+  {
+    "SignedIntCode": -2016411043,
+    "UnsignedIntCode": 2278556253,
+    "HexCode": "0x87D0025D",
+    "Description": "Encountered invalid XML document which could not be validated by its corresponding XML schema(s)"
+  },
+  {
+    "SignedIntCode": -2016411060,
+    "UnsignedIntCode": 2278556236,
+    "HexCode": "0x87D0024C",
+    "Description": "Encountered invalid XML schema document"
+  },
+  {
+    "SignedIntCode": -2016411061,
+    "UnsignedIntCode": 2278556235,
+    "HexCode": "0x87D0024B",
+    "Description": "Name already exists"
+  },
+  {
+    "SignedIntCode": -2016411062,
+    "UnsignedIntCode": 2278556234,
+    "HexCode": "0x87D0024A",
+    "Description": "The job is already connected"
+  },
+  {
+    "SignedIntCode": -2016411063,
+    "UnsignedIntCode": 2278556233,
+    "HexCode": "0x87D00249",
+    "Description": "Property is not valid for the given configuration item type"
+  },
+  {
+    "SignedIntCode": -2016411064,
+    "UnsignedIntCode": 2278556232,
+    "HexCode": "0x87D00248",
+    "Description": "There was an error in network communication"
+  },
+  {
+    "SignedIntCode": -2016411065,
+    "UnsignedIntCode": 2278556231,
+    "HexCode": "0x87D00247",
+    "Description": "A component required to perform the operation was missing or not registered"
+  },
+  {
+    "SignedIntCode": -2016411066,
+    "UnsignedIntCode": 2278556230,
+    "HexCode": "0x87D00246",
+    "Description": "There was an error evaluating the health of the client"
+  },
+  {
+    "SignedIntCode": -2016411067,
+    "UnsignedIntCode": 2278556229,
+    "HexCode": "0x87D00245",
+    "Description": "The objector subsystem has already been initialized"
+  },
+  {
+    "SignedIntCode": -2016411068,
+    "UnsignedIntCode": 2278556228,
+    "HexCode": "0x87D00244",
+    "Description": "The object or subsystem has not been initialized"
+  },
+  {
+    "SignedIntCode": -2016411069,
+    "UnsignedIntCode": 2278556227,
+    "HexCode": "0x87D00243",
+    "Description": "Public key mismatch"
+  },
+  {
+    "SignedIntCode": -2016411070,
+    "UnsignedIntCode": 2278556226,
+    "HexCode": "0x87D00242",
+    "Description": "Stored procedure failed"
+  },
+  {
+    "SignedIntCode": -2016411071,
+    "UnsignedIntCode": 2278556225,
+    "HexCode": "0x87D00241",
+    "Description": "Failed to connect to database"
+  },
+  {
+    "SignedIntCode": -2016411072,
+    "UnsignedIntCode": 2278556224,
+    "HexCode": "0x87D00240",
+    "Description": "Insufficient disk space"
+  },
+  {
+    "SignedIntCode": -2016411079,
+    "UnsignedIntCode": 2278556217,
+    "HexCode": "0x87D00239",
+    "Description": "Client id not found"
+  },
+  {
+    "SignedIntCode": -2016411080,
+    "UnsignedIntCode": 2278556216,
+    "HexCode": "0x87D00238",
+    "Description": "Public key not found"
+  },
+  {
+    "SignedIntCode": -2016411081,
+    "UnsignedIntCode": 2278556215,
+    "HexCode": "0x87D00237",
+    "Description": "Reply mode incompatible"
+  },
+  {
+    "SignedIntCode": -2016411082,
+    "UnsignedIntCode": 2278556214,
+    "HexCode": "0x87D00236",
+    "Description": "Low memory"
+  },
+  {
+    "SignedIntCode": -2016411083,
+    "UnsignedIntCode": 2278556213,
+    "HexCode": "0x87D00235",
+    "Description": "Syntax error occurred while parsing"
+  },
+  {
+    "SignedIntCode": -2016411084,
+    "UnsignedIntCode": 2278556212,
+    "HexCode": "0x87D00234",
+    "Description": "An internal endpoint cannot receive a remote message"
+  },
+  {
+    "SignedIntCode": -2016411085,
+    "UnsignedIntCode": 2278556211,
+    "HexCode": "0x87D00233",
+    "Description": "Message not trusted"
+  },
+  {
+    "SignedIntCode": -2016411086,
+    "UnsignedIntCode": 2278556210,
+    "HexCode": "0x87D00232",
+    "Description": "Message not signed"
+  },
+  {
+    "SignedIntCode": -2016411087,
+    "UnsignedIntCode": 2278556209,
+    "HexCode": "0x87D00231",
+    "Description": "Transient error"
+  },
+  {
+    "SignedIntCode": -2016411088,
+    "UnsignedIntCode": 2278556208,
+    "HexCode": "0x87D00230",
+    "Description": "Error logging on as given credentials"
+  },
+  {
+    "SignedIntCode": -2016411095,
+    "UnsignedIntCode": 2278556201,
+    "HexCode": "0x87D00229",
+    "Description": "Failed to get credentials"
+  },
+  {
+    "SignedIntCode": -2016411096,
+    "UnsignedIntCode": 2278556200,
+    "HexCode": "0x87D00228",
+    "Description": "Invalid endpoint"
+  },
+  {
+    "SignedIntCode": -2016411097,
+    "UnsignedIntCode": 2278556199,
+    "HexCode": "0x87D00227",
+    "Description": "Functionality disabled"
+  },
+  {
+    "SignedIntCode": -2016411098,
+    "UnsignedIntCode": 2278556198,
+    "HexCode": "0x87D00226",
+    "Description": "Invalid protocol"
+  },
+  {
+    "SignedIntCode": -2016411099,
+    "UnsignedIntCode": 2278556197,
+    "HexCode": "0x87D00225",
+    "Description": "Invalid address type"
+  },
+  {
+    "SignedIntCode": -2016411100,
+    "UnsignedIntCode": 2278556196,
+    "HexCode": "0x87D00224",
+    "Description": "Invalid message"
+  },
+  {
+    "SignedIntCode": -2016411101,
+    "UnsignedIntCode": 2278556195,
+    "HexCode": "0x87D00223",
+    "Description": "Version mismatch"
+  },
+  {
+    "SignedIntCode": -2016411102,
+    "UnsignedIntCode": 2278556194,
+    "HexCode": "0x87D00222",
+    "Description": "Operation canceled"
+  },
+  {
+    "SignedIntCode": -2016411103,
+    "UnsignedIntCode": 2278556193,
+    "HexCode": "0x87D00221",
+    "Description": "Invalid user"
+  },
+  {
+    "SignedIntCode": -2016411104,
+    "UnsignedIntCode": 2278556192,
+    "HexCode": "0x87D00220",
+    "Description": "Invalid type"
+  },
+  {
+    "SignedIntCode": -2016411111,
+    "UnsignedIntCode": 2278556185,
+    "HexCode": "0x87D00219",
+    "Description": "Global service not set"
+  },
+  {
+    "SignedIntCode": -2016411112,
+    "UnsignedIntCode": 2278556184,
+    "HexCode": "0x87D00218",
+    "Description": "Invalid service settings"
+  },
+  {
+    "SignedIntCode": -2016411113,
+    "UnsignedIntCode": 2278556183,
+    "HexCode": "0x87D00217",
+    "Description": "Data is corrupt"
+  },
+  {
+    "SignedIntCode": -2016411114,
+    "UnsignedIntCode": 2278556182,
+    "HexCode": "0x87D00216",
+    "Description": "Invalid service parameter"
+  },
+  {
+    "SignedIntCode": -2016411115,
+    "UnsignedIntCode": 2278556181,
+    "HexCode": "0x87D00215",
+    "Description": "Item not found"
+  },
+  {
+    "SignedIntCode": -2016411116,
+    "UnsignedIntCode": 2278556180,
+    "HexCode": "0x87D00214",
+    "Description": "Invalid name length"
+  },
+  {
+    "SignedIntCode": -2016411117,
+    "UnsignedIntCode": 2278556179,
+    "HexCode": "0x87D00213",
+    "Description": "Timeout occurred"
+  },
+  {
+    "SignedIntCode": -2016411118,
+    "UnsignedIntCode": 2278556178,
+    "HexCode": "0x87D00212",
+    "Description": "Context is closed"
+  },
+  {
+    "SignedIntCode": -2016411119,
+    "UnsignedIntCode": 2278556177,
+    "HexCode": "0x87D00211",
+    "Description": "Invalid Address"
+  },
+  {
+    "SignedIntCode": -2016411120,
+    "UnsignedIntCode": 2278556176,
+    "HexCode": "0x87D00210",
+    "Description": "Invalid Translator"
+  },
+  {
+    "SignedIntCode": -2016411127,
+    "UnsignedIntCode": 2278556169,
+    "HexCode": "0x87D00209",
+    "Description": "Data type mismatch"
+  },
+  {
+    "SignedIntCode": -2016411128,
+    "UnsignedIntCode": 2278556168,
+    "HexCode": "0x87D00208",
+    "Description": "Invalid command"
+  },
+  {
+    "SignedIntCode": -2016411129,
+    "UnsignedIntCode": 2278556167,
+    "HexCode": "0x87D00207",
+    "Description": "Parsing error"
+  },
+  {
+    "SignedIntCode": -2016411130,
+    "UnsignedIntCode": 2278556166,
+    "HexCode": "0x87D00206",
+    "Description": "Invalid file"
+  },
+  {
+    "SignedIntCode": -2016411131,
+    "UnsignedIntCode": 2278556165,
+    "HexCode": "0x87D00205",
+    "Description": "Invalid path"
+  },
+  {
+    "SignedIntCode": -2016411132,
+    "UnsignedIntCode": 2278556164,
+    "HexCode": "0x87D00204",
+    "Description": "Data too large"
+  },
+  {
+    "SignedIntCode": -2016411133,
+    "UnsignedIntCode": 2278556163,
+    "HexCode": "0x87D00203",
+    "Description": "No data supplied"
+  },
+  {
+    "SignedIntCode": -2016411134,
+    "UnsignedIntCode": 2278556162,
+    "HexCode": "0x87D00202",
+    "Description": "Service is shutting down"
+  },
+  {
+    "SignedIntCode": -2016411135,
+    "UnsignedIntCode": 2278556161,
+    "HexCode": "0x87D00201",
+    "Description": "Incorrect name format"
+  },
+  {
+    "SignedIntCode": -2016411136,
+    "UnsignedIntCode": 2278556160,
+    "HexCode": "0x87D00200",
+    "Description": "Name not found"
+  },
+  {
+    "SignedIntCode": -2145058817,
+    "UnsignedIntCode": 2149908479,
+    "HexCode": "0x8024FFFF",
+    "Description": "There was a reporter error not covered by another error code."
+  },
+  {
+    "SignedIntCode": -2145062907,
+    "UnsignedIntCode": 2149904389,
+    "HexCode": "0x8024F005",
+    "Description": "The specified callback cookie is not found."
+  },
+  {
+    "SignedIntCode": -2145062908,
+    "UnsignedIntCode": 2149904388,
+    "HexCode": "0x8024F004",
+    "Description": "The server rejected an event because the server was too busy."
+  },
+  {
+    "SignedIntCode": -2145062909,
+    "UnsignedIntCode": 2149904387,
+    "HexCode": "0x8024F003",
+    "Description": "The XML in the event namespace descriptor could not be parsed."
+  },
+  {
+    "SignedIntCode": -2145062910,
+    "UnsignedIntCode": 2149904386,
+    "HexCode": "0x8024F002",
+    "Description": "The XML in the event namespace descriptor could not be parsed."
+  },
+  {
+    "SignedIntCode": -2145062911,
+    "UnsignedIntCode": 2149904385,
+    "HexCode": "0x8024F001",
+    "Description": "The event cache file was defective."
+  },
+  {
+    "SignedIntCode": -2145062913,
+    "UnsignedIntCode": 2149904383,
+    "HexCode": "0x8024EFFF",
+    "Description": "There was an expression evaluator error not covered by another WU_E_EE_* error code."
+  },
+  {
+    "SignedIntCode": -2145067001,
+    "UnsignedIntCode": 2149900295,
+    "HexCode": "0x8024E007",
+    "Description": "An expression evaluator operation could not be completed because the cluster state of the computer could not be determined."
+  },
+  {
+    "SignedIntCode": -2145067002,
+    "UnsignedIntCode": 2149900294,
+    "HexCode": "0x8024E006",
+    "Description": "An expression evaluator operation could not be completed because there was an invalid attribute."
+  },
+  {
+    "SignedIntCode": -2145067003,
+    "UnsignedIntCode": 2149900293,
+    "HexCode": "0x8024E005",
+    "Description": "The expression evaluator could not be initialized."
+  },
+  {
+    "SignedIntCode": -2145067004,
+    "UnsignedIntCode": 2149900292,
+    "HexCode": "0x8024E004",
+    "Description": "An expression evaluator operation could not be completed because the version of the serialized expression data is invalid."
+  },
+  {
+    "SignedIntCode": -2145067005,
+    "UnsignedIntCode": 2149900291,
+    "HexCode": "0x8024E003",
+    "Description": "An expression evaluator operation could not be completed because an expression contains an incorrect number of metadata nodes."
+  },
+  {
+    "SignedIntCode": -2145067006,
+    "UnsignedIntCode": 2149900290,
+    "HexCode": "0x8024E002",
+    "Description": "An expression evaluator operation could not be completed because an expression was invalid."
+  },
+  {
+    "SignedIntCode": -2145067007,
+    "UnsignedIntCode": 2149900289,
+    "HexCode": "0x8024E001",
+    "Description": "An expression evaluator operation could not be completed because an expression was unrecognized."
+  },
+  {
+    "SignedIntCode": -2145067009,
+    "UnsignedIntCode": 2149900287,
+    "HexCode": "0x8024DFFF",
+    "Description": "Windows Update Agent could not be updated because of an error not covered by another WU_E_SETUP_* error code."
+  },
+  {
+    "SignedIntCode": -2145071082,
+    "UnsignedIntCode": 2149896214,
+    "HexCode": "0x8024D016",
+    "Description": "Windows Update Agent could not be updated because of an unknown error."
+  },
+  {
+    "SignedIntCode": -2145071083,
+    "UnsignedIntCode": 2149896213,
+    "HexCode": "0x8024D015",
+    "Description": "Windows Update Agent is successfully updated, but a reboot is required to complete the setup."
+  },
+  {
+    "SignedIntCode": -2145071084,
+    "UnsignedIntCode": 2149896212,
+    "HexCode": "0x8024D014",
+    "Description": "Windows Update Agent is successfully updated, but a reboot is required to complete the setup."
+  },
+  {
+    "SignedIntCode": -2145071085,
+    "UnsignedIntCode": 2149896211,
+    "HexCode": "0x8024D013",
+    "Description": "Windows Update Agent could not be updated because the server does not contain updated information for this version."
+  },
+  {
+    "SignedIntCode": -2145071086,
+    "UnsignedIntCode": 2149896210,
+    "HexCode": "0x8024D012",
+    "Description": "Windows Update Agent must be updated before a search can continue. An administrator is required to perform the operation."
+  },
+  {
+    "SignedIntCode": -2145071087,
+    "UnsignedIntCode": 2149896209,
+    "HexCode": "0x8024D011",
+    "Description": "Windows Update Agent must be updated before a search can continue."
+  },
+  {
+    "SignedIntCode": -2145071088,
+    "UnsignedIntCode": 2149896208,
+    "HexCode": "0x8024D010",
+    "Description": "Windows Update Agent could not be updated because the registry contains invalid information."
+  },
+  {
+    "SignedIntCode": -2145071089,
+    "UnsignedIntCode": 2149896207,
+    "HexCode": "0x8024D00F",
+    "Description": "Windows Update Agent could not be updated because the setup handler failed during execution."
+  },
+  {
+    "SignedIntCode": -2145071090,
+    "UnsignedIntCode": 2149896206,
+    "HexCode": "0x8024D00E",
+    "Description": "Windows Update Agent setup package requires a reboot to complete installation."
+  },
+  {
+    "SignedIntCode": -2145071091,
+    "UnsignedIntCode": 2149896205,
+    "HexCode": "0x8024D00D",
+    "Description": "Windows Update Agent setup is already running."
+  },
+  {
+    "SignedIntCode": -2145071092,
+    "UnsignedIntCode": 2149896204,
+    "HexCode": "0x8024D00C",
+    "Description": "Windows Update Agent could not be updated because a restart of the system is required."
+  },
+  {
+    "SignedIntCode": -2145071093,
+    "UnsignedIntCode": 2149896203,
+    "HexCode": "0x8024D00B",
+    "Description": "Windows Update Agent could not be updated because the system is configured to block the update."
+  },
+  {
+    "SignedIntCode": -2145071094,
+    "UnsignedIntCode": 2149896202,
+    "HexCode": "0x8024D00A",
+    "Description": "Windows Update Agent could not be updated because the current system configuration is not supported."
+  },
+  {
+    "SignedIntCode": -2145071095,
+    "UnsignedIntCode": 2149896201,
+    "HexCode": "0x8024D009",
+    "Description": "An update to the Windows Update Agent was skipped due to a directive in the wuident.cab file."
+  },
+  {
+    "SignedIntCode": -2145071096,
+    "UnsignedIntCode": 2149896200,
+    "HexCode": "0x8024D008",
+    "Description": "An update to the Windows Update Agent was skipped because previous attempts to update have failed."
+  },
+  {
+    "SignedIntCode": -2145071097,
+    "UnsignedIntCode": 2149896199,
+    "HexCode": "0x8024D007",
+    "Description": "Windows Update Agent could not be updated because regsvr32.exe returned an error."
+  },
+  {
+    "SignedIntCode": -2145071098,
+    "UnsignedIntCode": 2149896198,
+    "HexCode": "0x8024D006",
+    "Description": "Windows Update Agent could not be updated because a WUA file on the target system is newer than the corresponding source file."
+  },
+  {
+    "SignedIntCode": -2145071099,
+    "UnsignedIntCode": 2149896197,
+    "HexCode": "0x8024D005",
+    "Description": "Windows Update Agent could not be updated because the versions specified in the INF do not match the actual source file versions."
+  },
+  {
+    "SignedIntCode": -2145071100,
+    "UnsignedIntCode": 2149896196,
+    "HexCode": "0x8024D004",
+    "Description": "Windows Update Agent could not be updated because setup initialization was never completed successfully."
+  },
+  {
+    "SignedIntCode": -2145071101,
+    "UnsignedIntCode": 2149896195,
+    "HexCode": "0x8024D003",
+    "Description": "Windows Update Agent could not be updated because of an internal error that caused set up initialization to be performed twice."
+  },
+  {
+    "SignedIntCode": -2145071102,
+    "UnsignedIntCode": 2149896194,
+    "HexCode": "0x8024D002",
+    "Description": "Windows Update Agent could not be updated because the wuident.cab file contains invalid information."
+  },
+  {
+    "SignedIntCode": -2145071103,
+    "UnsignedIntCode": 2149896193,
+    "HexCode": "0x8024D001",
+    "Description": "Windows Update Agent could not be updated because an INF file contains invalid information."
+  },
+  {
+    "SignedIntCode": -2145071105,
+    "UnsignedIntCode": 2149896191,
+    "HexCode": "0x8024CFFF",
+    "Description": "A driver error not covered by another WU_E_DRV_* code."
+  },
+  {
+    "SignedIntCode": -2145075193,
+    "UnsignedIntCode": 2149892103,
+    "HexCode": "0x8024C007",
+    "Description": "Information required for the synchronization of applicable printers is missing."
+  },
+  {
+    "SignedIntCode": -2145075194,
+    "UnsignedIntCode": 2149892102,
+    "HexCode": "0x8024C006",
+    "Description": "Driver synchronization failed."
+  },
+  {
+    "SignedIntCode": -2145075195,
+    "UnsignedIntCode": 2149892101,
+    "HexCode": "0x8024C005",
+    "Description": "The driver update is missing a required attribute."
+  },
+  {
+    "SignedIntCode": -2145075196,
+    "UnsignedIntCode": 2149892100,
+    "HexCode": "0x8024C004",
+    "Description": "The driver update is missing metadata."
+  },
+  {
+    "SignedIntCode": -2145075197,
+    "UnsignedIntCode": 2149892099,
+    "HexCode": "0x8024C003",
+    "Description": "The registry type read for the driver does not match the expected type."
+  },
+  {
+    "SignedIntCode": -2145075198,
+    "UnsignedIntCode": 2149892098,
+    "HexCode": "0x8024C002",
+    "Description": "A property for the driver could not be found. It may not conform to the required specifications."
+  },
+  {
+    "SignedIntCode": -2145075199,
+    "UnsignedIntCode": 2149892097,
+    "HexCode": "0x8024C001",
+    "Description": "A driver was skipped."
+  },
+  {
+    "SignedIntCode": -2145079291,
+    "UnsignedIntCode": 2149888005,
+    "HexCode": "0x8024B005",
+    "Description": "Cannot cancel a non-scheduled install."
+  },
+  {
+    "SignedIntCode": -2145079292,
+    "UnsignedIntCode": 2149888004,
+    "HexCode": "0x8024B004",
+    "Description": "The task was stopped and needs to be rerun to complete."
+  },
+  {
+    "SignedIntCode": -2145079293,
+    "UnsignedIntCode": 2149888003,
+    "HexCode": "0x8024B003",
+    "Description": "The operation cannot be completed since the task is not yet started."
+  },
+  {
+    "SignedIntCode": -2145079294,
+    "UnsignedIntCode": 2149888002,
+    "HexCode": "0x8024B002",
+    "Description": "The operation cannot be completed since the task status is currently disabled."
+  },
+  {
+    "SignedIntCode": -2145079295,
+    "UnsignedIntCode": 2149888001,
+    "HexCode": "0x8024B001",
+    "Description": "The task is currently in progress."
+  },
+  {
+    "SignedIntCode": -2145079297,
+    "UnsignedIntCode": 2149887999,
+    "HexCode": "0x8024AFFF",
+    "Description": "An Automatic Updates error is not covered by another WU_E_AU * code."
+  },
+  {
+    "SignedIntCode": -2145083386,
+    "UnsignedIntCode": 2149883910,
+    "HexCode": "0x8024A006",
+    "Description": "The default service registered with AU changed during the search."
+  },
+  {
+    "SignedIntCode": -2145083387,
+    "UnsignedIntCode": 2149883909,
+    "HexCode": "0x8024A005",
+    "Description": "No unmanaged service is registered with AU."
+  },
+  {
+    "SignedIntCode": -2145083388,
+    "UnsignedIntCode": 2149883908,
+    "HexCode": "0x8024A004",
+    "Description": "Automatic Updates was unable to process incoming requests because it was paused."
+  },
+  {
+    "SignedIntCode": -2145083389,
+    "UnsignedIntCode": 2149883907,
+    "HexCode": "0x8024A003",
+    "Description": "The old version of the Automatic Updates client was disabled."
+  },
+  {
+    "SignedIntCode": -2145083390,
+    "UnsignedIntCode": 2149883906,
+    "HexCode": "0x8024A002",
+    "Description": "The old version of the Automatic Updates client has stopped because the WSUS server has been upgraded."
+  },
+  {
+    "SignedIntCode": -2145083392,
+    "UnsignedIntCode": 2149883904,
+    "HexCode": "0x8024A000",
+    "Description": "Automatic Updates was unable to service incoming requests."
+  },
+  {
+    "SignedIntCode": -2145087483,
+    "UnsignedIntCode": 2149879813,
+    "HexCode": "0x80249005",
+    "Description": "A WMI error occurred when enumerating the instances for a particular class."
+  },
+  {
+    "SignedIntCode": -2145087484,
+    "UnsignedIntCode": 2149879812,
+    "HexCode": "0x80249004",
+    "Description": "There was an inventory error not covered by another error code."
+  },
+  {
+    "SignedIntCode": -2145087485,
+    "UnsignedIntCode": 2149879811,
+    "HexCode": "0x80249003",
+    "Description": "Failed to upload inventory results to the server."
+  },
+  {
+    "SignedIntCode": -2145087486,
+    "UnsignedIntCode": 2149879810,
+    "HexCode": "0x80249002",
+    "Description": "Failed to get the requested inventory type from the server."
+  },
+  {
+    "SignedIntCode": -2145087487,
+    "UnsignedIntCode": 2149879809,
+    "HexCode": "0x80249001",
+    "Description": "Parsing of the rule file failed."
+  },
+  {
+    "SignedIntCode": -2145087489,
+    "UnsignedIntCode": 2149879807,
+    "HexCode": "0x80248FFF",
+    "Description": "A data store error is not covered by another WU_E_DS_* code."
+  },
+  {
+    "SignedIntCode": -2145091555,
+    "UnsignedIntCode": 2149875741,
+    "HexCode": "0x8024801D",
+    "Description": "A data store operation did not complete because it was requested with an impersonated identity."
+  },
+  {
+    "SignedIntCode": -2145091556,
+    "UnsignedIntCode": 2149875740,
+    "HexCode": "0x8024801C",
+    "Description": "The data store requires a session reset; release the session and retry with a new session."
+  },
+  {
+    "SignedIntCode": -2145091557,
+    "UnsignedIntCode": 2149875739,
+    "HexCode": "0x8024801B",
+    "Description": "The schema of the current data store and the schema of a table in a backup XML document do not match."
+  },
+  {
+    "SignedIntCode": -2145091558,
+    "UnsignedIntCode": 2149875738,
+    "HexCode": "0x8024801A",
+    "Description": "A request was declined because the operation is not allowed."
+  },
+  {
+    "SignedIntCode": -2145091559,
+    "UnsignedIntCode": 2149875737,
+    "HexCode": "0x80248019",
+    "Description": "A request to remove the Windows Update service or to unregister it with Automatic Updates was declined because it is a built-in service, and/or Automatic Updates cannot fall back to another service."
+  },
+  {
+    "SignedIntCode": -2145091560,
+    "UnsignedIntCode": 2149875736,
+    "HexCode": "0x80248018",
+    "Description": "A table was not closed because it is not associated with the session."
+  },
+  {
+    "SignedIntCode": -2145091561,
+    "UnsignedIntCode": 2149875735,
+    "HexCode": "0x80248017",
+    "Description": "A table was not closed because it is not associated with the session."
+  },
+  {
+    "SignedIntCode": -2145091562,
+    "UnsignedIntCode": 2149875734,
+    "HexCode": "0x80248016",
+    "Description": "A request to hide an update was declined because it is a mandatory update or because it was deployed with a deadline."
+  },
+  {
+    "SignedIntCode": -2145091563,
+    "UnsignedIntCode": 2149875733,
+    "HexCode": "0x80248015",
+    "Description": "An operation did not complete because the registration of the service has expired."
+  },
+  {
+    "SignedIntCode": -2145091564,
+    "UnsignedIntCode": 2149875732,
+    "HexCode": "0x80248014",
+    "Description": "An operation did not complete because the service is not in the data store."
+  },
+  {
+    "SignedIntCode": -2145091565,
+    "UnsignedIntCode": 2149875731,
+    "HexCode": "0x80248013",
+    "Description": "The server sent the same update to the client with two different revision IDs."
+  },
+  {
+    "SignedIntCode": -2145091567,
+    "UnsignedIntCode": 2149875729,
+    "HexCode": "0x80248011",
+    "Description": "I could not create a datastore object in another process."
+  },
+  {
+    "SignedIntCode": -2145091568,
+    "UnsignedIntCode": 2149875728,
+    "HexCode": "0x80248010",
+    "Description": "The datastore is not allowed to be registered with COM in the current process."
+  },
+  {
+    "SignedIntCode": -2145091569,
+    "UnsignedIntCode": 2149875727,
+    "HexCode": "0x8024800F",
+    "Description": "The data store could not be initialized because it was locked by another process."
+  },
+  {
+    "SignedIntCode": -2145091570,
+    "UnsignedIntCode": 2149875726,
+    "HexCode": "0x8024800E",
+    "Description": "The row was not added because an existing row has the same primary key."
+  },
+  {
+    "SignedIntCode": -2145091571,
+    "UnsignedIntCode": 2149875725,
+    "HexCode": "0x8024800D",
+    "Description": "The category was not added because it contains no parent categories and is not a top-level category itself."
+  },
+  {
+    "SignedIntCode": -2145091572,
+    "UnsignedIntCode": 2149875724,
+    "HexCode": "0x8024800C",
+    "Description": "The data store section could not be locked within the allotted time."
+  },
+  {
+    "SignedIntCode": -2145091573,
+    "UnsignedIntCode": 2149875723,
+    "HexCode": "0x8024800B",
+    "Description": "The update was not deleted because it is still referenced by one or more services."
+  },
+  {
+    "SignedIntCode": -2145091574,
+    "UnsignedIntCode": 2149875722,
+    "HexCode": "0x8024800A",
+    "Description": "The update was not processed because its update handler could not be recognized."
+  },
+  {
+    "SignedIntCode": -2145091575,
+    "UnsignedIntCode": 2149875721,
+    "HexCode": "0x80248009",
+    "Description": "The datastore is missing required information or references missing license terms file localized property or linked row."
+  },
+  {
+    "SignedIntCode": -2145091576,
+    "UnsignedIntCode": 2149875720,
+    "HexCode": "0x80248008",
+    "Description": "The datastore is missing required information or has a NULL in a table column that requires a non-null value."
+  },
+  {
+    "SignedIntCode": -2145091577,
+    "UnsignedIntCode": 2149875719,
+    "HexCode": "0x80248007",
+    "Description": "The information requested is not in the data store."
+  },
+  {
+    "SignedIntCode": -2145091578,
+    "UnsignedIntCode": 2149875718,
+    "HexCode": "0x80248006",
+    "Description": "The current and expected versions of the datastore do not match."
+  },
+  {
+    "SignedIntCode": -2145091579,
+    "UnsignedIntCode": 2149875717,
+    "HexCode": "0x80248005",
+    "Description": "A table could not be opened because the table is not in the data store."
+  },
+  {
+    "SignedIntCode": -2145091580,
+    "UnsignedIntCode": 2149875716,
+    "HexCode": "0x80248004",
+    "Description": "The data store contains a table with unexpected columns."
+  },
+  {
+    "SignedIntCode": -2145091581,
+    "UnsignedIntCode": 2149875715,
+    "HexCode": "0x80248003",
+    "Description": "The datastore is missing a table."
+  },
+  {
+    "SignedIntCode": -2145091582,
+    "UnsignedIntCode": 2149875714,
+    "HexCode": "0x80248002",
+    "Description": "The current and expected states of the datastore do not match."
+  },
+  {
+    "SignedIntCode": -2145091583,
+    "UnsignedIntCode": 2149875713,
+    "HexCode": "0x80248001",
+    "Description": "An operation failed because the datastore was in use."
+  },
+  {
+    "SignedIntCode": -2145091584,
+    "UnsignedIntCode": 2149875712,
+    "HexCode": "0x80248000",
+    "Description": "An operation failed because Windows Update Agent is shutting down."
+  },
+  {
+    "SignedIntCode": -2145091585,
+    "UnsignedIntCode": 2149875711,
+    "HexCode": "0x80247FFF",
+    "Description": "Search using the scan package failed."
+  },
+  {
+    "SignedIntCode": -2145095675,
+    "UnsignedIntCode": 2149871621,
+    "HexCode": "0x80247005",
+    "Description": "The service is not registered."
+  },
+  {
+    "SignedIntCode": -2145095676,
+    "UnsignedIntCode": 2149871620,
+    "HexCode": "0x80247004",
+    "Description": "The size of the event payload submitted is invalid."
+  },
+  {
+    "SignedIntCode": -2145095677,
+    "UnsignedIntCode": 2149871619,
+    "HexCode": "0x80247003",
+    "Description": "An invalid event payload was specified."
+  },
+  {
+    "SignedIntCode": -2145095678,
+    "UnsignedIntCode": 2149871618,
+    "HexCode": "0x80247002",
+    "Description": "An operation could not be completed because the scan package requires a greater version of the Windows Update Agent."
+  },
+  {
+    "SignedIntCode": -2145095679,
+    "UnsignedIntCode": 2149871617,
+    "HexCode": "0x80247001",
+    "Description": "An operation could not be completed because the scan package was invalid."
+  },
+  {
+    "SignedIntCode": -2145095681,
+    "UnsignedIntCode": 2149871615,
+    "HexCode": "0x80246FFF",
+    "Description": "There was a download manager error not covered by another WU_E_DM_* error code."
+  },
+  {
+    "SignedIntCode": -2145099764,
+    "UnsignedIntCode": 2149867532,
+    "HexCode": "0x8024600C",
+    "Description": "A download failed because the current network limits downloads by update size for the update service."
+  },
+  {
+    "SignedIntCode": -2145099765,
+    "UnsignedIntCode": 2149867531,
+    "HexCode": "0x8024600B",
+    "Description": "A download must be restarted because the updated content changed in a new revision."
+  },
+  {
+    "SignedIntCode": -2145099766,
+    "UnsignedIntCode": 2149867530,
+    "HexCode": "0x8024600A",
+    "Description": "A download must be restarted because the location of the source of the download has changed."
+  },
+  {
+    "SignedIntCode": -2145099767,
+    "UnsignedIntCode": 2149867529,
+    "HexCode": "0x80246009",
+    "Description": "A download manager operation failed because of an unspecified Background Intelligent Transfer Service (BITS) transfer error."
+  },
+  {
+    "SignedIntCode": -2145099768,
+    "UnsignedIntCode": 2149867528,
+    "HexCode": "0x80246008",
+    "Description": "A download manager operation failed because the download manager could not connect the Background Intelligent Transfer Service (BITS)."
+  },
+  {
+    "SignedIntCode": -2145099769,
+    "UnsignedIntCode": 2149867527,
+    "HexCode": "0x80246007",
+    "Description": "The update has not been downloaded."
+  },
+  {
+    "SignedIntCode": -2145099770,
+    "UnsignedIntCode": 2149867526,
+    "HexCode": "0x80246006",
+    "Description": "A download manager operation could not be completed because the version of Background Intelligent Transfer Service (BITS) is incompatible."
+  },
+  {
+    "SignedIntCode": -2145099771,
+    "UnsignedIntCode": 2149867525,
+    "HexCode": "0x80246005",
+    "Description": "A download manager operation could not be completed because the network connection was unavailable."
+  },
+  {
+    "SignedIntCode": -2145099772,
+    "UnsignedIntCode": 2149867524,
+    "HexCode": "0x80246004",
+    "Description": "An operation could not be completed because a download request is required from the download handler."
+  },
+  {
+    "SignedIntCode": -2145099773,
+    "UnsignedIntCode": 2149867523,
+    "HexCode": "0x80246003",
+    "Description": "A download manager operation could not be completed because the file metadata requested an unrecognized hash algorithm."
+  }
+]
