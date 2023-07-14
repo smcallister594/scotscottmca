@@ -53,7 +53,7 @@ theme = "DoIt"
 # Header config
   [params.header]
     # desktop header mode ("fixed", "normal", "auto")
-    desktopMode = "fixed"
+    desktopMode = "auto"
     # mobile header mode ("fixed", "normal", "auto")
     mobileMode = "auto"
     # DoIt NEW | 0.2.11 Theme change mode
@@ -101,7 +101,7 @@ theme = "DoIt"
     dateFormat = "01-02"
     # amount of RSS pages
     rss = 10
-    # DoIt NEW | 0.2.13 recently updated posts settings
+    # recently updated posts settings
     [params.section.recentlyUpdated]
       enable = false
       rss = false
@@ -167,7 +167,7 @@ theme = "DoIt"
     # configure the link to the source file of the post
     linkToSource = false
     # "https://github.com/user/repo/blob/main/{path}"
-    # DoIt NEW | 0.2.13 configure the link to edit the post
+    # configure the link to edit the post
     linkToEdit = false
     # "https://github.com/user/repo/edit/main/{path}"
     # "https://gitlab.com/user/repo/-/edit/main/{path}"
@@ -175,9 +175,9 @@ theme = "DoIt"
     # configure the link to report issue for the post
     linkToReport = false
     # "https://github.com/user/repo/issues/new?title=[bug]%20{title}&body=|Field|Value|%0A|-|-|%0A|Title|{title}|%0A|Url|{url}|%0A|Filename|https://github.com/user/repo/blob/main/{path}|"
-    # DoIt NEW | 0.2.4 whether to show the full text content in RSS
+    # whether to show the full text content in RSS
     rssFullText = false
-    # DoIt NEW | 0.2.13 whether to enable series navigation
+    # whether to enable series navigation
     seriesNavigation = true
     # whether to enable last modified time
     enableLastMod = true
@@ -185,7 +185,7 @@ theme = "DoIt"
     enableWordCount = true
     # whether to enable reading time estimation
     enableReadingTime = true
-    # DoIt NEW | 0.2.13 outdated article reminder config
+    # outdated article reminder config
     [params.page.outdatedArticleReminder]
       enable = false
       # Display the reminder if the last modified time is more than 90 days ago.
