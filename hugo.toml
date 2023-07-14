@@ -19,7 +19,7 @@ theme = "DoIt"
   # date format
   dateFormat = ""
   # website images for Open Graph and Twitter Cards
-  images = ["/images/scotland-banner.jpg"]
+  images = ["/images/banner.webp"]
 
 # 0.2.0 Search config
   [params.search]
