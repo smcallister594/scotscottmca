@@ -4,23 +4,25 @@ date: 2023-07-13
 last_modified_at: 2023-07-13
 tags: [Intune, Error Codes, logs, log collection, graph api, graph]
 Author: Scott McAllister
-Draft: true
+Draft: false
 ---
 
-**Why do we need logs?**
+## Why do we need logs?
 
 In many support roles, when troubleshooting an issue, logs are critical, especially troubleshooting Intune-related issues.
 
-My day to day role see's me looking at logs for Intune-managed devices, as well as Win32App logs from both Patch My PC & Scappman customers, and collecting those logs can be a pain for various reasons
+My day-to-day role sees me looking at logs for Intune-managed devices, and Win32App logs from both Patch My PC & Scappman customers, and collecting those logs can be a pain for various reasons.
 
 - The device is offline
-- The user is "busy"
+- The user is "busy."
 - No remote access to the device
-- [Insert other generic resaon here]
+- [Insert other generic reason here]
 
-Thankfully Intune provides us with a handy Collect diagnostics button that remedys a most of these. 
+It may seem reasonable to say, "X isn't working" or "Y gives me an error message", but these statements are useless without the context-provided log files. Log files give us a detailed view of most things that happened in the run-up to the error and potentially a more helpful error message than was present to a user. 
 
-**Where can you find Collect diagnostics?**
+Thankfully Intune provides us with a handy Collect diagnostics button that remedies most of these. 
+
+## Where can you find Collect diagnostics?
 
 You can find the Collect diagnostics button under Devices > Windows > [device name]
 ![image](https://github.com/smcallister594/scotscottmca/blob/main/assets/images/CollectDiagnostics/CollectDiagnostics_1.png?raw=true)
@@ -30,13 +32,15 @@ When you click Collect diagnostics, you will be prompted to confirm that you wan
 
 ![image](https://github.com/smcallister594/scotscottmca/blob/main/assets/images/CollectDiagnostics/CollectDiagnostics_3.png?raw=true)
 
+> **_NOTE:_**  Collect diagnostics can take anywhere between 5 and 20 minutes co complete.
+
 Once the diagnostic results are availalbe, you'll be presented with a download button
 
 ![image](https://github.com/smcallister594/scotscottmca/blob/main/assets/images/CollectDiagnostics/CollectDiagnostics_4.png?raw=true)
 
-**What does Collect diagnostics give me?**
+## What does Collect diagnostics give me?
 
-Well once we've downloaded our diagnostic bundle, we can see a whole host of data that has been collected. If we open up results.xml, we get a full list
+Well, once we've downloaded our diagnostic bundle, we can see a whole host of data that has been collected. If we open up results.xml, we get a complete list.
 
 {{< highlight XML >}}
 <Collection HRESULT="0">
@@ -130,7 +134,7 @@ Well once we've downloaded our diagnostic bundle, we can see a whole host of dat
 </Collection>
 {{< /highlight >}}
 
-Now, there is a lot of data in here, like log files and reg key exports, and not all of it is neceserrally useful to what you are trying to troubleshoot, so you may have to sift through it a bit, but I'll point out the ones I find useful
+Now, there is a lot of data in here, like log files and reg key exports, and not all of it is necessarily useful to what you are trying to troubleshoot, so you may have to sift through it a bit, but I'll point out the ones I find helpful.
 
 {{< highlight XML >}}
 <FoldersFiles HRESULT="0">%ProgramData%\Microsoft\IntuneManagementExtension\Logs\*.*</FoldersFiles>
@@ -146,37 +150,40 @@ This gives us the following log files
 - sensor.log
 - win32appinventory.log
 - An inventory of all system-context installed 32bit and 64bit applications
-As well as any rolled over logs.
 
-These logs are especially helpful when troubleshooting why an application failed to install on a client device!
+This will also include any rolled-over logs.
 
-**How does Collect diagnostics work?**
+These logs are beneficial when troubleshooting why an application failed to install on a client device!
 
-When we click the Collect Diagnostics button, it simply does a POST request to Graph API with the following Graph call
+## How does Collect diagnostics work?
+
+When we click the Collect Diagnostics button, it simply makes a POST request to Graph API with the following Graph call.
 
 https://graph.microsoft.com/beta/deviceManagement/managedDevices('[DeviceID]')/createDeviceLogCollectionRequest
 
-And once the diagnostic payload is ready, and you click download, Intune generates a download URL with this Graph call. 
+And once the diagnostic payload is ready and you click download, Intune generates a download URL with this Graph call. 
 
 https://graph.microsoft.com/beta/deviceManagement/managedDevices('[DeviceID]')/logCollectionRequests('d88051d0-acce-41e7-a7ce-d864a753e2c7')/createDownloadUrl
 
-**How can we take advantage of this?**
+## How can we take advantage of this?
 
-We can use Collect diagnostics to gather up custom log files as well, however there are some critera that need to be met first. 
+We can use Collect Diagnostics to gather custom log files as well. However, some criteria need to be met first. 
 
-- Any logs you want collected must be stored in C:\ProgramData\Microsoft\IntuneManagementExtension\Logs\
+- Any logs you want to be collected must be stored in C:\ProgramData\Microsoft\IntuneManagementExtension\Logs\
 - No subfolders
 - File extension must be .log
 
-So, if we have any other logs we want copied, they just need to exist in that folder, Great! But how to get them there? 
+So, if we have any other logs we want copied, they just need to exist in that folder; great! But how to get them there? 
 
-It is likely your users don't have admin rights on their device (I hope), so they can't drop files into C:\ProgramData\Microsoft\IntuneManagementExtension\Logs\ for you, and any logs generated in the user context cannot be stored here either, but you can make use of scripts and proactive remediation to remedy this. 
+It is likely your users don't have admin rights on their device (I hope), so they can't drop files into C:\ProgramData\Microsoft\IntuneManagementExtension\Logs\ for you. Any logs generated in the user context cannot be stored here, but you can use scripts and proactive remediation to remedy this. 
 
-Firstly, if you're already deploying any scripts to your device through Intune, and it has a transcript, or generates a log file, simply change it's output path to the IME logs folder, sorted. 
+Firstly, if you're already deploying any scripts to your device through Intune, which has a transcript, or generates a log file, simply change its output path to the IME logs folder, sorted. 
 
-Secondly, we can leverage Proactive Remediation to move user logs, or any other logs really, to the IME log folder
+Secondly, we can leverage Proactive Remediation to move user logs or any other log files to the IME log folder.
 
-### Proactive Remediation Detection
+### Proactive Remediation 
+
+#### Detection
 {{< highlight PowerShell >}}
 # List of paths to look for logs.
 $UserTemp = [System.Environment]::GetEnvironmentVariable('TEMP','User')
@@ -186,26 +193,21 @@ $LogToCollect = "$UserTemp", "$SystemTemp", "$env:ProgramData\PatchMyPCIntuneLog
 # List of log files to collect.
 $logfiles = @()
 
-try {
-    # Collect all log files from the paths specified above.
-    foreach($path in $LogToCollect){
+foreach ($path in $LogToCollect) {
+    if (Test-Path $path) {
         $logfiles += Get-ChildItem $path -Recurse -Filter "*.log"
     }
-} catch {
-    # If we can't collect the logs, exit with an error.
-    Write-Error "Unable to search for logs: $_"
-    exit 1
 }
 
-# If we found any log files, exit with 1, otherwise exist with 0.
-if($logfiles){
+if ($logfiles.Count -gt 0) {
     exit 1
-}else{
+} else {
     exit 0
 }
 {{< /highlight >}}
 
-### Proactive Remediation Remediation?
+#### Remediation
+
 {{< highlight PowerShell >}}
 # List of paths to collect logs from.
 $UserTemp = [System.Environment]::GetEnvironmentVariable('TEMP','User')
@@ -214,25 +216,48 @@ $LogToCollect = "$UserTemp", "$SystemTemp", "$env:ProgramData\PatchMyPCIntuneLog
 
 $logfiles = @()
 
-# IME Log location
 $IntuneManagementExtensionLogs = "$env:ProgramData\Microsoft\IntuneManagementExtension\Logs\"
 
-try {
-    # Collect all log files from the paths specified above.
-    foreach($path in $LogToCollect){
+foreach ($path in $LogToCollect) {
+    if (Test-Path $path) {
         $logfiles += Get-ChildItem $path -Recurse -Filter "*.log"
     }
-} catch {
-    # If we can't collect the logs, exit with an error.
-    Write-Error "Unable to search for logs: $_"
-    exit 1
 }
 
-try{
-    $logfiles | Copy-Item -Destination $IntuneManagementExtensionLogs -Force
+if ($logfiles.Count -eq 0) {
+    exit 0
 }
-catch{
-    Write-Error "Unable to copy logs to $IntuneManagementExtensionLogs : $_"
+
+try {
+    $logfiles | Copy-Item -Destination $IntuneManagementExtensionLogs -Force
+} catch {
+    Write-Error "Unable to copy logs to $IntuneManagementExtensionLogs: $_"
     exit 1
 }
 {{< /highlight >}}
+
+Here's a handy video from [Intune.Training](https://Intune.Training) showing how to configure Proactive Remediation to deploy the Detection and Remediation scripts. I'll blog this process later.
+
+[Intune Training - S02E09 - How to Configure Proactive Remediations in Microsoft Intune](https://www.youtube.com/watch?v=VOBzV6GjOvI)
+
+## Patch My PC & Scappman logs
+
+Patch My PC Win32 Apps and Updates generate specific log files, which can be found in the following locations. 
+
+- %ProgramData%\PatchMyPCIntuneLogs\PatchMyPC-ScriptRunner.log
+    - This may be found in the %ProgramData%\PatchMyPC\ if the Install was initiated by the user from Company Portal.
+- %ProgramData%\PatchMyPCIntuneLogs\PatchMyPC-SoftwareDetectionScript.log
+- %ProgramData%\PatchMyPCIntuneLogs\PatchMyPC-SoftwareUpdateDetectionScript.log
+- %ProgramData%\PatchMyPC\PatchMyPC-UserNotification.log
+
+Additionally, Patch My PC allows you to configure [logs specific to vendor applications](https://patchmypc.com/custom-options-available-for-third-party-updates-and-applications#install-logging), and as you might expect, we can copy these logs as well!
+
+Similarly, Scappman has unique log files, which can be found in the following location.
+
+- %ProgramData%\Scappman\Logs\
+
+We can collect logs from these paths using Collect diagnostics by adding them to our proactive remediation scripts.
+
+## Summary
+
+Collect diagnostics is a great and relatively powerful tool available to admins to make their lives just that little bit easier. Even though the process can be a tad slow, taking upwards of 20 minutes, it's still better than having no log files at all!
