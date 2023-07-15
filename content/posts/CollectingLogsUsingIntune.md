@@ -11,14 +11,14 @@ Draft: false
 
 In many support roles, when troubleshooting an issue, logs are critical, especially troubleshooting Intune-related issues.
 
-My day-to-day role sees me looking at logs for Intune-managed devices, and Win32 Apps, and collecting those logs can be a pain for various reasons.
+My day-to-day role sees me looking at logs for Intune-managed devices, and Win32 Apps, and collecting those logs can be a pain for the admins I speak with for various reasons.
 
 - The device is offline
 - The user is "busy."
 - No remote access to the device
 - [Insert other generic reason here]
 
-It may seem reasonable to say, "X isn't working" or "Y gives me an error message", but these statements are useless without the context-provided log files. Log files give us a detailed view of most things that happened in the run-up to the error and potentially a more helpful error message than was present to a user. 
+It may seem reasonable to say, "X isn't working" or "Y gives me an error message", but these statements are not always helpful without the context-provided log files. Log files give us a detailed view of most things that happened in the run-up to the error and potentially a more helpful error message than was presented to a user. 
 
 Thankfully Intune provides us with a handy Collect diagnostics button that remedies most of these. 
 
