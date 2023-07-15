@@ -33,7 +33,7 @@ When you click Collect diagnostics, you will be prompted to confirm that you wan
 ![image](https://github.com/smcallister594/scotscottmca/blob/main/assets/images/CollectDiagnostics/CollectDiagnostics_3.png?raw=true)
 
 {{< admonition type=tip title="Note" open=true >}}
-Collect diagnostics can take anywhere between 5 and 20 minutes co complete.
+Collect diagnostics can take anywhere between 5 and 20 minutes to complete.
 {{< /admonition >}}
 
 Once the diagnostic results are availalbe, you'll be presented with a download button
