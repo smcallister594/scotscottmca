@@ -18,7 +18,7 @@ My day-to-day role sees me looking at logs for Intune-managed devices, and Win32
 - No remote access to the device
 - [Insert other generic reason here]
 
-It may seem reasonable to say, "X isn't working" or "Y gives me an error message", but these statements are not always helpful without the context-provided log files. Log files give us a detailed view of most things that happened in the run-up to the error and potentially a more helpful error message than was presented to a user. 
+It may seem reasonable to say, "X isn't working" or "Y gives me an error message", but these statements are not always helpful without the context provided by log files. Log files give us a detailed view of most things that happened in the run-up to the error and potentially a more helpful error message than was presented to a user. 
 
 Thankfully Intune provides us with a handy Collect diagnostics button that remedies most of these. 
 
