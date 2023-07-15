@@ -11,7 +11,7 @@ Draft: false
 
 In many support roles, when troubleshooting an issue, logs are critical, especially troubleshooting Intune-related issues.
 
-My day-to-day role sees me looking at logs for Intune-managed devices, and Win32App logs from both Patch My PC & Scappman customers, and collecting those logs can be a pain for various reasons.
+My day-to-day role sees me looking at logs for Intune-managed devices, and Win32 Apps, and collecting those logs can be a pain for various reasons.
 
 - The device is offline
 - The user is "busy."
