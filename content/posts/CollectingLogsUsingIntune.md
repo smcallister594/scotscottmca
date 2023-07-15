@@ -242,9 +242,13 @@ Here's a handy video from [Intune.Training](https://Intune.Training) showing how
 
 [Intune Training - S02E09 - How to Configure Proactive Remediations in Microsoft Intune](https://www.youtube.com/watch?v=VOBzV6GjOvI)
 
-## Patch My PC & Scappman logs
+## Other vendor logs
 
-Patch My PC Win32 Apps and Updates generate specific log files, which can be found in the following locations. 
+This doesn't just apply to Intune or Windows logs, we can apply the same collection to 3rd party logs as well! If it exists on disk, we can collect it!
+
+Two examples I'm most familiar with are Patch My PC and Scappman. 
+
+Patch My PC Intune Apps and Updates generate specific log files, which can be found in the following locations. 
 
 - %ProgramData%\PatchMyPCIntuneLogs\PatchMyPC-ScriptRunner.log
     - This may be found in the %ProgramData%\PatchMyPC\ if the Install was initiated by the user from Company Portal.
