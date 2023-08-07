@@ -103,6 +103,8 @@ The app automatically opens during the first seven days after a device is enroll
 {{< /admonition >}}
 
 ![image](https://github.com/smcallister594/scotscottmca/blob/main/assets/images/Organizationalmessages/GetStartedApp.png?raw=true)
+{{< image src="/assets/images/Organizationalmessages/GetStartedApp_1.png" >}}
+
 <img src="https://github.com/smcallister594/scotscottmca/blob/main/assets/images/Organizationalmessages/GetStartedApp_1.png?raw=true" width="390">
 
 #### Messages
