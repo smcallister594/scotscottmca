@@ -1,11 +1,19 @@
 ---
-title: Sending your users messages the cool way?
+title: Sending your users messages the easy way
 date: 2023-08-07
 last_modified_at: 2023-08-07
 tags: [Intune, Organizational Messages, Notifications, Endpoint, Windows 11]
 Author: Scott McAllister
-Draft: true
+Draft: false
 ---
+
+## Using Organizational messages to interact with with your users
+
+Throughout the years of being a SysAdmin, I regularly saw weird and horrifying ways to display notifications to users; usually revolving around VB logon scripts and scheduled tasks :nauseated_face:
+
+You can also display notifications with PowerShell, I'll share some really useful blogs related to PowerShell notifications at the end.
+
+Let's talk about Organizational messages.
 
 ## What are Organizational messages? 
 
@@ -15,6 +23,10 @@ Currently, There are 3 areas you can display messages; The Taskbar, The Notifica
 
 ## Prerequisites
 Before we dive into the 3 areas, you will need to check a few prerequisites to ensure you can make use of Organizational messages.
+
+[Link to Organizational message settings](https://endpoint.microsoft.com/#view/Microsoft_Intune_DeviceSettings/TenantAdminMenu/~/message)
+
+![image](https://github.com/smcallister594/scotscottmca/blob/main/assets/images/Organizationalmessages/Organizationalmessagesstart.png?raw=true)
 
 ### Licencing
 The licence types that allow the use of Organizational messages are:
@@ -91,7 +103,7 @@ The app automatically opens during the first seven days after a device is enroll
 {{< /admonition >}}
 
 ![image](https://github.com/smcallister594/scotscottmca/blob/main/assets/images/Organizationalmessages/GetStartedApp.png?raw=true)
-![image](https://github.com/smcallister594/scotscottmca/blob/main/assets/images/Organizationalmessages/GetStartedApp_1.png?raw=true)
+<img src="https://github.com/smcallister594/scotscottmca/blob/main/assets/images/Organizationalmessages/GetStartedApp_1.png?raw=true" width="390">
 
 #### Messages
 You're able to add 2 messages to the Getting Started App, each of which will require a URL to redirect to.
@@ -105,3 +117,22 @@ You're able to add 2 messages to the Getting Started App, each of which will req
     - Help resources
     - Update VPN
 
+## What now?
+
+Well once your Organizational messages are out in the wild, you can see their stats, which is kinda neat! The Organizational messages dashboard will show you things like
+- Message type
+- Message theme
+- Status
+- Times shown
+- Times clicked
+- Click-through rate
+
+![image](https://github.com/smcallister594/scotscottmca/blob/main/assets/images/Organizationalmessages/Organizationalmessagesdashboard.png?raw=true)
+
+## Additional resources
+
+While Organizational messages are limited to just Windows 11, you are still able to deploy toast notifications to your Windows 10 & 11 devices using PowerShell. Here are some great blog posts that talk about that process
+
+- [ByteBen - Deploy Service Announcement Toast Notifications in Windows 10 with MEMCM](https://byteben.com/bb/deploy-service-announcement-toast-notifications-in-windows-10-with-memcm/)
+- [MSEndpoint Manager - Proactive Remediations - Getting your messages across with repeated Toast Notifications](https://msendpointmgr.com/2021/06/06/proactive-remediations-getting-your-message-across-with-repeated-toast-notifications/)
+- [imab.dk - Windows 10 Toast Notification Script](https://www.imab.dk/windows-10-toast-notification-script/)
