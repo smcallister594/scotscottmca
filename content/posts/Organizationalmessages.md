@@ -55,11 +55,9 @@ You'll need three sizes of logo, in PNG format with transparent backgrounds:
 ### The Taskbar & Notificaiton area
 We'll look at these 2 areas together, as they're almost identical for configuration. 
 
-![image](https://github.com/smcallister594/scotscottmca/blob/main/assets/images/Organizationalmessages/Taskbar.png?raw=true)
-![image](https://github.com/smcallister594/scotscottmca/blob/main/assets/images/Organizationalmessages/NotificationArea.png?raw=true)
+{{< image src="/images/Organizationalmessages/Taskbar_1.png" caption="Taskbar" >}}
 
-![image](https://github.com/smcallister594/scotscottmca/blob/main/assets/images/Organizationalmessages/Taskbar_1.png?raw=true)
-![image](https://github.com/smcallister594/scotscottmca/blob/main/assets/images/Organizationalmessages/NotificationArea_1.png?raw=true)
+{{< image src="/images/Organizationalmessages/NotificationArea_1.png" caption="Notification area" >}}
 
 #### Themes
 When creating your Taskbar or Notification area message you can choose a theme, each theme has a slightly different look & feel for displaying different information.
@@ -102,10 +100,8 @@ The Getting Started app is slightly different to the Taskbar and Notification ar
 The app automatically opens during the first seven days after a device is enrolled. Message stay visible for 30 days.
 {{< /admonition >}}
 
-![image](https://github.com/smcallister594/scotscottmca/blob/main/assets/images/Organizationalmessages/GetStartedApp.png?raw=true)
-{{< image src="/images/Organizationalmessages/GetStartedApp_1.png" >}}
-
-<!-- <img src="https://github.com/smcallister594/scotscottmca/blob/main/assets/images/Organizationalmessages/GetStartedApp_1.png?raw=true" width="390"> -->
+<!-- ![image](https://github.com/smcallister594/scotscottmca/blob/main/assets/images/Organizationalmessages/GetStartedApp.png?raw=true) -->
+{{< image src="/images/Organizationalmessages/GetStartedApp_1.png" caption="Getting Started App" >}}
 
 #### Messages
 You're able to add 2 messages to the Getting Started App, each of which will require a URL to redirect to.
