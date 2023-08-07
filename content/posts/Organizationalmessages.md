@@ -1,5 +1,5 @@
 ---
-title: Sending your users messages the easy way
+title: Using Organizational messages to interact with with your users
 date: 2023-08-07
 last_modified_at: 2023-08-07
 tags: [Intune, Organizational Messages, Notifications, Endpoint, Windows 11]
