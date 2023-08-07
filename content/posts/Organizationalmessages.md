@@ -56,7 +56,6 @@ You'll need three sizes of logo, in PNG format with transparent backgrounds:
 We'll look at these 2 areas together, as they're almost identical for configuration. 
 
 {{< image src="/images/Organizationalmessages/Taskbar_1.png" caption="Taskbar" >}}
-
 {{< image src="/images/Organizationalmessages/NotificationArea_1.png" caption="Notification area" >}}
 
 #### Themes
