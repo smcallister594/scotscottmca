@@ -148,6 +148,15 @@ theme = "DoIt"
     Twitter = "ScotScottMcA"
     Reddit = "Scott-PatchMyPC"
 
+#  Analytics config
+[params.analytics]
+  enable = true
+  # Google Analytics
+  [params.analytics.google]
+    id = "G-2DLW833T23"
+    # whether to anonymize IP
+    anonymizeIP = false
+
 [params.page]
     # whether to hide a page from home page
     hiddenFromHomePage = false
