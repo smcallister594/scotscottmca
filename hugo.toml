@@ -1,3 +1,4 @@
+googleAnalytics = "G-2DLW833T23"
 baseURL = "https://scotscottmca.com/"
 # [en, zh-cn, fr, ...] determines default content language
 defaultContentLanguage = "en"
