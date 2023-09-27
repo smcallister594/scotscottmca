@@ -1,7 +1,7 @@
 ---
 title: Expanding IME Log Retention
-date: 2023-07-13
-last_modified_at: 2023-07-13
+date: 2023-09-27
+last_modified_at: 2023-09-27
 tags: [Intune, Error Codes, logs, log collection, Intune Management Extension, IME]
 Author: Scott McAllister
 Draft: false
