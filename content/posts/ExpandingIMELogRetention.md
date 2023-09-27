@@ -60,13 +60,13 @@ And, like everything you can do this programatically with PowerShell and Proacti
 # IME Logging settings path
 $regKeyFullPath = "HKLM:\SOFTWARE\Microsoft\IntuneWindowsAgent\Logging"
 
-# check if the registry key exists
-$ExpectedLogMaxSize = 5242880
-$ExpextedLogMaxHistory = 6
-$LogMaxSize = Get-ItemProperty -Path $regKeyFullPath -Name "LogMaxSize" -ErrorAction SilentlyContinue
-$LogMaxHistory = Get-ItemProperty -Path $regKeyFullPath -Name "LogMaxHistory" -ErrorAction SilentlyContinue
+#check if the registry key exists
+$expectedLogMaxSize = 5242880
+$expextedLogMaxHistory = 6
+$logMaxSize = Get-ItemProperty -Path $regKeyFullPath -Name "LogMaxSize" -ErrorAction SilentlyContinue
+$logMaxHistory = Get-ItemProperty -Path $regKeyFullPath -Name "LogMaxHistory" -ErrorAction SilentlyContinue
 
-if ($LogMaxSize -eq $ExpectedLogMaxSize -and $LogMaxHistory -eq $ExpextedLogMaxHistory) {
+if ($logMaxSize -eq $expectedLogMaxSize -and $logMaxHistory -eq $expextedLogMaxHistory) {
     exit 1
 } else {
     exit 0
