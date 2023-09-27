@@ -10,7 +10,7 @@ Author: Scott McAllister
 
 This post is one in a series about using Graph API with C#, It's broken down into the following parts
 
-- [Part 1: Getting started with C# and VScode](https://scotscottmca.com/2023/05/08/GraphAndCSharp-pt1/)  
+- [Part 1: Getting started with C# and VScode](https://scotscottmca.com/posts/GraphAndCSharp-pt1/)  
 - **Part 2.1: Getting started with Authentication - Client credential flow (You Are Here)**  
 - Part 2.2: Getting started with Authentication - Interactive authentication  
 - Part 3: Types of Graph calls  

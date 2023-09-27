@@ -11,7 +11,7 @@ Author: Scott McAllister
 This post is one in a series about using Graph API with C#, It's broken down into the following parts
 
 - **Part 1: Getting started with C# and VScode (You Are Here)**  
-- [Part 2.1: Getting started with Authentication - Client credential flow](https://scotscottmca.com/2023/05/19/GraphAndCSharp-pt2-1-Authentication/)  
+- [Part 2.1: Getting started with Authentication - Client credential flow](https://scotscottmca.com/posts/graphandcsharp-pt2-1-authentication/)  
 - Part 2.2: Getting started with Authentication - Interactive authentication  
 - Part 3: Types of Graph calls  
 - Part 4: User management  
@@ -82,7 +82,7 @@ In Program.cs, we'll see that the dotnet template has given us a super simple "H
 ## Part 2.1
 
 In part 2.1 we will set up our project to query a Graph API endpoint. 
-[Click here for part 2](https://scotscottmca.com/2023/05/19/GraphAndCSharp-pt2-1-Authentication/)
+[Click here for part 2](https://scotscottmca.com/posts/graphandcsharp-pt2-1-authentication/)
 
 Thanks for reading :)
 
