@@ -4,7 +4,7 @@ date: 2023-10-18
 last_modified_at: 2023-10-18
 tags: [ConfigMgr, WSUS, wsyncmgr, software update point, SUP Sync]
 Author: Scott McAllister
-Draft: true
+Draft: false
 ---
 
 ## Snooze
@@ -28,7 +28,7 @@ But everytime I saw it, I always wondered what it was actually doing.
 
 ## Finding The Answer
 
-It was suggested that I ask Meghan Stewart (@WSUSN3RD), the WSUS Nerd, if anyone was going to know it would probably be her. 
+It was suggested that I ask Meghan Stewart ([@WSUSN3RD](https://x.com/WSUSN3RD)), THE WSUS Nerd. Because if anyone was going to know it would probably be her. 
 
 So I reached out to her, piqued her curiosity and she delivered. 
 
