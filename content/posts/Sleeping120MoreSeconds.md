@@ -4,7 +4,7 @@ date: 2023-10-18
 last_modified_at: 2023-10-18
 tags: [ConfigMgr, WSUS, wsyncmgr, software update point, SUP Sync]
 Author: Scott McAllister
-Draft: false
+Draft: true
 ---
 
 ## Snooze
