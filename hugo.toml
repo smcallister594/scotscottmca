@@ -120,7 +120,7 @@ theme = "DoIt"
       # URL of avatar shown in home page
       # Place your avatar file under static or assets directory
       # The filepath is relative to the static or assets directory
-      avatarURL = "/images/avatar.webp"
+      avatarURL = "/images/avatar.png"
       # URL the avatar links to
       avatarLinkURL = ""
       # title shown in home page (HTML format is supported)
