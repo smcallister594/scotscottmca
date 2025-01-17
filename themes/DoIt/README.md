@@ -126,7 +126,6 @@ the DoIt theme may be more suitable for you.
 * **Vssue** comment system supported by [Vssue](https://vssue.js.org/)
 * **Remark42** comment system supported by[Remark42](https://remark42.com/)
 * **giscus** comment system supported by [giscus](https://giscus.app/)
-* **Artalk** comment system supported by [Artalk](https://artalk.js.org/)
 
 ### Extended Features
 
@@ -178,17 +177,6 @@ DoIt supports the following languages:
 * Russian
 * Romanian
 * Vietnamese
-* Arbic
-* Catalan
-* Hindi
-* Indonesian
-* Korean
-* European Portuguese
-* Tegulu
-* Thai
-* Turkish
-* Ukrainian
-* Traditional Chinese
 * [Contribute with a new language](https://github.com/HEIGE-PCloud/DoIt/pulls)
 
 [Languages Compatibility](https://hugodoit.pages.dev/theme-documentation-basics/#language-compatibility)

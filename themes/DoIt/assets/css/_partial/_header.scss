@@ -12,7 +12,6 @@ header {
   }
 
   .logo {
-    display: inline-block;
     min-height: 1.5em;
     height: 1.5em;
     vertical-align: text-bottom;
@@ -443,10 +442,6 @@ header {
           font-size: 1rem;
           font-weight: bold;
           max-width: 75%;
-
-          &:hover {
-            cursor: pointer;
-          }
         }
 
         .suggestion-date {
@@ -504,7 +499,7 @@ header {
         }
 
         &:hover {
-          cursor: default;
+          cursor: pointer;
         }
       }
     }

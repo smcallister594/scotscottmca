@@ -1,5 +1,5 @@
 {{- with .Class -}}
-    <span class="{{ . }}"></span>
+    <i class="{{ . }}"></i>
 {{- else -}}
     {{- $src := .Src -}}
     {{- with .Simpleicons -}}
@@ -9,5 +9,5 @@
     {{- if (urls.Parse $src).Host | not -}}
         {{- $src = (resources.Get $src | minify).RelPermalink -}}
     {{- end -}}
-    <span data-svg-src="{{ $src }}"></span>
+    <i data-svg-src="{{ $src }}"></i>
 {{- end -}}

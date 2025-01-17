@@ -1,4 +1,4 @@
-{{- .Scratch.Set "version" "0.4.0" -}}
+{{- .Scratch.Set "version" "0.3.0" -}}
 
 {{- /* DoIt theme version detection */ -}}
 {{/*  {{- $VERSION := "0.3.X" -}}
@@ -33,11 +33,7 @@
         {{- $cdn = dict "simpleIconsPrefix" $cdnData.prefix.simpleIcons -}}
         {{- $prefix := $cdnData.prefix.libFiles | default "" -}}
         {{- range $key, $value := $cdnData.libFiles -}}
-            {{- if hasPrefix $value "https://" -}}
-                {{- $cdn = $value | dict $key | merge $cdn -}}
-            {{- else -}}
-                {{- $cdn = printf "%v%v" $prefix $value | dict $key | merge $cdn -}}
-            {{- end -}}
+            {{- $cdn = printf "%v%v" $prefix $value | dict $key | merge $cdn -}}
         {{- end -}}
     {{- end -}}
     {{- .Scratch.Set "cdn" $cdn -}}

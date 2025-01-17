@@ -2,13 +2,9 @@
 {{- $src := .Src -}}
 {{- $height := "" -}}
 {{- $width := "" -}}
-{{- $suffixList := slice ".jpeg" ".jpg" ".png" ".gif" ".bmp" ".tif" ".tiff" ".webp" -}}
 {{- with dict "Path" .Src "Resources" .Resources | partial "function/resource.html" -}}
     {{- $src = .RelPermalink -}}
-    {{- if and
-        (eq .ResourceType "image")
-        (dict "Path" $src "Suffixes" $suffixList | partial "function/suffixValidation.html")
-        -}}
+    {{- if eq .ResourceType "image" -}}
         {{- $height = .Height -}}
         {{- $width = .Width -}}
     {{- end -}}
@@ -24,7 +20,7 @@
     {{- $large = .RelPermalink -}}
 {{- end -}}
 
-{{- $alt := .Alt | default .Title | default $src -}}
+{{- $alt := .Alt | default $src -}}
 {{- $loading := .Loading | default "lazy" -}}
 
 {{- with .Height -}}

@@ -4,10 +4,10 @@
 
 # === baseof ==
 [backToTop]
-other = "Retour en haut"
+other = "Retour en Haut"
 
 [viewComments]
-other = "Afficher les commentaires"
+other = "Afficher les Commentaires"
 # === baseof ==
 
 # === Post ===
@@ -17,7 +17,7 @@ other = "Posts"
 
 # === Taxonomy ===
 [allSome]
-other = "Toutes les {{ .Some }}"
+other = "Tous {{ .Some }}"
 
 [tag]
 other = "Balise"
@@ -30,21 +30,11 @@ other = "Catégorie"
 
 [categories]
 other = "Catégories"
-
-[series]
-other = "Séries"
 # === Taxonomy ===
-
-# === Section ===
-
-[recentlyUpdated]
-other = "Récemment mis à jour"
-
-# === Section ===
 
 # === Pagination ===
 [more]
-other = "Voir plus"
+other = "Plus"
 # === Pagination ===
 
 # === partials/header.html ===
@@ -52,30 +42,12 @@ other = "Voir plus"
 other = "Choisir la langue"
 
 [switchTheme]
-other = "Changer de thème"
-
-[Light]
-other = "Clair"
-
-[Dark]
-other = "Sombre"
-
-[Black]
-other = "Noir"
-
-[Auto]
-other = "Auto"
+other = "Changer de Thème"
 # === partials/header.html ===
 
 # === partials/footer.html ===
-[poweredBy]
-other = "Propulsé par {{ .Hugo }}"
-
-[hostedOn]
-other = "Hébergé par {{ .Host }}"
-
-[theme]
-other = "Thème - {{ .Theme }}"
+[poweredBySome]
+other = "Propulsé par {{ .Hugo }} | Thème - {{ .Theme }}"
 # === partials/footer.html ===
 
 # === partials/comment.html ===
@@ -87,9 +59,6 @@ other = "Votre commentaire ..."
 
 [facebookLanguageCode]
 other = "fr"
-
-[giscusLang]
-other = "fr"
 # === partials/comment.html ===
 
 # === partials/assets.html ===
@@ -100,7 +69,7 @@ other = "Chercher"
 other = "Rechercher des titres, des contenus..."
 
 [clear]
-other = "Effacer"
+other = "Clair"
 
 [cancel]
 other = "Annuler"
@@ -115,10 +84,10 @@ other = "Copier dans le presse-papiers"
 other = "Ce site Web utilise des Cookies pour améliorer votre expérience."
 
 [cookieconsentDismiss]
-other = "J'accepte"
+other = "Se mettre d'accord"
 
 [cookieconsentLink]
-other = "En savoir plus"
+other = "Apprendre encore plus"
 # === partials/assets.html ===
 
 # === partials/plugin/share.html ===
@@ -133,18 +102,8 @@ other = "Contenu"
 [publishedOnDate]
 other = "publié le {{ .Date }}"
 
-[includedIn]
-other = "inclus dans "
-
-[includedInAnd]
-other = "et"
-
 [includedInCategories]
-one = "catégorie {{ .Categories }}"
-other = "catégories {{ .Categories }}"
-
-[includedInSeries]
-other = "séries {{ .Series }}"
+other = "inclus dans {{ .Categories }}"
 
 [wordCount]
 one = "Un mot"
@@ -157,9 +116,6 @@ other = "{{ .Count }} minutes"
 [views]
 other = "vues"
 
-[comments]
-other = "commentaires"
-
 [author]
 other = "Auteur"
 
@@ -167,16 +123,7 @@ other = "Auteur"
 other = "Mis à jour le {{ .Date }}"
 
 [readMarkdown]
-other = "Lire en Markdown"
-
-[viewSource]
-other = "Voir la source"
-
-[editThisPage]
-other = "Modifier cette page"
-
-[reportThisPage]
-other = "Signaler un problème"
+other = "Lire Markdown"
 
 [back]
 other = "Retour"
@@ -186,18 +133,6 @@ other = "Accueil"
 
 [readMore]
 other = "En savoir plus"
-
-[outdatedInfoWarningBefore]
-other = "Dernière modification de cet article le "
-
-[outdatedInfoWarningAfter]
-other = ", le contenu pourrait être dépassé/obsolète."
-
-[sponsor]
-other = "Sponsor"
-
-[relatedContent]
-other = "Contenu connexe"
 # === posts/single.html ===
 
 # === 404.html ===
@@ -213,7 +148,7 @@ other = "Désolé, la page recherchée n'existe pas."
 other = "Remarque"
 
 [abstract]
-other = "Résumé"
+other = "Abstrait"
 
 [info]
 other = "Info"
@@ -251,8 +186,8 @@ other = "Citation"
 other = "NOUVEAU"
 
 [changed]
-other = "CHANGÉ"
+other = "CHANGE"
 
 [deleted]
-other = "EFFACÉ"
+other = "EFFACE"
 # === shortcodes/version.html ===
