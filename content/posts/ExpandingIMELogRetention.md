@@ -28,7 +28,6 @@ While these log lines can be useful, the sheer volume of them can cause the Intu
 
 This can be pretty annoying for troubleshooting, as by default the IME is only configured to retain 3 logs (Current + 2 roll overs. Rollover occurs at 3MB by default). So when you get around to collecting logs, any information related to the issue you're experiencing is potentially long gone. 
 
-![image](https://github.com/smcallister594/scotscottmca/blob/main/assets/images/LogRetention/IMELogsFolder.png?raw=true)
 {{< image src="/images/LogRetention/IMELogsFolder.png" caption="IME Logs Folder (`image`)" >}}
 
 
@@ -42,13 +41,11 @@ The registry keys that control this are not set by default, so it isn't immediat
 
 We want to create LogMaxHistory and LogMaxSize under HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\IntuneWindowsAgent\Logging and configure them accordingly. 
 
-![image](https://github.com/smcallister594/scotscottmca/blob/main/assets/images/LogRetention/LoggingRegKeys.png?raw=true)
 {{< image src="/images/LogRetention/LoggingRegKeys.png" caption="Logging Reg Keys (`image`)" >}}
 
 
 In this example, I want to keep 6 logs and rollover at 5MB. 
 
-![image](https://github.com/smcallister594/scotscottmca/blob/main/assets/images/LogRetention/LoggingRegKeys_1.png?raw=true)
 {{< image src="/images/LogRetention/LoggingRegKeys_1.png" caption="Logging Reg Keys (`image`)" >}}
 
 
