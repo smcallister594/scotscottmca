@@ -17,16 +17,16 @@ I've found it's not always straight forward finding what an error code means, ma
 Looking up the same error code 4 different ways, returns 3 different results, which is confusing. 
 
 **[CMTrace](https://learn.microsoft.com/en-us/mem/configmgr/core/support/cmtrace)**
-![image](https://github.com/smcallister594/scotscottmca/blob/main/assets/images/errorCodes/cmtrace.png?raw=true)
+{{< image src="/images/errorCodes/cmtrace.png" caption="cmtrace (`image`)" >}}
 
 **[OneTrace](https://learn.microsoft.com/en-us/mem/configmgr/core/support/support-center-onetrace)**
-![image](https://github.com/smcallister594/scotscottmca/blob/main/assets/images/errorCodes/OneTrace.png?raw=true)
+{{< image src="/images/errorCodes/OneTrace.png" caption="OneTrace (`image`)" >}}
 
 **[ErrLookup tool](https://learn.microsoft.com/en-us/windows/win32/debug/system-error-code-lookup-tool)**
-![image](https://github.com/smcallister594/scotscottmca/blob/main/assets/images/errorCodes/errLookup.png?raw=true)
+{{< image src="/images/errorCodes/errLookup.png" caption="errLookup (`image`)" >}}
 
 **PowerShell function**
-![image](https://github.com/smcallister594/scotscottmca/blob/main/assets/images/errorCodes/PowerShell.png?raw=true)
+{{< image src="/images/errorCodes/PowerShell.png" caption="PowerShell (`image`)" >}}
 
 That being said, CMTrace, OneTrace and ErrLookup are extremely useful!
 

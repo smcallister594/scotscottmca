@@ -21,23 +21,23 @@ All this led me to sink numerous hours into various different rabbit holes and h
 The very first working iteration of the tool was far from pretty, just a simple winform with a pile of code behind it, but it worked and it was a start. 
 
 **v0.1**
-![image](https://github.com/smcallister594/scotscottmca/blob/main/assets/images/project-clippy/v1-3.png?raw=true)
+{{< image src="/images/project-clippy/v1-3.png" caption="v0.1 (`image`)" >}}
 
 **v0.?** *(I can't remember which version this was but it was > v0.1 but < v1.0)*
-![image](https://github.com/smcallister594/scotscottmca/blob/main/assets/images/project-clippy/v1-2.png?raw=true)
+{{< image src="/images/project-clippy/v1-2.png" caption="v0.? (`image`)" >}}
 
 Then I was introduced to MVVM and WPF by [Cody Mathis](https://twitter.com/CodyMathis123) and [Ben Reader](https://twitter.com/powers_hell), and I can safely say I hate and love them both equally for it. 
 
-![image](https://github.com/smcallister594/scotscottmca/blob/main/assets/images/project-clippy/breath.gif?raw=true)
+{{< image src="/images/project-clippy/breath.gif" caption="breath (`image`)" >}}
 
 I tried to dive head first into MVVM and WPF by migrating what I had done already in winforms and after about a week of firefighting I deleted all the code I'd written and start from scratch and here we are, MEMPO is now v1.1.0.0 and looks a dam sight better than its first iteration
 
-![image](https://github.com/smcallister594/scotscottmca/blob/main/assets/images/project-clippy/clippy.gif?raw=true)
+{{< image src="/images/project-clippy/clippy.gif" caption="clippy (`image`)" >}}
 
 ## **What does it do**
 A whole load of things, Run it and see! :)
 
-![image](https://github.com/smcallister594/scotscottmca/blob/main/assets/images/project-clippy/doit.gif?raw=true)
+{{< image src="/images/project-clippy/doit.gif" caption="doit (`image`)" >}}
 
 ### **Tests**
 Starting off by taking the most common things we saw wrong in enviornments, they were turned them into tests
@@ -63,7 +63,7 @@ Some of these tests may not be applicable to your environment but they have been
 ### **Logging**
 Initally I had everything writing out to the UI, that included test results and full error traces. The error traces quickly became annoying and provided no real value within the UI so to tidy that up I added a log writer and threw all those error traces, test results and everything the tool does into a neat little log file!
 
-![image](https://github.com/smcallister594/scotscottmca/blob/main/assets/images/project-clippy/logfile.png?raw=true)
+{{< image src="/images/project-clippy/logfile.png" caption="logfile (`image`)" >}}
 
 As you can see in the above screenshot, log lines have their severity tagged (Informational, Warning & Error) so that CMTrace highlights them accordingly. 
 
@@ -116,4 +116,4 @@ Just want to add an extra thank you to Ben and Cody for answering my "5 minute q
 
 And thanks to everyone else at Patch My PC for their input, support and interest in seeing MEMPO become a thing! It's definitely helped keep me motivated in working on this!
 
-![image](https://github.com/smcallister594/scotscottmca/blob/main/assets/images/project-clippy/salute.gif?raw=true)
+{{< image src="/images/project-clippy/salute.gif" caption="salute (`image`)" >}}

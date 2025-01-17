@@ -25,12 +25,12 @@ Thankfully Intune provides us with a handy Collect diagnostics button that remed
 ## Where can you find Collect diagnostics?
 
 You can find the Collect diagnostics button under Devices > Windows > [device name]
-![image](https://github.com/smcallister594/scotscottmca/blob/main/assets/images/CollectDiagnostics/CollectDiagnostics_1.png?raw=true)
+{{< image src="/images/CollectDiagnostics/CollectDiagnostics_1.png" caption="Collect Diagnostics (`image`)" >}}
 
 When you click Collect diagnostics, you will be prompted to confirm that you want to proceed, and informed that you can see the progress of your diagnostic collection under Monitor > Device diagnostics
-![image](https://github.com/smcallister594/scotscottmca/blob/main/assets/images/CollectDiagnostics/CollectDiagnostics_2.png?raw=true)
+{{< image src="/images/CollectDiagnostics/CollectDiagnostics_2.png" caption="Collect Diagnostics (`image`)" >}}
 
-![image](https://github.com/smcallister594/scotscottmca/blob/main/assets/images/CollectDiagnostics/CollectDiagnostics_3.png?raw=true)
+{{< image src="/images/CollectDiagnostics/CollectDiagnostics_3.png" caption="Collect Diagnostics (`image`)" >}}
 
 {{< admonition type=tip title="Note" open=true >}}
 Collect diagnostics can take anywhere between 5 and 20 minutes to complete.
@@ -38,7 +38,7 @@ Collect diagnostics can take anywhere between 5 and 20 minutes to complete.
 
 Once the diagnostic results are availalbe, you'll be presented with a download button
 
-![image](https://github.com/smcallister594/scotscottmca/blob/main/assets/images/CollectDiagnostics/CollectDiagnostics_4.png?raw=true)
+{{< image src="/images/CollectDiagnostics/CollectDiagnostics_4.png" caption="Collect Diagnostics (`image`)" >}}
 
 ## What does Collect diagnostics give me?
 

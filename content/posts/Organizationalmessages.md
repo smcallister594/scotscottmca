@@ -26,7 +26,7 @@ Before we dive into the 3 areas, you will need to check a few prerequisites to e
 
 [Link to Organizational message settings](https://endpoint.microsoft.com/#view/Microsoft_Intune_DeviceSettings/TenantAdminMenu/~/message)
 
-![image](https://github.com/smcallister594/scotscottmca/blob/main/assets/images/Organizationalmessages/Organizationalmessagesstart.png?raw=true)
+{{< image src="/images/Organizationalmessages/Organizationalmessagesstart.png" caption="Organizational Messages Start (`image`)" >}}
 
 ### Licencing
 The licence types that allow the use of Organizational messages are:
@@ -124,7 +124,7 @@ Well once your Organizational messages are out in the wild, you can see their st
 - Times clicked
 - Click-through rate
 
-![image](https://github.com/smcallister594/scotscottmca/blob/main/assets/images/Organizationalmessages/Organizationalmessagesdashboard.png?raw=true)
+{{< image src="/images/Organizationalmessages/Organizationalmessagesdashboard.png" caption="Organizational Messages Dashboard (`image`)" >}}
 
 ## Additional resources
 

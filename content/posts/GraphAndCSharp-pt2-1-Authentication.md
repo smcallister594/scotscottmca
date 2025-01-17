@@ -63,7 +63,7 @@ Once done, we'll be able to build some functions to query the API. But before we
 
 Let's create one in under 60 seconds
 
-![image](https://raw.githubusercontent.com/smcallister594/scotscottmca/main/assets/images/GraphAndCSharpPt2/AppRegistration.gif)
+{{< image src="/images/GraphAndCSharpPt2/AppRegistration.gif" caption="App Registration (`image`)" >}}
 
 In this gif we do the following:
 
@@ -82,7 +82,7 @@ The API permissions we added are specific to the graph call we will run later in
 
 Firstly, Lets add our Tenant Id, Client Id (Application Id) and Client Secret. To get this, click on the Overview of the App Registartion we created. 
 
-![image](https://raw.githubusercontent.com/smcallister594/scotscottmca/main/assets/images/GraphAndCSharpPt2/AppTenantIDs.png)
+{{< image src="/images/GraphAndCSharpPt2/AppTenantIDs.png" caption="App Tenant IDs (`image`)" >}}
 
 {{< highlight csharp >}}
 #region Tenant ID, Client ID & Client Secret
@@ -149,7 +149,7 @@ async Task ListDevicesAsyncUsingClientSecret(string clientId, string clientSecre
 So let's run this, by pressing F5. 
 We can watch our app build, run, and then write out the names of the devices in our test tenant.
 
-![image](https://raw.githubusercontent.com/smcallister594/scotscottmca/main/assets/images/GraphAndCSharpPt2/RunningOurApp.gif)
+{{< image src="/images/GraphAndCSharpPt2/RunningOurApp.gif" caption="Running Our App (`image`)" >}}
 
 
 -----

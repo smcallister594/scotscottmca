@@ -9,7 +9,7 @@ Draft: false
 
 ## Snooze
 
-![image](https://github.com/smcallister594/scotscottmca/blob/main/assets/images/Sleeping120MoreSeconds/snooze.gif?raw=true)
+{{< image src="/images/Sleeping120MoreSeconds/snooze.gif" caption="snooze (`image`)" >}}
 
 While this post isn't about how you could sleep 120 more seconds, it may actually help you fall asleep. 
 
@@ -19,7 +19,7 @@ This is a bit of a personal one, because I've been really invested in it.
 
 For the last few years, Something that has always annoyed me was waiting for a SUP sync to finish, seeing "Sleeping 120 more seconds" in the wsyncmgr.log and just having to wait for it, never really knowing what it's actually doing during that snooze.
 
-![image](https://github.com/smcallister594/scotscottmca/blob/main/assets/images/Sleeping120MoreSeconds/SyncGracePeriod_Default.png?raw=true)
+{{< image src="/images/Sleeping120MoreSeconds/SyncGracePeriod_Default.png" caption="Sync Grace Period Default (`image`)" >}}
 
 I poked around at it a bit, tried to monitor SUSDB for changes and Procmon for file changes, as well as asking some colleagues if they had any insight. 
 But at the end of the day, it was just a thing that happened and that was that. 
@@ -36,11 +36,11 @@ Sometime back around 2007~ the sleep was added purely to make sure that WSUS had
 
 And that's it. All this time wondering about it and it is literally just taking a wee nap. 
 
-![image](https://github.com/smcallister594/scotscottmca/blob/main/assets/images/Sleeping120MoreSeconds/nap.gif?raw=true)
+{{< image src="/images/Sleeping120MoreSeconds/nap.gif" caption="nap (`image`)" >}}
 
 ## Brucie Bonus
 
-![image](https://github.com/smcallister594/scotscottmca/blob/main/assets/images/Sleeping120MoreSeconds/surprise.gif?raw=true)
+{{< image src="/images/Sleeping120MoreSeconds/surprise.gif" caption="surprise (`image`)" >}}
 
 Meghan shared with me that it is actually possible to configure the length of time the WSUS Sync Manager sleeps for, not that you should though. 120 seconds is usually enough. 
 
@@ -50,7 +50,7 @@ To make the sleep longer, all that is needed is a registry key addition!
 
 By default, the required key does not exist, which makes it default to 120 seconds (120000 Milliseconds).
 
-![image](https://github.com/smcallister594/scotscottmca/blob/main/assets/images/Sleeping120MoreSeconds/SyncGracePeriod_Default_Registry.png?raw=true)
+{{< image src="/images/Sleeping120MoreSeconds/SyncGracePeriod_Default_Registry.png" caption="Sync Grace Period Default Registry (`image`)" >}}
 
 We can add in this key and make it shorter or longer! 
 
@@ -58,13 +58,13 @@ You want to add a DWORD key called SyncGracePeriod here, **HKEY_LOCAL_MACHINE\SO
 
 Here you can see it set to 10 minutes!
 
-![image](https://github.com/smcallister594/scotscottmca/blob/main/assets/images/Sleeping120MoreSeconds/SyncGracePeriod_10_Minutes_Registry.png?raw=true)
+{{< image src="/images/Sleeping120MoreSeconds/SyncGracePeriod_10_Minutes_Registry.png" caption="Sync Grace Period 10 Minutes Registry (`image`)" >}}
 
-![image](https://github.com/smcallister594/scotscottmca/blob/main/assets/images/Sleeping120MoreSeconds/SyncGracePeriod_10_Minutes_Log.png?raw=true)
+{{< image src="/images/Sleeping120MoreSeconds/SyncGracePeriod_10_Minutes_Log.png" caption="Sync Grace Period 10 Minutes Log (`image`)" >}}
 
 10 minutes is the maximum, and 2 minutes is the minimum, so you can't get too wild with it and if you try to it will complain and default back to 120 seconds. 
 
-![image](https://github.com/smcallister594/scotscottmca/blob/main/assets/images/Sleeping120MoreSeconds/SyncGracePeriod_Max.png?raw=true)
+{{< image src="/images/Sleeping120MoreSeconds/SyncGracePeriod_Max.png" caption="Sync Grace Period Max (`image`)" >}}
 
 Annnnnnnnnnnnnd that's that. 
 
@@ -72,10 +72,10 @@ A few of us at Patch My PC were super invested in this, and the idea of some sup
 
 So, we did. 
 
-![image](https://github.com/smcallister594/scotscottmca/blob/main/assets/images/Sleeping120MoreSeconds/Sticker.png?raw=true)
+{{< image src="/images/Sleeping120MoreSeconds/Sticker.png" caption="Sticker (`image`)" >}}
 
 If you ever see me, and want one, just ask! 
 
 ## Summary
 
-![image](https://github.com/smcallister594/scotscottmca/blob/main/assets/images/Sleeping120MoreSeconds/sleep.gif?raw=true)
+{{< image src="/images/Sleeping120MoreSeconds/sleep.gif" caption="sleep (`image`)" >}}
